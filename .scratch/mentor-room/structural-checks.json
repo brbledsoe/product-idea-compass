@@ -1,0 +1,18 @@
+{
+  "checks_passed": 11,
+  "results": [
+    "All49 catalog identities match the unchanged source inventory",
+    "31 skill Markdown links and catalog method references resolve",
+    "A new case is incomplete and leaves every resource unassessed",
+    "Initialization refuses to overwrite a resumable case",
+    "Resumption uses its frozen core contract even if the current skill baseline changes",
+    "Claimed prior-work credit without inspected artifacts is rejected",
+    "Mandatory work cannot be satisfied by an omission disposition",
+    "An initial action plan cannot complete the post-customer-study handoff",
+    "Dropping a catalog resource is rejected",
+    "An evidence reference must resolve to an actual record",
+    "Early stop permits a decision while preserving the incomplete checklist and history"
+  ],
+  "fixture_directory": "C:\\Users\\Brandon\\AppData\\Local\\Temp\\mentor-room-structural-jq3m85yp",
+  "limit": "Structural checks do not establish artifact adequacy or real customer evidence."
+}
