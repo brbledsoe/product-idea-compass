@@ -1,0 +1,492 @@
+{
+  "version": "mentor-room-core-v0.2-2026-09-06",
+  "scope": "Conversational adaptation of supplied Click procedural material, official public Foundation/Design Sprint guides, and the saved combined Character board. Not full Sprint-book, Click-bonus-pack, podcast, or unframed-canvas coverage.",
+  "source_notes": [
+    "click-book-method.md",
+    "knapp-zeratsky-baseline.md",
+    "knapp-template-coverage.md",
+    "click-workshop-analysis.md"
+  ],
+  "activities": [
+    {
+      "id": "CLICK-SETUP",
+      "phase": "foundation",
+      "title": "Set the stage",
+      "prompt": "Who decides, who contributes, and what constraints shape the work?",
+      "output": "Roles, scope, workspace, working agreement and schedule",
+      "completion_check": "Real Decider identified; team roles and conversation/solo adaptations explicit",
+      "sources": [
+        "click-book-method.md: CLICK-SETUP",
+        "Click supplied PDF pp.31–34,170–172"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-NOTE-VOTE",
+      "phase": "foundation",
+      "title": "Use independent generation and decision",
+      "prompt": "What options emerge before discussion or convergence?",
+      "output": "Independent options, inputs/votes, and reasoned Decider choices",
+      "completion_check": "Independent human work preserved where available; AI perspectives labeled; votes inform rather than bind",
+      "sources": [
+        "click-book-method.md: CLICK-NOTE-VOTE",
+        "Click supplied PDF pp.42–46,172"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-CUSTOMER",
+      "phase": "foundation",
+      "title": "Choose the target customer",
+      "prompt": "Which specific people should we help first?",
+      "output": "Selected customer statement and alternatives",
+      "completion_check": "Identifies real reachable people; unresolved audience claims labeled",
+      "sources": [
+        "click-book-method.md: CLICK-CUSTOMER",
+        "Click supplied PDF pp.42–47,172",
+        "knapp-template-coverage.md: KTF-01 p91 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-PROBLEM",
+      "phase": "foundation",
+      "title": "Choose the customer problem",
+      "prompt": "What actual struggle occurs, apart from this proposed feature?",
+      "output": "Selected problem statement",
+      "completion_check": "Customer problem distinguished from a preferred implementation",
+      "sources": [
+        "click-book-method.md: CLICK-PROBLEM",
+        "Click supplied PDF pp.46–47,173",
+        "knapp-template-coverage.md: KTF-02 p92 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-ADVANTAGES",
+      "phase": "foundation",
+      "title": "Examine founding advantages",
+      "prompt": "What can we unusually do, understand, and care about?",
+      "output": "One capability, insight, and motivation with basis",
+      "completion_check": "All three represented; conviction separated from customer evidence",
+      "sources": [
+        "click-book-method.md: CLICK-ADVANTAGES",
+        "Click supplied PDF pp.52–58,173",
+        "knapp-template-coverage.md: KTF-03/04/05 pp94,99,96 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-COMPETITION",
+      "phase": "foundation",
+      "title": "Map current alternatives",
+      "prompt": "What do people use now, including workarounds and doing nothing?",
+      "output": "Basics sheet with 3–5 alternatives and toughest competitor",
+      "completion_check": "Basics joins customer/problem/three advantages/competition; assumptions and observations distinguished",
+      "sources": [
+        "click-book-method.md: CLICK-COMPETITION",
+        "Click supplied PDF pp.62–66,173–174",
+        "knapp-template-coverage.md: KTF-06/07 pp97–98,101 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-DIFFERENTIATORS",
+      "phase": "foundation",
+      "title": "Explore differentiating dimensions",
+      "prompt": "What can we deliver that customers would perceive as different?",
+      "output": "Classic/custom scales and selected pair",
+      "completion_check": "Consider eight Click scales and custom scales; select two with reasons; hypothesized customer value labeled",
+      "sources": [
+        "click-book-method.md: CLICK-DIFFERENTIATORS",
+        "Click supplied PDF pp.81–84,175–176",
+        "knapp-template-coverage.md: KTF-08 pp93,95 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-DIFFERENTIATION-CHART",
+      "phase": "foundation",
+      "title": "Compare competitive positions",
+      "prompt": "Do these axes honestly distinguish us from the strongest alternatives?",
+      "output": "2x2, competitor placements, and reality check",
+      "completion_check": "Do not fabricate superiority to get an empty quadrant; revisit axes/approach when unsupported",
+      "sources": [
+        "click-book-method.md: CLICK-DIFFERENTIATION-CHART",
+        "Click supplied PDF pp.84–86,176",
+        "knapp-template-coverage.md: KTF-09 pp75,81 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-PRINCIPLES",
+      "phase": "foundation",
+      "title": "Write the Mini Manifesto",
+      "prompt": "Which practical rules protect the promise and the customer?",
+      "output": "Values, about three principles, and differentiation chart",
+      "completion_check": "Actionable principles cover differentiation and harmful-success concern; wording and source variant recorded",
+      "sources": [
+        "click-book-method.md: CLICK-PRINCIPLES",
+        "Click supplied PDF pp.92–98,176–178",
+        "knapp-template-coverage.md: KTF-10 pp83,74,89 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-OPTIONS",
+      "phase": "foundation",
+      "title": "Generate alternative approaches",
+      "prompt": "How else could we solve this, including if our favorite failed?",
+      "output": "Candidate set and selected approaches",
+      "completion_check": "Use Click checklist3–7 options, preferring4+ when meaningful; preserve alternatives and chosen count",
+      "sources": [
+        "click-book-method.md: CLICK-OPTIONS",
+        "Click supplied PDF pp.107–110,179",
+        "knapp-template-coverage.md: KTF-11 p76 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-OPTION-SUMMARIES",
+      "phase": "foundation",
+      "title": "Make each option understandable",
+      "prompt": "What is its value and how would the experience work?",
+      "output": "One-page title/value sentence/doodle per option",
+      "completion_check": "Comparable summaries explain customer/problem/differentiation; rough sketches are sufficient",
+      "sources": [
+        "click-book-method.md: CLICK-OPTION-SUMMARIES",
+        "Click supplied PDF pp.110–114,179–180",
+        "knapp-template-coverage.md: KTF-12 p90 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-LENS-CRITERIA",
+      "phase": "foundation",
+      "title": "Expose comparison criteria",
+      "prompt": "Which positive qualities make each option promising?",
+      "output": "Identified options and criteria pool",
+      "completion_check": "Silent/independent review and 1–4 criteria per option, or documented solo adaptation",
+      "sources": [
+        "click-book-method.md: CLICK-LENS-CRITERIA",
+        "Click supplied PDF pp.181",
+        "knapp-template-coverage.md: KTF-12 p77 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-CLASSIC-LENSES",
+      "phase": "foundation",
+      "title": "Compare the four classic lenses",
+      "prompt": "How do options compare for customers, delivery, growth, and value?",
+      "output": "Customer, pragmatic, growth, money charts",
+      "completion_check": "All four assessed; axes/placements/reasons explicit; noncommercial substitutions labeled",
+      "sources": [
+        "click-book-method.md: CLICK-CLASSIC-LENSES",
+        "Click supplied PDF pp.121–127,182",
+        "knapp-template-coverage.md: KTF-13 pp78–79,84–85 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-CUSTOM-LENSES",
+      "phase": "foundation",
+      "title": "Add project-specific comparisons",
+      "prompt": "Which tradeoffs are missing from the standard lenses?",
+      "output": "Additional charts and differentiation comparison",
+      "completion_check": "Use checklist2–4 additional charts plus differentiation; selected custom axes and tradeoffs explicit",
+      "sources": [
+        "click-book-method.md: CLICK-CUSTOM-LENSES",
+        "Click supplied PDF pp.126–127,183",
+        "knapp-template-coverage.md: KTF-13 pp86–88 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-APPROACH-DECISION",
+      "phase": "foundation",
+      "title": "Choose a top bet and backup",
+      "prompt": "Where do the charts agree or disagree, and what matters most?",
+      "output": "Decider choice of one top bet and backup",
+      "completion_check": "Decision cites tradeoffs, contradictions, and judgment; no invented universal total score",
+      "sources": [
+        "click-book-method.md: CLICK-APPROACH-DECISION",
+        "Click supplied PDF pp.127–128,183",
+        "knapp-template-coverage.md: KTF-14 p80 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "CLICK-HYPOTHESIS",
+      "phase": "foundation",
+      "title": "Write the Founding Hypothesis",
+      "prompt": "Why should these people choose this approach over alternatives?",
+      "output": "Conditional founding hypothesis and scorecard questions",
+      "completion_check": "Connects customer/problem/approach/competition/differentiation; customer/switching/click claims remain testable",
+      "sources": [
+        "click-book-method.md: CLICK-HYPOTHESIS",
+        "Click supplied PDF pp.135,138–141,183–184",
+        "knapp-template-coverage.md: KTF-15 pp82,114 (physical PDF)"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-SETUP",
+      "phase": "design-sprint",
+      "title": "Prepare the Design Sprint",
+      "prompt": "Which challenge, roles, and study resources are needed?",
+      "output": "Decider/facilitator/contributors, challenge, schedule and workspace",
+      "completion_check": "Role and time adaptations explicit; recruiting and interview ownership assigned",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-GOAL-METRICS",
+      "phase": "design-sprint",
+      "title": "Set the goal and observable success",
+      "prompt": "What future result matters and what would show progress?",
+      "output": "Long-term goal, metrics, and trial-specific success questions",
+      "completion_check": "One optimistic goal without numeric targets or prescribed solution; separate 2–3 rough numeric metrics; not commitments or measured results",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-01/02 pp1–2 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-RISKS",
+      "phase": "design-sprint",
+      "title": "Choose crucial risks",
+      "prompt": "What could prevent the goal, and which uncertainties must this test address?",
+      "output": "Answerable risk questions, two selected risks, and consolidated goal/metrics/risks",
+      "completion_check": "Important risks selected with rationale; other risks retained; miniature predictions about selected solutions follow the sketch decision",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-03 pp3–4 (physical PDF)",
+        "click-book-method.md: CLICK-TEST-FOCUS; Click PDF pp146,157",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-MAP",
+      "phase": "design-sprint",
+      "title": "Map actors, discovery, and core experience",
+      "prompt": "How do the relevant actors find the offer and reach the value?",
+      "output": "Actor set, discovery and core journeys, outcome event, target customer/moment/risk",
+      "completion_check": "Current/imagined steps distinguished; HMWs mapped; selected target risk may revise earlier priorities",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-05/06/07/08 pp6–9 (physical PDF)",
+        "click-book-method.md: CLICK-TEST-FOCUS; Click PDF pp146,157",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-EXPERTS-HMW",
+      "phase": "design-sprint",
+      "title": "Learn from expertise and frame opportunities",
+      "prompt": "What do informed people know that changes this map?",
+      "output": "Expert input, organized How Might We notes, selection and revised map",
+      "completion_check": "Source default 2–4 real experts, organized HMWs and 3–7 selected for map; actual sources/people distinct from AI; absent human input requires pending/adapted status, never invented interviews",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-04 p5 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-LIGHTNING-DEMOS",
+      "phase": "design-sprint",
+      "title": "Collect useful solution patterns",
+      "prompt": "What can we learn from other products without copying irrelevant detail?",
+      "output": "Pattern examples and implications for this target",
+      "completion_check": "Examples documented; relevance explained rather than treated as demand evidence",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-12 p13 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-SKETCH",
+      "phase": "design-sprint",
+      "title": "Explore independent solutions",
+      "prompt": "What distinct solutions could answer the target question?",
+      "output": "Notes, ideas, Crazy8s and solution sketches",
+      "completion_check": "All four sketch stages represented or explicit adaptation; alternative solutions remain intelligible",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-13/14/15 pp14–18 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-DECIDE",
+      "phase": "design-sprint",
+      "title": "Select prototypes and mini hypotheses",
+      "prompt": "Which sketches best address the risk, and why should they work?",
+      "output": "Heat-map/critique/straw-poll inputs, Decider selection, and two focused mini hypotheses about selected solutions",
+      "completion_check": "Chosen solution/comparative prototypes fit capacity; mini hypotheses follow selection and connect predictions to goals/metrics/risks",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-16/17 pp19–20 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-STORYBOARD",
+      "phase": "design-sprint",
+      "title": "Plan the test experience",
+      "prompt": "What must a participant see and do from entry to outcome?",
+      "output": "Storyboard with realistic copy/content and test flow",
+      "completion_check": "Flow includes discovery/context and value; scope sufficient for the question without production build",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-18/19 pp21–22 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-RECRUIT",
+      "phase": "design-sprint",
+      "title": "Recruit appropriate participants",
+      "prompt": "Who actually fits this customer and how will we screen and confirm them?",
+      "output": "Recruitment owner, screener, schedule and confirmations",
+      "completion_check": "Default five screened target customers; record board variant or single-user adaptation explicitly",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-09/10/11 pp10–12 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-PROTOTYPE",
+      "phase": "design-sprint",
+      "title": "Build a realistic simulation",
+      "prompt": "What fidelity allows a credible response to the selected question?",
+      "output": "Testable prototype, production roles and integrated trial run",
+      "completion_check": "Required flow works in rehearsal; simulated backend and feasibility limits explicit",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-20 pp23–25 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-INTERVIEW-PLAN",
+      "phase": "design-sprint",
+      "title": "Prepare the customer study",
+      "prompt": "How will neutral prompts reveal the participant experience?",
+      "output": "Interview guide, observation grid and study logistics",
+      "completion_check": "Welcome/context/introduction/tasks/debrief; no leading sales pitch; scorecard links to hypotheses",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-CUSTOMER-TEST",
+      "phase": "design-sprint",
+      "title": "Observe real customer sessions",
+      "prompt": "What do the screened participants actually do and say?",
+      "output": "Individual session records and scoped observations",
+      "completion_check": "Actual participants/results required; retain recruitment/context/count and contradictions; no synthetic replacements",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-21 p26 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false
+    },
+    {
+      "id": "DS-SYNTHESIS",
+      "phase": "design-sprint",
+      "title": "Review patterns and scorecard",
+      "prompt": "What worked, failed, surprised us, or remains unclear?",
+      "output": "Scorecard, observation patterns, hot takes separated from evidence",
+      "completion_check": "Actual customer-study observations support the scorecard and interpretations; template preparation is not synthesis; preserve uncertainty and dissent",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-21/22 pp26–28 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false,
+      "requires": [
+        "DS-CUSTOMER-TEST"
+      ]
+    },
+    {
+      "id": "DS-NEXT-STEPS",
+      "phase": "design-sprint",
+      "title": "Assign next work after the customer study",
+      "prompt": "What should we change, test, build, pause, or stop?",
+      "output": "Post-study decision and assigned actions with outcomes and dates/triggers",
+      "completion_check": "Decision follows actual customer observations and synthesis, with bounded investment and unresolved risks. An initial session handoff cannot complete this post-study activity.",
+      "sources": [
+        "knapp-zeratsky-baseline.md: Design Sprint guide",
+        "knapp-template-coverage.md: activity inventory",
+        "knapp-template-coverage.md: KTD-23 p29 (physical PDF)",
+        "click-book-method.md: CLICK-DESIGN-SPRINT; Click PDF pp146–156"
+      ],
+      "conditional": false,
+      "requires": [
+        "DS-CUSTOMER-TEST",
+        "DS-SYNTHESIS"
+      ]
+    },
+    {
+      "id": "CLICK-COMPARATIVE-TESTS",
+      "phase": "follow-through",
+      "title": "Consider head-to-head comparisons",
+      "prompt": "Would comparison with another approach, competitor, workaround, or status quo resolve an important uncertainty?",
+      "output": "Comparison plan/results or a reasoned applicability decision",
+      "completion_check": "Comparison considered explicitly; if performed, separate observed preference from switching/payment claims",
+      "sources": [
+        "click-book-method.md: CLICK-COMPARATIVE-TESTS"
+      ],
+      "conditional": true
+    },
+    {
+      "id": "KZ-REPEAT",
+      "phase": "follow-through",
+      "title": "Review iteration and reuse",
+      "prompt": "What changed across the recommended three Design Sprints, and what should we do next?",
+      "output": "Cycle history with hypothesis revisions, reused/changed work, observations and decisions",
+      "completion_check": "Default Foundation plus three Design Sprints accounted for with actual results; fewer cycles require an explicit adapted status and evidence/scope rationale, or leave pending on early stop; no fixed number proves success",
+      "sources": [
+        "click-book-method.md: CLICK-LEARN-REPEAT; Click PDF pp18,149–151,158–163",
+        "knapp-template-coverage.md: repeat sprint",
+        "knapp-template-coverage.md: Revision/reference pp100–114 (physical PDF)"
+      ],
+      "conditional": false
+    }
+  ]
+}
