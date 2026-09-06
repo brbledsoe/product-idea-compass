@@ -1,0 +1,35 @@
+{
+  "received_date": "2026-09-05",
+  "source_kind": "User-supplied PDF",
+  "original_path": "C:\\Users\\Brandon\\Downloads\\Testing Business Ideas by David J. Bland PDF\\Testing Business Ideas by David J. Bland.pdf",
+  "saved_path": "research/mentor-room/sources/testing-business-ideas/testing-business-ideas.pdf",
+  "bytes": 62813329,
+  "sha256": "d0b627e799264b676cfd2b1084cefe7c1c933152d12b2723667c1103f655386e",
+  "copy_matches_original": true,
+  "review_state": "All365 PDF pages indexed. Text is a search aid; visual template/card interpretation and substantive review scopes are recorded in the accompanying notes.",
+  "catalog_relationship": "Supplied book associated with inventory row 18 (David J. Bland); book coauthored by Alex Osterwalder. This does not establish acquisition of the separately listed webinar.",
+  "batch_status": "User capped source uploads for now. Future materials are optional, not prerequisites to continuing skill design.",
+  "title_from_title_page": "Testing Business Ideas",
+  "authors_from_title_page": [
+    "David J. Bland",
+    "Alex Osterwalder"
+  ],
+  "designers_from_title_page": [
+    "Alan Smith",
+    "Trish Papadakos"
+  ],
+  "publisher_from_source": "John Wiley & Sons, Inc.",
+  "copyright_year_from_source": "2020",
+  "edition_notes": "PDF metadata dates creation/modification November 2019. Copyright page states 2020; no edition-year inference from metadata.",
+  "isbn_paperback": "9781119551447",
+  "isbn_epdf": "9781119551423",
+  "isbn_epub": "9781119551416",
+  "pdf_pages": 365,
+  "conversion_index": "research/mentor-room/derived/testing-business-ideas/index.md",
+  "conversion_metadata": "research/mentor-room/derived/testing-business-ideas/conversion.json",
+  "research_notes": [
+    "research/mentor-room/testing-business-ideas-process.md",
+    "research/mentor-room/testing-business-ideas-experiments.md"
+  ],
+  "extraction_audit": "research/mentor-room/testing-business-ideas-extraction-check.md"
+}

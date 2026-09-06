@@ -1,0 +1,823 @@
+{
+  "schema_version": 1,
+  "title": "Testing Business Ideas experiment inventory",
+  "authors": [
+    "David J. Bland",
+    "Alex Osterwalder"
+  ],
+  "source": "sources/testing-business-ideas/testing-business-ideas.pdf",
+  "copyright_year_from_source": 2020,
+  "pdf_metadata_year": 2019,
+  "prepared_on": "2026-09-05",
+  "page_numbering": "PDF pages are 1-based; printed page = PDF page - 16 throughout this library.",
+  "counts": {
+    "total": 44,
+    "discovery": 29,
+    "validation": 15
+  },
+  "classification_basis": "Discovery and validation section inventories, PDF pages 120 and 250; variations counted separately.",
+  "coverage": {
+    "full_extracted_text_read_ranges": [
+      {
+        "start": 122,
+        "end": 325
+      }
+    ],
+    "additional_text_pages": [
+      108,
+      109,
+      120,
+      121,
+      250,
+      251
+    ],
+    "visually_inspected_pdf_pages": [
+      108,
+      120,
+      121,
+      122,
+      124,
+      130,
+      170,
+      174,
+      180,
+      224,
+      238,
+      242,
+      250,
+      251,
+      252,
+      256,
+      260,
+      264,
+      270,
+      292,
+      296,
+      297,
+      300,
+      312,
+      325
+    ],
+    "full_card_text_read": true,
+    "full_card_visual_review": false,
+    "full_dot_rating_audit": false
+  },
+  "use": "Select for a specific hypothesis; the entries are not mandatory tasks and completion is not a validation certificate. Observation/limit and selection questions are local paraphrases/adaptations.",
+  "source_cautions": [
+    "Some printed conversion formulas reverse exposures and actions; the note lists examples. Do not execute formulas without checking their definitions.",
+    "PDF pages 252, 256, 260, 264, and 270 have discovery headings inside the validation section; classification follows section inventories.",
+    "Pretend to Own, Card Sorting, and Buy a Feature also have subtype headings inconsistent with their inventory group.",
+    "Published thresholds, resource estimates, and case results are not universal success guarantees or current benchmarks.",
+    "Dot ratings are omitted rather than inferred from extracted text."
+  ],
+  "experiments": [
+    {
+      "id": "TBI-EXP-01",
+      "name": "Customer Interview",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 106,
+        "end": 113
+      },
+      "pdf_pages": {
+        "start": 122,
+        "end": 129
+      },
+      "source_card_start": "derived/testing-business-ideas/page-122.md",
+      "observation_and_limit": "Past experiences, jobs, pains, gains, workarounds, and rankings; favorable talk does not demonstrate future purchase.",
+      "selection_question": "Which recent real episode can this customer describe?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-02",
+      "name": "Partner & Supplier Interviews",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 114,
+        "end": 114
+      },
+      "pdf_pages": {
+        "start": 130,
+        "end": 130
+      },
+      "source_card_start": "derived/testing-business-ideas/page-130.md",
+      "observation_and_limit": "Capability discussions and bids address external delivery dependencies; a conversation does not establish reliable supply.",
+      "selection_question": "Which needed activity or resource cannot we provide ourselves?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-03",
+      "name": "Expert Stakeholder Interviews",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 115,
+        "end": 115
+      },
+      "pdf_pages": {
+        "start": 131,
+        "end": 131
+      },
+      "source_card_start": "derived/testing-business-ideas/page-131.md",
+      "observation_and_limit": "Internal expertise and organizational support; stronger follow-through matters more than approving quotes, and stakeholders are not customers.",
+      "selection_question": "Whose knowledge or concrete support is missing?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-04",
+      "name": "A Day in the Life",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 116,
+        "end": 121
+      },
+      "pdf_pages": {
+        "start": 132,
+        "end": 137
+      },
+      "source_card_start": "derived/testing-business-ideas/page-132.md",
+      "observation_and_limit": "Observe actual work and context before asking about it; contextual difficulty does not establish demand for our remedy.",
+      "selection_question": "Can we observe the job where it normally happens?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-05",
+      "name": "Discovery Survey",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 122,
+        "end": 125
+      },
+      "pdf_pages": {
+        "start": 138,
+        "end": 141
+      },
+      "source_card_start": "derived/testing-business-ideas/page-138.md",
+      "observation_and_limit": "Open-ended answers reveal themes for investigation; self-report and volunteer responses need follow-up.",
+      "selection_question": "Which qualitative uncertainty can reachable respondents explain?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-06",
+      "name": "Search Trend Analysis",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 126,
+        "end": 129
+      },
+      "pdf_pages": {
+        "start": 142,
+        "end": 145
+      },
+      "source_card_start": "derived/testing-business-ideas/page-142.md",
+      "observation_and_limit": "Search volume, geography, and changes over time expose interest patterns; search intent and offline demand remain uncertain.",
+      "selection_question": "Does this audience express its problem through search?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-07",
+      "name": "Web Traffic Analysis",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 130,
+        "end": 133
+      },
+      "pdf_pages": {
+        "start": 146,
+        "end": 149
+      },
+      "source_card_start": "derived/testing-business-ideas/page-146.md",
+      "observation_and_limit": "Existing traffic and funnel behavior reveal attention and drop-off; analytics show what happened more readily than why.",
+      "selection_question": "Do we have relevant traffic and a meaningful funnel?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-08",
+      "name": "Discussion Forums",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 134,
+        "end": 137
+      },
+      "pdf_pages": {
+        "start": 150,
+        "end": 153
+      },
+      "source_card_start": "derived/testing-business-ideas/page-150.md",
+      "observation_and_limit": "Complaints and actual workarounds expose problems; forum contributors are self-selected and feature requests are not purchases.",
+      "selection_question": "Where does this audience already discuss its workarounds?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-09",
+      "name": "Sales Force Feedback",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 138,
+        "end": 141
+      },
+      "pdf_pages": {
+        "start": 154,
+        "end": 157
+      },
+      "source_card_start": "derived/testing-business-ideas/page-154.md",
+      "observation_and_limit": "Deal records, calls, and sales observations surface obstacles; distinguish buyer evidence from salesperson interpretation.",
+      "selection_question": "Can sales provide concrete wins, losses, and customer records?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-10",
+      "name": "Customer Support Analysis",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 142,
+        "end": 145
+      },
+      "pdf_pages": {
+        "start": 158,
+        "end": 161
+      },
+      "source_card_start": "derived/testing-business-ideas/page-158.md",
+      "observation_and_limit": "Existing support cases reveal repeated needs and frustrations; complaint frequency alone does not prioritize a new solution.",
+      "selection_question": "Is there enough relevant support history to find patterns?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-11",
+      "name": "Online Ad",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 146,
+        "end": 151
+      },
+      "pdf_pages": {
+        "start": 162,
+        "end": 167
+      },
+      "source_card_start": "derived/testing-business-ideas/page-162.md",
+      "observation_and_limit": "Targeted impressions, clicks, and acquisition costs test message/channel response; clicking an ad is not buying.",
+      "selection_question": "Can an ad reach this segment and lead to a meaningful action?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-12",
+      "name": "Link Tracking",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 152,
+        "end": 155
+      },
+      "pdf_pages": {
+        "start": 168,
+        "end": 171
+      },
+      "source_card_start": "derived/testing-business-ideas/page-168.md",
+      "observation_and_limit": "Instrumented links reveal CTA response and subsequent behavior; click counts need eligible exposures and context.",
+      "selection_question": "Which specific link action would teach us something?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-13",
+      "name": "Feature Stub",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 156,
+        "end": 159
+      },
+      "pdf_pages": {
+        "start": 172,
+        "end": 175
+      },
+      "source_card_start": "derived/testing-business-ideas/page-172.md",
+      "observation_and_limit": "An unfinished feature entry point measures interest inside an active product; demand, usability, and implementation remain distinct.",
+      "selection_question": "Can we expose and promptly explain an unavailable feature safely?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-14",
+      "name": "404 Test",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 160,
+        "end": 161
+      },
+      "pdf_pages": {
+        "start": 176,
+        "end": 177
+      },
+      "source_card_start": "derived/testing-business-ideas/page-176.md",
+      "observation_and_limit": "A deliberately unavailable destination produces error counts as an interest proxy; it can make the product appear broken.",
+      "selection_question": "Is this short-lived, noncritical probe worth the disrupted experience?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-15",
+      "name": "Email Campaign",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 162,
+        "end": 167
+      },
+      "pdf_pages": {
+        "start": 178,
+        "end": 183
+      },
+      "source_card_start": "derived/testing-business-ideas/page-178.md",
+      "observation_and_limit": "Opens, clicks, replies, unsubscribes, and downstream actions expose message response; email engagement is not revenue.",
+      "selection_question": "Do we have a suitable list and one clear campaign objective?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-16",
+      "name": "Social Media Campaign",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 168,
+        "end": 171
+      },
+      "pdf_pages": {
+        "start": 184,
+        "end": 187
+      },
+      "source_card_start": "derived/testing-business-ideas/page-184.md",
+      "observation_and_limit": "Posts generate reach, engagement, and possible conversions; attention and purchases carry different implications.",
+      "selection_question": "Can this platform reach qualified people and track their next action?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-17",
+      "name": "Referral Program",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 172,
+        "end": 175
+      },
+      "pdf_pages": {
+        "start": 188,
+        "end": 191
+      },
+      "source_card_start": "derived/testing-business-ideas/page-188.md",
+      "observation_and_limit": "Actual sharing, referred visits, and conversions test advocacy; incentives and acquisition do not establish retention.",
+      "selection_question": "Do existing satisfied customers have someone relevant to refer?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-18",
+      "name": "3D Print",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 176,
+        "end": 181
+      },
+      "pdf_pages": {
+        "start": 192,
+        "end": 197
+      },
+      "source_card_start": "derived/testing-business-ideas/page-192.md",
+      "observation_and_limit": "A tangible model exposes physical reactions and constraints; customer feedback does not establish finished engineering or manufacturability.",
+      "selection_question": "Is physical form necessary after cheaper sketches or models?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-19",
+      "name": "Paper Prototype",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 182,
+        "end": 185
+      },
+      "pdf_pages": {
+        "start": 198,
+        "end": 201
+      },
+      "source_card_start": "derived/testing-business-ideas/page-198.md",
+      "observation_and_limit": "Observed tasks, confusion, and reactions test a rough interaction; limited paper sessions do not replace proper usability work.",
+      "selection_question": "Can paper answer the interaction question cheaply?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-20",
+      "name": "Storyboard",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 186,
+        "end": 189
+      },
+      "pdf_pages": {
+        "start": 202,
+        "end": 205
+      },
+      "source_card_start": "derived/testing-business-ideas/page-202.md",
+      "observation_and_limit": "Customer responses to illustrated experiences compare concepts; a team's storyboard alone is still a hypothesis.",
+      "selection_question": "Which alternative customer experiences need comparison?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-21",
+      "name": "Data Sheet",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 190,
+        "end": 193
+      },
+      "pdf_pages": {
+        "start": 206,
+        "end": 209
+      },
+      "source_card_start": "derived/testing-business-ideas/page-206.md",
+      "observation_and_limit": "Reactions to proposed specifications clarify requirements and partner fit; written specifications are not demonstrated capability.",
+      "selection_question": "Which specification could change customer or supplier interest?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-22",
+      "name": "Brochure",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 194,
+        "end": 199
+      },
+      "pdf_pages": {
+        "start": 210,
+        "end": 215
+      },
+      "source_card_start": "derived/testing-business-ideas/page-210.md",
+      "observation_and_limit": "Offline recipients' subsequent CTA actions test a proposition; accepting a handout or giving an email is limited commitment.",
+      "selection_question": "Is this audience easier to reach offline?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-23",
+      "name": "Explainer Video",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 200,
+        "end": 203
+      },
+      "pdf_pages": {
+        "start": 216,
+        "end": 219
+      },
+      "source_card_start": "derived/testing-business-ideas/page-216.md",
+      "observation_and_limit": "Views, sharing, and downstream actions test communication; a persuasive demonstration does not establish delivered functionality.",
+      "selection_question": "Does motion explain the idea better than a simpler artifact?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-24",
+      "name": "Boomerang",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 204,
+        "end": 207
+      },
+      "pdf_pages": {
+        "start": 220,
+        "end": 223
+      },
+      "source_card_start": "derived/testing-business-ideas/page-220.md",
+      "observation_and_limit": "Customers perform tasks with a competitor's real solution; observed shortcomings identify opportunities, not validation of ours.",
+      "selection_question": "What can actual competitor use reveal about the unresolved job?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-25",
+      "name": "Pretend to Own",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 208,
+        "end": 213
+      },
+      "pdf_pages": {
+        "start": 224,
+        "end": 229
+      },
+      "source_card_start": "derived/testing-business-ideas/page-224.md",
+      "observation_and_limit": "Living with a nonfunctioning model creates a usage/context log; imagination and self-use constrain conclusions about other customers.",
+      "selection_question": "Can carrying or placing a model expose daily usefulness?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-26",
+      "name": "Product Box",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 214,
+        "end": 217
+      },
+      "pdf_pages": {
+        "start": 230,
+        "end": 233
+      },
+      "source_card_start": "derived/testing-business-ideas/page-230.md",
+      "observation_and_limit": "Customers create and pitch imaginary packaging, revealing perceived benefits; attractive descriptions are hypothetical preferences.",
+      "selection_question": "Which benefits would customers choose to explain to someone else?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-27",
+      "name": "Speed Boat",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 218,
+        "end": 221
+      },
+      "pdf_pages": {
+        "start": 234,
+        "end": 237
+      },
+      "source_card_start": "derived/testing-business-ideas/page-234.md",
+      "observation_and_limit": "Customers identify obstacles and their severity; problem prioritization does not endorse the team's proposed remedy.",
+      "selection_question": "What currently prevents progress, and which obstacle matters most?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-28",
+      "name": "Card Sorting",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 222,
+        "end": 225
+      },
+      "pdf_pages": {
+        "start": 238,
+        "end": 241
+      },
+      "source_card_start": "derived/testing-business-ideas/page-238.md",
+      "observation_and_limit": "Sorting and ranking clarify jobs, pains, gains, and omissions; prompted rankings do not establish market behavior.",
+      "selection_question": "Which priorities or missing concepts need clarification?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-29",
+      "name": "Buy a Feature",
+      "classification": "discovery",
+      "printed_pages": {
+        "start": 226,
+        "end": 229
+      },
+      "pdf_pages": {
+        "start": 242,
+        "end": 245
+      },
+      "source_card_start": "derived/testing-business-ideas/page-242.md",
+      "observation_and_limit": "Constrained pretend budgets reveal trade-offs and negotiation; play currency is not actual willingness to pay.",
+      "selection_question": "Which feature trade-offs emerge when everything cannot be selected?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-30",
+      "name": "Clickable Prototype",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 236,
+        "end": 239
+      },
+      "pdf_pages": {
+        "start": 252,
+        "end": 255
+      },
+      "source_card_start": "derived/testing-business-ideas/page-252.md",
+      "observation_and_limit": "Clickable screens expose task performance and confusion; simulated interactions do not establish production usability or demand.",
+      "selection_question": "Does the next uncertainty require interactive digital behavior?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-31",
+      "name": "Single Feature MVP",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 240,
+        "end": 243
+      },
+      "pdf_pages": {
+        "start": 256,
+        "end": 259
+      },
+      "source_card_start": "derived/testing-business-ideas/page-256.md",
+      "observation_and_limit": "A functioning core feature supports payment, usage, satisfaction, and cost observations; one feature does not prove the whole business.",
+      "selection_question": "Is earlier evidence strong enough to build this core function?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-32",
+      "name": "Mash-Up",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 244,
+        "end": 247
+      },
+      "pdf_pages": {
+        "start": 260,
+        "end": 263
+      },
+      "source_card_start": "derived/testing-business-ideas/page-260.md",
+      "observation_and_limit": "Existing services combined into a working experience expose customer value and delivery cost; custom scaling remains untested.",
+      "selection_question": "Can existing services deliver the experience without new infrastructure?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-33",
+      "name": "Concierge",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 248,
+        "end": 253
+      },
+      "pdf_pages": {
+        "start": 264,
+        "end": 269
+      },
+      "source_card_start": "derived/testing-business-ideas/page-264.md",
+      "observation_and_limit": "Visible manual delivery reveals purchases, satisfaction, costs, and service timing; it does not establish scalable automation.",
+      "selection_question": "Can people openly deliver the promised value manually?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-34",
+      "name": "Life-Sized Prototype",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 254,
+        "end": 259
+      },
+      "pdf_pages": {
+        "start": 270,
+        "end": 275
+      },
+      "source_card_start": "derived/testing-business-ideas/page-270.md",
+      "observation_and_limit": "A physical service replica enables contextual reactions and CTA observations; realism and positive comments are not purchases.",
+      "selection_question": "Must customers physically experience the setting to evaluate it?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-35",
+      "name": "Simple Landing Page",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 260,
+        "end": 265
+      },
+      "pdf_pages": {
+        "start": 276,
+        "end": 281
+      },
+      "source_card_start": "derived/testing-business-ideas/page-276.md",
+      "observation_and_limit": "Qualified traffic responds to a proposition and CTA, often email signup; signups alone do not establish sales.",
+      "selection_question": "Can we attract the right visitors and measure one meaningful action?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-36",
+      "name": "Crowdfunding",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 266,
+        "end": 269
+      },
+      "pdf_pages": {
+        "start": 282,
+        "end": 285
+      },
+      "source_card_start": "derived/testing-business-ideas/page-282.md",
+      "observation_and_limit": "Financial pledges reveal stronger commitment; the book explicitly distinguishes this from proving technical feasibility or fulfillment.",
+      "selection_question": "Can we make a credible offer and fulfill the promised rewards?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-37",
+      "name": "Split Test",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 270,
+        "end": 273
+      },
+      "pdf_pages": {
+        "start": 286,
+        "end": 289
+      },
+      "source_card_start": "derived/testing-business-ideas/page-286.md",
+      "observation_and_limit": "Randomized control/variant outcomes compare a defined change; traffic, measurement, and stopping rules matter, and causes need interpretation.",
+      "selection_question": "Is there enough relevant traffic to compare a prespecified effect?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-38",
+      "name": "Presale",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 274,
+        "end": 277
+      },
+      "pdf_pages": {
+        "start": 290,
+        "end": 293
+      },
+      "source_card_start": "derived/testing-business-ideas/page-290.md",
+      "observation_and_limit": "Advance orders test an offer; this card charges when shipping, so order, collected payment, and fulfillment remain separate events.",
+      "selection_question": "Is the product close enough to delivery to honor orders?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-39",
+      "name": "Validation Survey",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 278,
+        "end": 283
+      },
+      "pdf_pages": {
+        "start": 294,
+        "end": 299
+      },
+      "source_card_start": "derived/testing-business-ideas/page-294.md",
+      "observation_and_limit": "Experienced users report disappointment, referral intentions, or rankings; stated sentiment is not retention or actual referrals.",
+      "selection_question": "Have respondents recently experienced the product's core value?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-40",
+      "name": "Wizard of Oz",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 284,
+        "end": 287
+      },
+      "pdf_pages": {
+        "start": 300,
+        "end": 303
+      },
+      "source_card_start": "derived/testing-business-ideas/page-300.md",
+      "observation_and_limit": "Hidden manual delivery yields payment, quality, cost, and timing observations; apparent automation does not prove technical feasibility.",
+      "selection_question": "Can manual work test value before automation, with a defined transition trigger?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-41",
+      "name": "Mock Sale",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 288,
+        "end": 293
+      },
+      "pdf_pages": {
+        "start": 304,
+        "end": 309
+      },
+      "source_card_start": "derived/testing-business-ideas/page-304.md",
+      "observation_and_limit": "A purchase attempt or payment-information submission tests commitment without processing payment; it is not a completed sale.",
+      "selection_question": "Which uncharged purchase action would meaningfully test this offer?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-42",
+      "name": "Letter of Intent",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 294,
+        "end": 299
+      },
+      "pdf_pages": {
+        "start": 310,
+        "end": 315
+      },
+      "source_card_start": "derived/testing-business-ideas/page-310.md",
+      "observation_and_limit": "Written intent from a prospective buyer or partner is stronger than casual interest; projected revenue is not collected revenue.",
+      "selection_question": "Can a relevant decision-maker state concrete terms of intended engagement?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-43",
+      "name": "Pop-Up Store",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 300,
+        "end": 305
+      },
+      "pdf_pages": {
+        "start": 316,
+        "end": 321
+      },
+      "source_card_start": "derived/testing-business-ideas/page-316.md",
+      "observation_and_limit": "A temporary venue exposes visits and selected commercial actions; location, novelty, and timing limit extrapolation.",
+      "selection_question": "Can a temporary location test the intended buying experience?",
+      "dot_ratings": null
+    },
+    {
+      "id": "TBI-EXP-44",
+      "name": "Extreme Programming Spike",
+      "classification": "validation",
+      "printed_pages": {
+        "start": 306,
+        "end": 309
+      },
+      "pdf_pages": {
+        "start": 322,
+        "end": 325
+      },
+      "source_card_start": "derived/testing-business-ideas/page-322.md",
+      "observation_and_limit": "Timeboxed exploratory code tests a technical question against criteria; throwaway feasibility work establishes no customer demand.",
+      "selection_question": "Which concrete technical unknown blocks the next decision?",
+      "dot_ratings": null
+    }
+  ]
+}

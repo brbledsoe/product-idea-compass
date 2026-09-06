@@ -1,0 +1,19 @@
+{
+  "received_date": "2026-09-05",
+  "source_kind": "User-supplied EPUB",
+  "original_path": "C:\\Users\\Brandon\\Downloads\\_OceanofPDF.com_Life_at_the_Speed_of_Play_-_Mark_Pincus.epub",
+  "saved_path": "research/mentor-room/sources/pincus/life-at-the-speed-of-play.epub",
+  "bytes": 5322029,
+  "sha256": "a7ff0ee113634daca9f8154c6ee91d59c4e4daf8a55100a288e5e4864faf586c",
+  "copy_matches_original": true,
+  "title_from_source": "Life at the Speed of Play: Launch Products People Love!",
+  "author_from_source": "Mark Pincus",
+  "imprint_from_title_image": "Harper Business, an imprint of HarperCollins",
+  "edition_from_copyright": "First edition; digital edition June 2026; version 04252026",
+  "ebook_isbn": "9780063352582",
+  "print_isbn": "9780063352575",
+  "conversion_index": "research/mentor-room/derived/pincus/index.md",
+  "conversion_metadata": "research/mentor-room/derived/pincus/conversion.json",
+  "review_state": "Converted whole EPUB; substantive review scope is specified separately in the two Pincus research notes.",
+  "catalog_relationship": "Additional book source related to supplied resource inventory row 13; does not establish acquisition of that interview transcript."
+}

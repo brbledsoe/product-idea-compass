@@ -1,0 +1,334 @@
+{
+  "source_file": "research\\mentor-room\\sources\\the-right-it\\the-right-it.epub",
+  "source_sha256": "670c4dc7ccc0eabb85049faa91edfec529ea9070403198b908e3031efbe340b8",
+  "package_document": "OEBPS/9780062884671_content.opf",
+  "metadata": [
+    {
+      "tag": "title",
+      "attributes": {
+        "id": "id"
+      },
+      "value": "The Right It"
+    },
+    {
+      "tag": "creator",
+      "attributes": {
+        "id": "id-2"
+      },
+      "value": "Alberto Savoia"
+    },
+    {
+      "tag": "source",
+      "attributes": {},
+      "value": "9780062884657"
+    },
+    {
+      "tag": "identifier",
+      "attributes": {},
+      "value": "isbn:9780062884671"
+    },
+    {
+      "tag": "identifier",
+      "attributes": {},
+      "value": "calibre:70339"
+    },
+    {
+      "tag": "identifier",
+      "attributes": {},
+      "value": "uuid:4f8d2eaa-a819-4b09-bd78-3cd9a8fe1e3b"
+    },
+    {
+      "tag": "identifier",
+      "attributes": {
+        "id": "bookid"
+      },
+      "value": "9780062884671"
+    },
+    {
+      "tag": "rights",
+      "attributes": {},
+      "value": "All rights reserved"
+    },
+    {
+      "tag": "language",
+      "attributes": {},
+      "value": "en"
+    },
+    {
+      "tag": "contributor",
+      "attributes": {
+        "id": "id-1"
+      },
+      "value": "calibre (3.40.1) [https://calibre-ebook.com]"
+    },
+    {
+      "tag": "date",
+      "attributes": {},
+      "value": "2019-01-03T00:00:00+00:00"
+    },
+    {
+      "tag": "description",
+      "attributes": {},
+      "value": "<p>In this accessible, prescriptive, and widely applicable manual, Google's first engineering director and current Innovation Agitator Emeritus provides critical advice for rethinking how we launch a new idea, product, or business, insights to help successfully beat the law of market failure: that most new products will fail, even if competently executed.<br/>Millions of people around the world are working to introduce new ideas. Some will turn out to be stunning successes and have a major impact on our world and our culture: The next Google, the next Polio vaccine, the next Harry Potter, the next Red Cross, the next Ford Mustang. Others successes will be smaller and more personal, but no less meaningful: A restaurant that becomes a neighborhood favorite, a biography that tells an important story, a local nonprofit that cares for abandoned pets. </p><p>Simultaneously, other groups are working equally hard to develop new ideas that, when launched, will fail. Some will fail..."
+    },
+    {
+      "tag": "publisher",
+      "attributes": {},
+      "value": "HarperCollins"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "refines": "#id",
+        "property": "title-type"
+      },
+      "value": "main"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "refines": "#id",
+        "property": "file-as"
+      },
+      "value": "Right It, The"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "dcterms:modified"
+      },
+      "value": "2019-01-03T01:45:17Z"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "content": "cover-image",
+        "name": "cover"
+      },
+      "value": ""
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "role",
+        "refines": "#id-1",
+        "scheme": "marc:relators"
+      },
+      "value": "bkp"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "role",
+        "refines": "#id-2",
+        "scheme": "marc:relators"
+      },
+      "value": "aut"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "file-as",
+        "refines": "#id-2"
+      },
+      "value": "Savoia, Alberto"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "calibre:author_link_map"
+      },
+      "value": "{\"Alberto Savoia\": \"\"}"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "calibre:user_metadata"
+      },
+      "value": "{\n  \"#on_cookyes\": {\n    \"#extra#\": null, \n    \"#value#\": null, \n    \"category_sort\": \"value\", \n    \"colnum\": 1, \n    \"column\": \"value\", \n    \"datatype\": \"bool\", \n    \"display\": {}, \n    \"is_category\": false, \n    \"is_csp\": false, \n    \"is_custom\": true, \n    \"is_editable\": true, \n    \"is_multiple\": null, \n    \"is_multiple2\": {}, \n    \"kind\": \"field\", \n    \"label\": \"on_cookyes\", \n    \"link_column\": \"value\", \n    \"name\": \"Cookyes\", \n    \"rec_index\": 22, \n    \"search_terms\": [\n      \"#on_cookyes\"\n    ], \n    \"table\": \"custom_column_1\"\n  }\n}"
+    }
+  ],
+  "spine_documents": 39,
+  "image_assets": [
+    {
+      "source_path": "OEBPS/images/9780062884671_Cover.jpg",
+      "local_path": "images/001-cover.jpg",
+      "bytes": 203847,
+      "sha256": "f3d2fa567014f639ade0647ecb17a8e48da06b1801e354420a3a040290754312"
+    },
+    {
+      "source_path": "OEBPS/images/bookperk-boba-V1.jpg",
+      "local_path": "images/002-bookperk-boba-v1.jpg",
+      "bytes": 101263,
+      "sha256": "2ed8355c6438d8ff7f4809e4e97f8820acb5c7a0e70367d9062214a9c6399b65"
+    },
+    {
+      "source_path": "OEBPS/images/copy.jpg",
+      "local_path": "images/003-copy.jpg",
+      "bytes": 73874,
+      "sha256": "aa0a901444e2d7faf9be2596ec2655de479a26c83b05e62492ace9d48a8dadcb"
+    },
+    {
+      "source_path": "OEBPS/images/image100.jpg",
+      "local_path": "images/004-image100.jpg",
+      "bytes": 168531,
+      "sha256": "7c707c64f65c75466d24176c09f1169a82cffe973ec05e368336c03acd9562a5"
+    },
+    {
+      "source_path": "OEBPS/images/image104.jpg",
+      "local_path": "images/005-image104.jpg",
+      "bytes": 181238,
+      "sha256": "4a856be52fa4e276d9f1aeb7d8568182e43221735d8ea9ec436d57bebb27797a"
+    },
+    {
+      "source_path": "OEBPS/images/image109.jpg",
+      "local_path": "images/006-image109.jpg",
+      "bytes": 214025,
+      "sha256": "7bde647fb8ecccbc975477865c0d240e10b4a583b9bdb726663adc565cb2a405"
+    },
+    {
+      "source_path": "OEBPS/images/image127.jpg",
+      "local_path": "images/007-image127.jpg",
+      "bytes": 231808,
+      "sha256": "3b0f96d85689460c31e71579317f9b1cd9174812409537b369173fe105693a4d"
+    },
+    {
+      "source_path": "OEBPS/images/image140.jpg",
+      "local_path": "images/008-image140.jpg",
+      "bytes": 137361,
+      "sha256": "9739bc4f620347d1e7b970343078e1b7f4fcf776fca0a0ff50cf77ab57aac8bd"
+    },
+    {
+      "source_path": "OEBPS/images/image159.jpg",
+      "local_path": "images/009-image159.jpg",
+      "bytes": 73741,
+      "sha256": "c1d5d939bdcf77cb93ba1b1b63a8e55799fe09f482cfa5fcbf1b52b61fa630e4"
+    },
+    {
+      "source_path": "OEBPS/images/image168.jpg",
+      "local_path": "images/010-image168.jpg",
+      "bytes": 70465,
+      "sha256": "c8f68440e6d447fb8fbb2c35041eb96ece0ae6cf20cb63373d25e11df7c04ade"
+    },
+    {
+      "source_path": "OEBPS/images/image170a.jpg",
+      "local_path": "images/011-image170a.jpg",
+      "bytes": 84241,
+      "sha256": "d72ec9ba60bc2b49f755729a23dc086160503df64ed5da147265dd22750b09ad"
+    },
+    {
+      "source_path": "OEBPS/images/image170b.jpg",
+      "local_path": "images/012-image170b.jpg",
+      "bytes": 81513,
+      "sha256": "c378f7f4e73e4e83158af764257ac7db72cec79ce106f32565a693c7cc7007ff"
+    },
+    {
+      "source_path": "OEBPS/images/image171.jpg",
+      "local_path": "images/013-image171.jpg",
+      "bytes": 82260,
+      "sha256": "63e5f4e1da487368fd1a71464bcac156c2c2b0af6b2516134d78973da3d6d7e9"
+    },
+    {
+      "source_path": "OEBPS/images/image172.jpg",
+      "local_path": "images/014-image172.jpg",
+      "bytes": 80257,
+      "sha256": "7a82cfce40154e984e801938cf270ac18a4e7371bdab570b3769152161059101"
+    },
+    {
+      "source_path": "OEBPS/images/image209.jpg",
+      "local_path": "images/015-image209.jpg",
+      "bytes": 87000,
+      "sha256": "c71df58610e04566c8dd27c1e0697c2f35c8b7a6123fe7ec01f9beeda442bd71"
+    },
+    {
+      "source_path": "OEBPS/images/image218.jpg",
+      "local_path": "images/016-image218.jpg",
+      "bytes": 69485,
+      "sha256": "ad22af24d98b3ba17e8a312902ab0e7c6b82703f6cd97737862ea267cf1066d4"
+    },
+    {
+      "source_path": "OEBPS/images/image230.jpg",
+      "local_path": "images/017-image230.jpg",
+      "bytes": 43091,
+      "sha256": "f09534fba0c06632f59c836cbc335c1d7c0a4c4663b2998bc7c60017b4ecec71"
+    },
+    {
+      "source_path": "OEBPS/images/image81.jpg",
+      "local_path": "images/018-image81.jpg",
+      "bytes": 63036,
+      "sha256": "15c360cb076bc754f7faa392e5370322ccc1431c9967837a8a7c6198aad83e17"
+    },
+    {
+      "source_path": "OEBPS/images/image82.jpg",
+      "local_path": "images/019-image82.jpg",
+      "bytes": 75905,
+      "sha256": "d009606aafb1928487e8a9aff22d6dea0d543a15190893df5a0d17aecaef752b"
+    },
+    {
+      "source_path": "OEBPS/images/image89.jpg",
+      "local_path": "images/020-image89.jpg",
+      "bytes": 229559,
+      "sha256": "78a50cc5900c3c32f199bcb2e67501c84777d2e0bc31ebd0418a2057ba0ba489"
+    },
+    {
+      "source_path": "OEBPS/images/image96.jpg",
+      "local_path": "images/021-image96.jpg",
+      "bytes": 424985,
+      "sha256": "cf326ebdcdd1d221305c87601dce80b66f61c68b53097f51c8a56acf5e42418d"
+    },
+    {
+      "source_path": "OEBPS/images/image99.jpg",
+      "local_path": "images/022-image99.jpg",
+      "bytes": 113364,
+      "sha256": "f134011bf1436c1abd65fb18ec58bd44c021aa904cf530e013d5c2ea4be87da8"
+    },
+    {
+      "source_path": "OEBPS/images/p187.jpg",
+      "local_path": "images/023-p187.jpg",
+      "bytes": 35950,
+      "sha256": "d0cb829a2ecf33860f6a396168552bccb01088ebdf413f63c52ea9a3cae6547c"
+    },
+    {
+      "source_path": "OEBPS/images/p188.jpg",
+      "local_path": "images/024-p188.jpg",
+      "bytes": 43580,
+      "sha256": "a8fad49895c6743d1f047a8a0ad19686ff707c0fc5fd16a21ccec97d0b818af3"
+    },
+    {
+      "source_path": "OEBPS/images/p189a.jpg",
+      "local_path": "images/025-p189a.jpg",
+      "bytes": 44781,
+      "sha256": "57970230ae7fcdf2f38686e060de8d497e5a7f3c5a5dee3b1fe21db862154e85"
+    },
+    {
+      "source_path": "OEBPS/images/p189b.jpg",
+      "local_path": "images/026-p189b.jpg",
+      "bytes": 58641,
+      "sha256": "258cc4473d64d0a1834c3ef121f98d4b1fad3725269dd0fb553a4f285df429d0"
+    },
+    {
+      "source_path": "OEBPS/images/p70.jpg",
+      "local_path": "images/027-p70.jpg",
+      "bytes": 148915,
+      "sha256": "6eec3c726368eb704ccd64e60e064c6b539e5248c06c918bf8d03b743f99fab9"
+    },
+    {
+      "source_path": "OEBPS/images/Titlepage.jpg",
+      "local_path": "images/028-titlepage.jpg",
+      "bytes": 205519,
+      "sha256": "a4097cf0157fa1aa60bd03628c0e7a4054d7cb64a46926a71f0538728f3d6ce6"
+    }
+  ],
+  "unresolved_local_links": [],
+  "conversion_notes": [
+    "Original EPUB retained unchanged; XML and markup parsed as data.",
+    "Markdown follows EPUB spine order and retains source anchors, page labels, images, links, and textual order.",
+    "Typography normalized: nonbreaking spaces and decodable Windows-1252 C1 punctuation; raw source text remains in spine.jsonl.",
+    "Source locator IDs use spans to avoid nesting anchors inside hyperlinks; emphasis uses HTML tags to retain whitespace without creating Markdown list markers.",
+    "Ordered lists retain numeric ordering and unordered lists use bullets; CSS layout and fixed pagination are not reproduced.",
+    "Superscripts and subscripts retain HTML tags so mathematical powers, subscripts, and footnote markers are not flattened.",
+    "Tables retain HTML row/cell structure, merged cells, source IDs, and paragraph boundaries; source CSS is not applied.",
+    "Index uses source NCX navigation titles where available, falling back to headings or filenames.",
+    "Extraction does not establish substantive review of the content."
+  ]
+}

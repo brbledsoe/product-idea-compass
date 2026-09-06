@@ -1,0 +1,4 @@
+# Preserve archived inputs byte-for-byte so their recorded hashes remain valid.
+research/mentor-room/sources/** -text
+research/mentor-room/assets/** -text
+research/mentor-room/resources.csv -text

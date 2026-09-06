@@ -1,0 +1,560 @@
+{
+  "source_file": "research\\mentor-room\\sources\\pincus\\life-at-the-speed-of-play.epub",
+  "source_sha256": "a7ff0ee113634daca9f8154c6ee91d59c4e4daf8a55100a288e5e4864faf586c",
+  "package_document": "OEBPS/9780063352582_content.opf",
+  "metadata": [
+    {
+      "tag": "title",
+      "attributes": {
+        "id": "en_title",
+        "{http://www.w3.org/XML/1998/namespace}lang": "en"
+      },
+      "value": "Life at the Speed of Play"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "title-type",
+        "refines": "#en_title"
+      },
+      "value": "main"
+    },
+    {
+      "tag": "creator",
+      "attributes": {
+        "id": "creator"
+      },
+      "value": "Mark Pincus"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "id": "role1",
+        "property": "role",
+        "refines": "#creator",
+        "scheme": "marc:relators"
+      },
+      "value": "aut"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "file-as",
+        "refines": "#creator"
+      },
+      "value": "Pincus, Mark"
+    },
+    {
+      "tag": "source",
+      "attributes": {
+        "id": "isbn"
+      },
+      "value": "urn:isbn:9780063352575"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "source-of",
+        "refines": "#isbn"
+      },
+      "value": "pagination"
+    },
+    {
+      "tag": "contributor",
+      "attributes": {},
+      "value": "Mark Pincus"
+    },
+    {
+      "tag": "identifier",
+      "attributes": {
+        "id": "bookid"
+      },
+      "value": "9780063352582"
+    },
+    {
+      "tag": "language",
+      "attributes": {},
+      "value": "en"
+    },
+    {
+      "tag": "date",
+      "attributes": {},
+      "value": "2026"
+    },
+    {
+      "tag": "format",
+      "attributes": {},
+      "value": "225 pages"
+    },
+    {
+      "tag": "type",
+      "attributes": {},
+      "value": "Text"
+    },
+    {
+      "tag": "rights",
+      "attributes": {},
+      "value": "All rights reserved."
+    },
+    {
+      "tag": "publisher",
+      "attributes": {},
+      "value": "HarperCollins"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "dcterms:modified"
+      },
+      "value": "2026-04-25T14:51:00Z"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "content": "cover-image",
+        "name": "cover"
+      },
+      "value": ""
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "tdm:reservation"
+      },
+      "value": "1"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "tdm:policy"
+      },
+      "value": "https://www.harpercollins.com/cdn/shop/files/tdm-policy.json"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessMode"
+      },
+      "value": "textual"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessMode"
+      },
+      "value": "visual"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessModeSufficient"
+      },
+      "value": "textual,visual"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "alternativeText"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "displayTransformability/font-size"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "printPageNumbers"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "readingOrder"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "structuralNavigation"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityHazard"
+      },
+      "value": "noFlashingHazard"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityHazard"
+      },
+      "value": "noSoundHazard"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityHazard"
+      },
+      "value": "noMotionSimulationHazard"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilitySummary"
+      },
+      "value": "This title is a well-marked up and structured book, which is fully accessible. The images of this book are well described and, when necessary, short alt texts and/or extended longer descriptions are provided. This ebook passes Daisys Ace WCAG 2.0 Level AA checks."
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "a11y:certifiedBy"
+      },
+      "value": "Verified and Validated by Harpercollins, Inc."
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "dcterms:conformsTo"
+      },
+      "value": "EPUB Accessibility 1.1 - WCAG 2.0 Level AA"
+    },
+    {
+      "tag": "description",
+      "attributes": {},
+      "value": "<p><strong>An unconventional, hands-on guide to turning ideas into products that matter&#8212;and that people love&#8212;from the legendary Silicon Valley pioneer, founder of Zynga, and creator of Stanford Graduate School of Business's product management course.</strong></p><p>Mark Pincus has been at the forefront of each iteration of the internet. He built the original app company ahead of the mobile app economy and sold virtual goods to the masses long before in-app purchase generated $85 billion on smartphones. As the founder of Zynga, he brought us FarmVille, CityVille, and Words with Friends, launching eight hit games and reaching more than a billion users in four years. </p><p>Pincus has turned hit-making into a repeatable system, birthing one of his favorite guiding principles that \"all new fails\". Life at the Speed of Play is his framework for moving faster and massively increasing your odds of success. His insights and advice are essential in the new world of AI, where..."
+    }
+  ],
+  "spine_documents": 29,
+  "image_assets": [
+    {
+      "source_path": "OEBPS/images/9780063352582_Cover.jpg",
+      "local_path": "images/001-cover.jpg",
+      "bytes": 1218739,
+      "sha256": "8485950327acd8550875d7bac5411d2d152eba9db9487602a087212b91195623"
+    },
+    {
+      "source_path": "OEBPS/images/tit.jpg",
+      "local_path": "images/002-tit.jpg",
+      "bytes": 226748,
+      "sha256": "3852be92684638fcc5cfcaf727e9b750c1874aee9ab9339018786f74081e0426"
+    },
+    {
+      "source_path": "OEBPS/images/bookperk-boba-V1.jpg",
+      "local_path": "images/003-bookperk-boba-v1.jpg",
+      "bytes": 340379,
+      "sha256": "2e3309b4d402b5e7e4ae42dc229aff9eec5dadcd184e9bc0ac96f1d2b240ea01"
+    },
+    {
+      "source_path": "OEBPS/images/in1.jpg",
+      "local_path": "images/004-in1.jpg",
+      "bytes": 8241,
+      "sha256": "7fb86947337c7d7df2d5a3d26822dddfc22c3c65ca922d600bee2c66232bb87d"
+    },
+    {
+      "source_path": "OEBPS/images/in10.jpg",
+      "local_path": "images/005-in10.jpg",
+      "bytes": 8289,
+      "sha256": "d4219f9c8759f39620043b961111fafa60a7f33b066e19fcc90645052e9aa6d3"
+    },
+    {
+      "source_path": "OEBPS/images/in11.jpg",
+      "local_path": "images/006-in11.jpg",
+      "bytes": 8262,
+      "sha256": "d4535f81f5c773cce6e9acc8a23d6996aae8d79d67beac48b4db0133a82770f1"
+    },
+    {
+      "source_path": "OEBPS/images/in12.jpg",
+      "local_path": "images/007-in12.jpg",
+      "bytes": 8373,
+      "sha256": "0b2dcf01542884257fe0c9abbd3d4fa4c98c10fc153cca5122b6853382069783"
+    },
+    {
+      "source_path": "OEBPS/images/in13.jpg",
+      "local_path": "images/008-in13.jpg",
+      "bytes": 8348,
+      "sha256": "7c6515ea05089f44134016d71fae3f482291b9a0fb3e25124f3847561d9729be"
+    },
+    {
+      "source_path": "OEBPS/images/in14.jpg",
+      "local_path": "images/009-in14.jpg",
+      "bytes": 8241,
+      "sha256": "8f540a904e515bb7876bb6e7fbb8648531b9a87eee625cf6a958a59b7b6193f5"
+    },
+    {
+      "source_path": "OEBPS/images/in15.jpg",
+      "local_path": "images/010-in15.jpg",
+      "bytes": 8352,
+      "sha256": "e7182148c32fd4d378f46c332c16237e8c8d39dd7af2bc6c2145912c7522d13c"
+    },
+    {
+      "source_path": "OEBPS/images/in16.jpg",
+      "local_path": "images/011-in16.jpg",
+      "bytes": 8344,
+      "sha256": "34b789af41dfb34d14a69a2d7ec36f72ad7fc1ccdbace20798c251db996bded2"
+    },
+    {
+      "source_path": "OEBPS/images/in17.jpg",
+      "local_path": "images/012-in17.jpg",
+      "bytes": 8352,
+      "sha256": "bd1aa4b5f7abae33b213dfb2cb666268ece5b2abe2189e840e5994ca3aaf148a"
+    },
+    {
+      "source_path": "OEBPS/images/in18.jpg",
+      "local_path": "images/013-in18.jpg",
+      "bytes": 14609,
+      "sha256": "44ed1eb0fd87fbb42c1833bfe7970cac831525d6bd4d269a41af2643d388d3be"
+    },
+    {
+      "source_path": "OEBPS/images/in19.jpg",
+      "local_path": "images/014-in19.jpg",
+      "bytes": 8515,
+      "sha256": "fc648be0a7a858727e94ce5c3ca5569972277697c74d1127f8672b56bd13275c"
+    },
+    {
+      "source_path": "OEBPS/images/in2.jpg",
+      "local_path": "images/015-in2.jpg",
+      "bytes": 8321,
+      "sha256": "df5af0620bbc0db9424865a536b66908aef05c4ed34ac03db360cfb683a5aea9"
+    },
+    {
+      "source_path": "OEBPS/images/in20.jpg",
+      "local_path": "images/016-in20.jpg",
+      "bytes": 8144,
+      "sha256": "23d4eb1b45cb7583174ad8005952520624dc13cf903eb8ca7d482c4b6a942bc2"
+    },
+    {
+      "source_path": "OEBPS/images/in21.jpg",
+      "local_path": "images/017-in21.jpg",
+      "bytes": 8433,
+      "sha256": "c8c3a9374bc31a5a142405693834af125d2c0bf4fab037addeba0c8f60125289"
+    },
+    {
+      "source_path": "OEBPS/images/in22.jpg",
+      "local_path": "images/018-in22.jpg",
+      "bytes": 8265,
+      "sha256": "d51cc9826923154c5ddd60e67406fb28c14bc86c5a726fe0ddae43bc6a8a34ac"
+    },
+    {
+      "source_path": "OEBPS/images/in23.jpg",
+      "local_path": "images/019-in23.jpg",
+      "bytes": 14655,
+      "sha256": "b661eaa3ba302ebd406e49f554529739f486da363ce38b6db30d5c02911e2e62"
+    },
+    {
+      "source_path": "OEBPS/images/in24.jpg",
+      "local_path": "images/020-in24.jpg",
+      "bytes": 8295,
+      "sha256": "9eeddd1a02f4664e74b15e96fdee2c5b9dfd1866f61b692e816d301c531745a1"
+    },
+    {
+      "source_path": "OEBPS/images/in25.jpg",
+      "local_path": "images/021-in25.jpg",
+      "bytes": 8330,
+      "sha256": "3802205171c9607560dcc89eda4a4f4c4b01e7a1053dc2136329a519a32ef4db"
+    },
+    {
+      "source_path": "OEBPS/images/in26.jpg",
+      "local_path": "images/022-in26.jpg",
+      "bytes": 8324,
+      "sha256": "79962ac7a99864c59bfc51b650859b88ff5f5439b330f215772a62a50205660e"
+    },
+    {
+      "source_path": "OEBPS/images/in27.jpg",
+      "local_path": "images/023-in27.jpg",
+      "bytes": 8275,
+      "sha256": "447edbd91fc84cb3414d9d13581dc1642b3943c5317b7789af13157fd812e348"
+    },
+    {
+      "source_path": "OEBPS/images/in28.jpg",
+      "local_path": "images/024-in28.jpg",
+      "bytes": 14574,
+      "sha256": "29e02108b539269d475e043afb04a408dfac9c7035872ca1515a7d7ae392dfe6"
+    },
+    {
+      "source_path": "OEBPS/images/in3.jpg",
+      "local_path": "images/025-in3.jpg",
+      "bytes": 8287,
+      "sha256": "1bb8b733b7bbf098e97ccae2cc573e66f915388341539970bba0d2af92ead33e"
+    },
+    {
+      "source_path": "OEBPS/images/in4.jpg",
+      "local_path": "images/026-in4.jpg",
+      "bytes": 8316,
+      "sha256": "529602d00216699c65b98334f352ecd565719e3397f77b21c314ed882ccfef84"
+    },
+    {
+      "source_path": "OEBPS/images/in5.jpg",
+      "local_path": "images/027-in5.jpg",
+      "bytes": 8375,
+      "sha256": "c6ff9a6e27984e469a02db6fa9af5bd5e51707c8aba26a9c731dc73c7264b145"
+    },
+    {
+      "source_path": "OEBPS/images/in6.jpg",
+      "local_path": "images/028-in6.jpg",
+      "bytes": 8281,
+      "sha256": "1e8eeb42e2eaee0b146b5ddce7dfa819b548469df9ec394a1f191dbc53fe9a24"
+    },
+    {
+      "source_path": "OEBPS/images/in7.jpg",
+      "local_path": "images/029-in7.jpg",
+      "bytes": 14539,
+      "sha256": "4691894f7fa61c672edde78f30161395dba2c864bef4aab03e6941376ea62c3c"
+    },
+    {
+      "source_path": "OEBPS/images/in8.jpg",
+      "local_path": "images/030-in8.jpg",
+      "bytes": 8265,
+      "sha256": "f1394bdcc3307e9bec5722dfae3b29f01ad556acffa36667e303cd077a2053c2"
+    },
+    {
+      "source_path": "OEBPS/images/in9.jpg",
+      "local_path": "images/031-in9.jpg",
+      "bytes": 8263,
+      "sha256": "3b2f7ddf9ac9c5efe39ba9162dd6a5af54faf4be63fce7fc24299825fbf1b0a1"
+    },
+    {
+      "source_path": "OEBPS/images/in109.jpg",
+      "local_path": "images/032-in109.jpg",
+      "bytes": 14422,
+      "sha256": "9ed0f1d47eec7903828afb6605361c4db5d7a9381bc5b97c91920e099ba4b06a"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP001_001_9780063352575_REV.jpg",
+      "local_path": "images/033-chap001-001-9780063352575-rev.jpg",
+      "bytes": 199218,
+      "sha256": "8c26255be8c3614fc705362d34959a0e05dfd5cf3c8d3a22b53cde92ee20427f"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP001_002_9780063352575_REV.jpg",
+      "local_path": "images/034-chap001-002-9780063352575-rev.jpg",
+      "bytes": 188608,
+      "sha256": "ad0f3dfaf6c952993ee28074d6c88ae4db45c0cc6ae8f3fbdac9f3619186427b"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP004_001_9780063352575_REV.jpg",
+      "local_path": "images/035-chap004-001-9780063352575-rev.jpg",
+      "bytes": 87530,
+      "sha256": "a0403a56fb304cec8df09de109a13e24b45dd7fb392a610394f6d9eba84163d7"
+    },
+    {
+      "source_path": "OEBPS/images/INTRO001_001_9780063352575.jpg",
+      "local_path": "images/036-intro001-001-9780063352575.jpg",
+      "bytes": 171424,
+      "sha256": "1bd802cc19583c433c803523ce868d80d6994c465ca358ec8e0007522fce1cb2"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP004_003_9780063352575_REV.jpg",
+      "local_path": "images/037-chap004-003-9780063352575-rev.jpg",
+      "bytes": 80552,
+      "sha256": "fc455193c2742ea249cc9b85bd1f9a82715e0493a254acbbc4fe790291da040d"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP004_004_9780063352575_REV.jpg",
+      "local_path": "images/038-chap004-004-9780063352575-rev.jpg",
+      "bytes": 89641,
+      "sha256": "757941d1d117a3027ca50e85a6ae7bed97320452e9771e169dbec369fc108a65"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP004_005_9780063352575_REV.jpg",
+      "local_path": "images/039-chap004-005-9780063352575-rev.jpg",
+      "bytes": 88145,
+      "sha256": "635f24e56474a21647752ae9bfbfefa3d3a3cd6b859efdfb3e91e484ffe2d127"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP004_006_9780063352575_REV.jpg",
+      "local_path": "images/040-chap004-006-9780063352575-rev.jpg",
+      "bytes": 99885,
+      "sha256": "1ed52174b1654345530012c68473dc8c23e37dc2b76ff204fa7bd593e1e3291d"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP004_007_9780063352575_REV.jpg",
+      "local_path": "images/041-chap004-007-9780063352575-rev.jpg",
+      "bytes": 161528,
+      "sha256": "3e878f3ee394c42403fce3ea9a47641d1216ace5b8696d7e3d36baf9867f2e19"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP004_008_9780063352575_REV.jpg",
+      "local_path": "images/042-chap004-008-9780063352575-rev.jpg",
+      "bytes": 157260,
+      "sha256": "3b0d600b41512dd3ddb83befc09064ea7597293290d6d82bddcfa091f4ee36aa"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP004_009_9780063352575_REV.jpg",
+      "local_path": "images/043-chap004-009-9780063352575-rev.jpg",
+      "bytes": 68537,
+      "sha256": "b10500f2551593892d13df667d7cf3a2aa13053b37486d0afb9279d86fb3a625"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP005_001_9780063352575_REV.jpg",
+      "local_path": "images/044-chap005-001-9780063352575-rev.jpg",
+      "bytes": 397717,
+      "sha256": "8f26e6abe18c7cb2830609c3e58dc87fbab5c9f8c05673824df70f4595188d04"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP005_003_9780063352575_REV.jpg",
+      "local_path": "images/045-chap005-003-9780063352575-rev.jpg",
+      "bytes": 147848,
+      "sha256": "5ac52c8d948859d9b080dddc7be1ca175dc8c5938800118ae8655f414f9ad6dd"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP005_004_9780063352575_REV.jpg",
+      "local_path": "images/046-chap005-004-9780063352575-rev.jpg",
+      "bytes": 45635,
+      "sha256": "19e48e4e3a5278ad6c25df719f0926fe82112b147ffbccf443a0a951357bfa6f"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP005_005_9780063352575_REV.jpg",
+      "local_path": "images/047-chap005-005-9780063352575-rev.jpg",
+      "bytes": 141276,
+      "sha256": "0e300571998d9f7834b04dfb708322212b76ead0a0531d05c462e9d3615191c4"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP005_006_9780063352575_REV.jpg",
+      "local_path": "images/048-chap005-006-9780063352575-rev.jpg",
+      "bytes": 59693,
+      "sha256": "498e481f75388a20313ee32bab62253217b27cfdc55a23afa5c75da3d916cfa6"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP007_001_9780063352575_REV.jpg",
+      "local_path": "images/049-chap007-001-9780063352575-rev.jpg",
+      "bytes": 87515,
+      "sha256": "bb30c911187154dc3b3adc11ada94adfc3baefdcdaca8d7a020ea521b4014a5b"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP007_002_9780063352575_REV.jpg",
+      "local_path": "images/050-chap007-002-9780063352575-rev.jpg",
+      "bytes": 154284,
+      "sha256": "f528a2c86a1e626a9a616d3bc557c349c3b8085756a6f887679eb04e9c978e03"
+    },
+    {
+      "source_path": "OEBPS/images/CHAP007_003_9780063352575_REV.jpg",
+      "local_path": "images/051-chap007-003-9780063352575-rev.jpg",
+      "bytes": 155852,
+      "sha256": "77e7ffa14a0849ca8a100823acacc422f1fa5bb481368acfce91c68926431867"
+    },
+    {
+      "source_path": "OEBPS/images/CONC_001_9780063352575_REV.jpg",
+      "local_path": "images/052-conc-001-9780063352575-rev.jpg",
+      "bytes": 71006,
+      "sha256": "95c7b9db44214f6e71ff88325c346475cd0e78a66bdd834de83469579a1252af"
+    }
+  ],
+  "unresolved_local_links": [],
+  "conversion_notes": [
+    "Original EPUB retained unchanged; XML and markup parsed as data.",
+    "Markdown follows EPUB spine order and retains source anchors, page labels, images, links, and textual order.",
+    "Typography normalized: nonbreaking spaces and decodable Windows-1252 C1 punctuation; raw source text remains in spine.jsonl.",
+    "Ordered lists retain numeric ordering and unordered lists use bullets; CSS layout and fixed pagination are not reproduced.",
+    "Extraction does not establish substantive review of the content."
+  ]
+}

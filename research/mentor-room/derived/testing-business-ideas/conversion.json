@@ -1,0 +1,29 @@
+{
+  "source_file": "research\\mentor-room\\sources\\testing-business-ideas\\testing-business-ideas.pdf",
+  "source_sha256": "d0b627e799264b676cfd2b1084cefe7c1c933152d12b2723667c1103f655386e",
+  "source_bytes": 62813329,
+  "pdf_pages": 365,
+  "source_metadata": {
+    "/CreationDate": "D:20191120192745Z",
+    "/Creator": "Adobe Acrobat Pro 11.0.7",
+    "/Keywords": "Testing Business Ideas",
+    "/ModDate": "D:20191120193630Z",
+    "/Producer": "iText 2.1.7 by 1T3XT",
+    "/Title": "Testing Business Ideas"
+  },
+  "extraction": "pypdf default text and layout modes; no OCR or PDF re-export",
+  "text_characters": 376459,
+  "pages_without_extracted_text": [
+    2
+  ],
+  "notes": [
+    "Original PDF retained unchanged; all image/vector content remains in the original.",
+    "Every PDF page indexed; PDF page numbers are not assumed printed page numbers.",
+    "Text extraction does not retain all visual relationships, icons, tables, or reading order.",
+    "Layout mode can omit rotated text. Default text can include repeated side labels or merge columns; inspect the PDF for meaning.",
+    "A page with little extracted text can contain an important image-only template; low text is not proof that a page is empty.",
+    "Page Markdown is a search aid. pages.jsonl preserves default and layout extraction separately.",
+    "Complete extraction does not establish substantive review of every page or truth of source claims."
+  ],
+  "observed_extraction_warning": "pypdf layout extraction reported omitted rotated text; default and layout text are retained separately."
+}

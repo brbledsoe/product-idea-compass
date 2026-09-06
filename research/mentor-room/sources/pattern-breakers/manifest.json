@@ -1,0 +1,37 @@
+{
+  "received_date": "2026-09-05",
+  "source_kind": "User-supplied EPUB with .crdownload suffix",
+  "original_path": "C:\\Users\\Brandon\\Downloads\\Pattern Breakers_ The Secrets Behind the World's Most -- Mike Maples Jr, Peter Ziebelman -- 2024 -- Pan Macmillan UK -- isbn13 9781035055074 -- 4386b7f6f175b598b9cff0c853581482 -- Anna’s Archive.epub.crdownload",
+  "saved_path": "research/mentor-room/sources/pattern-breakers/pattern-breakers.epub",
+  "bytes": 1053389,
+  "sha256": "e5201e811b39dd3c077c403607fcdbc39b18dd225a5f84af294bfbc0bda0d9e2",
+  "copy_matches_original": true,
+  "intake_check": "ZIP CRC and EPUB mimetype checks passed; source bytes stable across intake. Renamed local copy only; original untouched.",
+  "conversion_index": "research/mentor-room/derived/pattern-breakers/index.md",
+  "conversion_metadata": "research/mentor-room/derived/pattern-breakers/conversion.json",
+  "review_state": "Whole EPUB converted. Research note coverage and independent conversion audit are recorded separately; conversion does not verify the book’s historical or causal claims.",
+  "catalog_relationship": "Additional book associated with resource inventory row 9; does not establish acquisition of the separately listed interview transcript.",
+  "title_from_title_image": "Pattern Breakers: The Secrets Behind the World’s Most Successful Start-ups",
+  "authors_from_title_image": [
+    "Mike Maples Jr.",
+    "Peter Ziebelman"
+  ],
+  "imprint_from_title_image": "Macmillan Business",
+  "edition_from_copyright": "UK and electronic edition 2024, Macmillan Business, an imprint of Pan Macmillan",
+  "ebook_isbn_from_opf_and_copyright": "9781035055104",
+  "metadata_notes": [
+    "The OPF creator field names only Mike Maples Jr; the title image, copyright and NCX credit both authors.",
+    "The filename contains ISBN 9781035055074; the supplied edition internally identifies ebook ISBN 9781035055104. Source bibliographic fields are recorded without authenticating distribution provenance."
+  ],
+  "conversion_coverage": {
+    "spine_documents": 28,
+    "image_assets": 8,
+    "source_xhtml_tables": 8,
+    "raw_source_text_characters": 425883
+  },
+  "research_notes": [
+    "research/mentor-room/pattern-breakers-methods.md",
+    "research/mentor-room/pattern-breakers-evidence-and-fit.md"
+  ],
+  "conversion_audit": "research/mentor-room/pattern-breakers-conversion-check.md"
+}

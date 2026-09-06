@@ -1,0 +1,19 @@
+{
+  "source_file": "research\\mentor-room\\assets\\character-labs-template-2026-09-05.pdf",
+  "source_sha256": "3e2a1e87bf41459a7d2680af5f6a74c96d5c31a2926bbd116ce85a619461ab74",
+  "source_bytes": 87997894,
+  "pdf_pages": 114,
+  "source_metadata": {},
+  "extraction": "pypdf default text and layout modes; no OCR or PDF re-export",
+  "text_characters": 80576,
+  "pages_without_extracted_text": [],
+  "notes": [
+    "Original PDF retained unchanged; all image/vector content remains in the original.",
+    "Every PDF page indexed; PDF page numbers are not assumed printed page numbers.",
+    "Text extraction does not retain all visual relationships, icons, tables, or reading order.",
+    "Layout mode can omit rotated text. Default text can include repeated side labels or merge columns; inspect the PDF for meaning.",
+    "A page with little extracted text can contain an important image-only template; low text is not proof that a page is empty.",
+    "Page Markdown is a search aid. pages.jsonl preserves default and layout extraction separately.",
+    "Complete extraction does not establish substantive review of every page or truth of source claims."
+  ]
+}

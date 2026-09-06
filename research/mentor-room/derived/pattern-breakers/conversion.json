@@ -1,0 +1,240 @@
+{
+  "source_file": "research\\mentor-room\\sources\\pattern-breakers\\pattern-breakers.epub",
+  "source_sha256": "e5201e811b39dd3c077c403607fcdbc39b18dd225a5f84af294bfbc0bda0d9e2",
+  "package_document": "OEBPS/package.opf",
+  "metadata": [
+    {
+      "tag": "title",
+      "attributes": {},
+      "value": "Pattern Breakers"
+    },
+    {
+      "tag": "creator",
+      "attributes": {},
+      "value": "Mike Maples Jr"
+    },
+    {
+      "tag": "publisher",
+      "attributes": {},
+      "value": "Pan Macmillan UK"
+    },
+    {
+      "tag": "rights",
+      "attributes": {},
+      "value": "Copyright © Mike Maples & Peter Ziebelman 2024"
+    },
+    {
+      "tag": "language",
+      "attributes": {},
+      "value": "en"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "ibooks:specified-fonts"
+      },
+      "value": "true"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "content": "FlipsideDigitalContentCompanyInc",
+        "name": "generator"
+      },
+      "value": ""
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "content": "cover-image",
+        "name": "cover"
+      },
+      "value": ""
+    },
+    {
+      "tag": "identifier",
+      "attributes": {
+        "id": "isbn9781035055104"
+      },
+      "value": "9781035055104"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "dcterms:modified"
+      },
+      "value": "2024-06-07T17:25:09Z"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilitySummary"
+      },
+      "value": "This publication conforms to WCAG 2.0 Level AA."
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessMode"
+      },
+      "value": "textual"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessMode"
+      },
+      "value": "visual"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessModeSufficient"
+      },
+      "value": "textual,visual"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessModeSufficient"
+      },
+      "value": "textual"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "structuralNavigation"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "tableOfContents"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "readingOrder"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityAPI"
+      },
+      "value": "ARIA"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "alternativeText"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "displayTransformability"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "tableOfContents"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityFeature"
+      },
+      "value": "bookmarks"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accessibilityHazard"
+      },
+      "value": "none"
+    },
+    {
+      "tag": "meta",
+      "attributes": {
+        "property": "schema:accesiblityHazard"
+      },
+      "value": "none"
+    },
+    {
+      "tag": "description",
+      "attributes": {},
+      "value": "<p><i>Pattern Breakers</i> has its roots in the time when Mike Maples, a seasoned venture capitalist, was stumped, unable to get a grip on why some businesses he funded&#8212;Twitter, Twitch, and Okta, for example&#8212;took off, while others, some deemed \"most likely to succeed,\" shut their doors despite doing everything right. Was it dumb luck that separated gold from dross?<br>What Maples and Stanford University's Peter Ziebelman discovered contradicts accepted wisdom and upends today's formulaic approach to entrepreneurship: that one should look for a big open market, talk to prospective customers to find their highest needs, their \"pain points\" in that market, and then build what is missing.<br>Rather, patterns are broken and the potential for breakthrough opportunity created when inflection points&#8212;events that offer the potential for new empowering capabilities&#8212;are harnessed, transforming how people think, work, feel, and act. Uber and Lyft, for example broke the..."
+    }
+  ],
+  "spine_documents": 28,
+  "image_assets": [
+    {
+      "source_path": "OEBPS/xhtml/docimages/cover.jpg",
+      "local_path": "images/001-cover.jpg",
+      "bytes": 328797,
+      "sha256": "fe216493bd8db15521e3c66f4209d62cfccf8be6d8419a9b11ba7b158e5e3e59"
+    },
+    {
+      "source_path": "OEBPS/xhtml/docimages/copy.jpg",
+      "local_path": "images/002-copy.jpg",
+      "bytes": 21449,
+      "sha256": "3816b829c4953a594f2648a3c4cd05cc1f714e8ea1c6b12ffdd46185da3989e5"
+    },
+    {
+      "source_path": "OEBPS/xhtml/docimages/pg142.jpg",
+      "local_path": "images/003-pg142.jpg",
+      "bytes": 307805,
+      "sha256": "e7f8436a87298afddd4600403bae3e192c242f7cc80eb4a0276ca87848621f37"
+    },
+    {
+      "source_path": "OEBPS/xhtml/docimages/pg280a.jpg",
+      "local_path": "images/004-pg280a.jpg",
+      "bytes": 54141,
+      "sha256": "77f78b719e2accc6fbefeaedd72a2d07f13be2dd94977ac7d7e1c53dd7c6cd60"
+    },
+    {
+      "source_path": "OEBPS/xhtml/docimages/pg280b.jpg",
+      "local_path": "images/005-pg280b.jpg",
+      "bytes": 53131,
+      "sha256": "7e32150bbd295f280a8f98e7bfbc0d16369b0286052f51c83423b669201286f4"
+    },
+    {
+      "source_path": "OEBPS/xhtml/docimages/pg41.jpg",
+      "local_path": "images/006-pg41.jpg",
+      "bytes": 37984,
+      "sha256": "07e1500f6395350d06e7dcade74b6698a818287b681bb97716a68d4117282440"
+    },
+    {
+      "source_path": "OEBPS/xhtml/docimages/pg82.jpg",
+      "local_path": "images/007-pg82.jpg",
+      "bytes": 68060,
+      "sha256": "ecf4a86a7b619f0e597119f72fdf045b6d448fd45d0883ba51281053605480ac"
+    },
+    {
+      "source_path": "OEBPS/xhtml/docimages/title.jpg",
+      "local_path": "images/008-title.jpg",
+      "bytes": 124985,
+      "sha256": "845fb61ae5fb36cd9acf7662adf395c773cc166705b360b843cfbc22cd9dc071"
+    }
+  ],
+  "unresolved_local_links": [],
+  "conversion_notes": [
+    "Original EPUB retained unchanged; XML and markup parsed as data.",
+    "Markdown follows EPUB spine order and retains source anchors, page labels, images, links, and textual order.",
+    "Typography normalized: nonbreaking spaces and decodable Windows-1252 C1 punctuation; raw source text remains in spine.jsonl.",
+    "Ordered lists retain numeric ordering and unordered lists use bullets; CSS layout and fixed pagination are not reproduced.",
+    "Tables retain HTML row/cell structure, merged cells, source IDs, and paragraph boundaries; source CSS is not applied.",
+    "Index uses source NCX navigation titles where available, falling back to headings or filenames.",
+    "Extraction does not establish substantive review of the content."
+  ]
+}

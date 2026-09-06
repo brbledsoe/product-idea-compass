@@ -1,0 +1,35 @@
+{
+  "received_date": "2026-09-05",
+  "source_kind": "User-supplied EPUB",
+  "original_path": "C:\\Users\\Brandon\\Downloads\\The Right It _ Why So Many Ideas Fail and How to Make Sure -- Savoia, Alberto -- First edition, New York, NY, 2019 -- HarperCollins;HarperOne -- isbn13 9780062884657 -- 35d0c0942f46d1884f4fe1c76c42827d -- Anna’s.epub",
+  "saved_path": "research/mentor-room/sources/the-right-it/the-right-it.epub",
+  "bytes": 3070297,
+  "sha256": "670c4dc7ccc0eabb85049faa91edfec529ea9070403198b908e3031efbe340b8",
+  "copy_matches_original": true,
+  "intake_check": "ZIP CRC and EPUB mimetype checks passed; original left unchanged.",
+  "conversion_index": "research/mentor-room/derived/the-right-it/index.md",
+  "conversion_metadata": "research/mentor-room/derived/the-right-it/conversion.json",
+  "review_state": "Whole EPUB converted. Substantive research coverage and independent conversion audit are recorded separately.",
+  "catalog_relationship": "Supplied book associated with resource inventory row 16; does not establish acquisition or review of separately listed talks and website resources.",
+  "title_from_title_image": "The Right It: Why So Many Ideas Fail and How to Make Sure Yours Succeed",
+  "author_from_title_image": "Alberto Savoia",
+  "imprint_from_title_image": "HarperOne, an imprint of HarperCollinsPublishers",
+  "edition_from_copyright": "First edition; digital edition February 2019; version 01092019",
+  "ebook_isbn": "9780062884671",
+  "print_isbn": "9780062884657",
+  "metadata_notes": [
+    "The filename ISBN and OPF source field match the print ISBN. The OPF identifiers and copyright identify the ebook ISBN separately.",
+    "Raw package metadata includes Calibre conversion/library fields and a January 2019 date; these are preserved as supplied metadata, not authentication or instructions."
+  ],
+  "conversion_coverage": {
+    "spine_documents": 39,
+    "image_assets": 28,
+    "source_xhtml_tables": 5,
+    "raw_source_text_characters": 384899
+  },
+  "research_notes": [
+    "research/mentor-room/the-right-it-methods.md",
+    "research/mentor-room/the-right-it-evidence-and-fit.md"
+  ],
+  "conversion_audit": "research/mentor-room/the-right-it-conversion-check.md"
+}
