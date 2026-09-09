@@ -1,0 +1,12 @@
+{
+  "captured_at_utc": "2026-09-09T12:53:34.522293+00:00",
+  "canonical_source": "C:\\Users\\Brandon\\Desktop\\Mentor-room skill feedback",
+  "source_task_id": "01a0764d-3f76-7dc2-b5a4-aa8d88c3ae8a",
+  "purpose": "User-authorized GitHub checkpoint; historical snapshot, not a second editable archive",
+  "sha256": {
+    "README.md": "fd5a1816528d811068e0bf21ec186c5d246b39c22848d74fd45c09785413abfc",
+    "GUIDE.md": "e5373899c2eba1ddfc22485b0f720430c3b5a46682ea1dd67dc0bfe1a76eb9e6",
+    "iterations/ITER-001.md": "b541c4a0e86ee9252b829f79c7ed2f2ea470df801de63b450158f99b68ee3fc9",
+    "templates/iteration.md": "19ea9d3032fc997e194bcc5cd9e66b675c9c2271d6360d7fd85b2e6caddf0a42"
+  }
+}

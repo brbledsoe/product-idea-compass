@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Product activity atlas</title>
+<style>
+:root{color-scheme:light dark;--bg:light-dark(#f5f4ef,#171c1d);--paper:light-dark(#fffefa,#202728);--ink:light-dark(#203334,#eef2e9);--muted:light-dark(#596c6d,#b0bfbc);--line:light-dark(#d7dfd7,#435252);--accent:light-dark(#096c61,#87d7c4);--soft:light-dark(#e5f0e8,#263e38);--warn:light-dark(#8c5817,#f4cd8b)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}button,input,select{font:inherit}button{cursor:pointer}a{color:var(--accent);text-underline-offset:3px}button,input,select{color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:7px;padding:9px 12px}button:hover{border-color:var(--accent)}button[aria-pressed=true]{background:var(--soft);border-color:var(--accent)}:focus-visible{outline:3px solid var(--accent);outline-offset:3px}header,main{max-width:1450px;margin:auto;padding:28px 34px}header{padding-bottom:0}.eyebrow{font-size:12px;letter-spacing:.15em;font-weight:700;text-transform:uppercase;color:var(--accent)}h1{font-size:clamp(30px,4vw,49px);line-height:1.1;letter-spacing:-.045em;margin:12px 0}h2{font-size:26px;line-height:1.25;letter-spacing:-.025em}h3{font-size:16px;margin:23px 0 8px}p{max-width:85ch;margin:10px 0}.intro{font-size:18px;color:var(--muted)}.quiet{font-size:13px;color:var(--muted)}.tabs{display:flex;gap:8px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding:22px 0}.tabs button{border:0;background:transparent}.tabs button[aria-pressed=true]{color:var(--accent);box-shadow:inset 0 -3px var(--accent)}.filters{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:12px;margin-bottom:20px}.filters label{font-size:12px;font-weight:650;color:var(--muted)}.filters input,.filters select{display:block;width:100%;margin-top:5px;min-width:0}.workspace{display:grid;grid-template-columns:minmax(290px, .9fr) minmax(0,1.6fr);gap:26px;align-items:start}.list{display:flex;flex-direction:column;gap:7px;max-height:78vh;overflow:auto;padding:3px}.item{text-align:left;width:100%;display:block;border-radius:8px;padding:13px 15px}.item strong{display:block;font-size:15px;line-height:1.35}.item small{display:block;color:var(--muted);font-size:12px;margin-top:5px}.detail{background:var(--paper);padding:25px 30px;border:1px solid var(--line);border-radius:12px;min-width:0;overflow-wrap:anywhere}.detail h2{margin:8px 0 15px}.tags{display:flex;flex-wrap:wrap;gap:6px}.tag{font-size:11px;padding:3px 8px;border:1px solid var(--line);border-radius:4px;color:var(--muted)}.tag.em{color:var(--accent);background:var(--soft);border-color:transparent}ul,ol{padding-left:23px}li{margin:6px 0}.contract{border-left:3px solid var(--accent);padding-left:14px;margin:12px 0}.contract b{font-size:14px}.split{display:grid;grid-template-columns:1fr 1fr;gap:22px}.rule{border-top:1px solid var(--line);margin:22px 0}.inline{border:0;background:transparent;color:var(--accent);padding:0;text-align:left;text-decoration:underline;text-underline-offset:3px}.notice{border-left:3px solid var(--warn);padding:4px 15px;color:var(--muted);margin:18px 0;font-size:14px}.count{color:var(--muted);font-size:13px;margin:0 0 14px}.family-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.family{text-align:left;padding:20px}.family b{display:block}.family small{display:block;margin:7px 0;color:var(--muted)}.stage-map{display:flex;gap:10px;flex-wrap:wrap;padding:15px 0}.stage-map button{flex:1;min-width:180px;text-align:left}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}td,th{text-align:left;vertical-align:top;padding:12px;border-bottom:1px solid var(--line)}th{font-size:12px;color:var(--muted)}td:first-child{white-space:nowrap}.source-row summary{cursor:pointer;padding:15px 0;line-height:1.4}.source-row{border-bottom:1px solid var(--line)}.source-row p{font-size:14px}.empty{padding:25px;color:var(--muted)}footer{max-width:1450px;padding:0 34px 25px;margin:auto;font-size:12px;color:var(--muted)}[hidden]{display:none!important}
+@media(max-width:900px){header,main{padding:22px}.filters{grid-template-columns:1fr 1fr}.workspace{grid-template-columns:1fr}.list{max-height:330px}.family-grid{grid-template-columns:1fr 1fr}.detail{padding:20px}.split{grid-template-columns:1fr}}
+@media(max-width:500px){header,main{padding:16px}.filters{grid-template-columns:1fr}.family-grid{grid-template-columns:1fr}.tabs{gap:1px}.tabs button{font-size:13px;padding:9px}.detail{padding:17px}.stage-map button{min-width:100%}}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">Research library · prospective skill design</div>
+<h1>Product activity atlas</h1>
+<p class="intro">Explore what the methods ask you to do, what each activity produces, and where a shared skill could help.</p>
+<p class="quiet" id="scope"></p>
+<nav class="tabs" aria-label="Atlas views">
+<button data-view="activities" aria-pressed="true">Activities</button><button data-view="families" aria-pressed="false">Possible shared skills</button><button data-view="order" aria-pressed="false">Order & independence</button><button data-view="coverage" aria-pressed="false">Source coverage</button>
+</nav>
+</header>
+<main>
+<section id="activities-view">
+<div class="filters">
+<label>Find an activity<input id="search" type="search" placeholder="Persona, fake door, roadmap, hypothesis…"></label>
+<label>Source<select id="source-filter"><option value="">All sources</option></select></label>
+<label>Purpose<select id="category-filter"><option value="">All purposes</option></select></label>
+<label>Who does the work?<select id="execution-filter"><option value="">All modes</option></select></label>
+</div>
+<p id="result-count" class="count" aria-live="polite"></p>
+<div class="workspace"><div id="activity-list" class="list" aria-label="Matching activities"></div><article id="activity-detail" class="detail" aria-live="polite"></article></div>
+</section>
+<section id="families-view" hidden>
+<h2>Merge around the output, preserve the method</h2>
+<p>These are design candidates. Family membership means related work; each candidate explains what could be shared and which differences must remain.</p>
+<div class="notice">No skills have been written or installed. An activity can belong to more than one family. Shared source evidence should be reused once, without counting it as several independent observations.</div>
+<div id="family-grid" class="family-grid"></div><article id="family-detail" class="detail" hidden></article>
+</section>
+<section id="order-view" hidden>
+<h2>Start from the input you already have</h2>
+<p>Source workflow order, necessary inputs and helpful preparation are separate. A hard dependency names an input, which can come from existing work or another method.</p>
+<div class="stage-map" id="entry-points"></div>
+<div class="split"><article class="detail"><h3>Three relationship types</h3><p><b>Hard input:</b> the claimed output cannot be produced without it.</p><p><b>Helpful preparation:</b> improves the work, but can be skipped or supplied another way.</p><p><b>Source sequence:</b> the author’s workshop or process ordering; it is not automatically a global prerequisite.</p></article><article class="detail"><h3>Parallel work and return paths</h3><p>Independent idea screens, candidate drafts and preparation can run in parallel. Real tests need distinct exposure and result records if run together. Revisit customer definitions, risk priorities and choices when new evidence arrives.</p><p>A completed worksheet is a record of thinking. A test result needs observations. A PMF analysis needs people who have experienced the product.</p></article></div>
+<h3>Example compositions</h3><div id="compositions"></div>
+<h3>Inspect a specific dependency</h3><p class="quiet">These are the catalog’s actual recorded prerequisites, with their reasons. A named predecessor is a possible producer of the input.</p><div class="table-wrap"><table><thead><tr><th>Activity</th><th>Input / predecessor</th><th>Relationship</th><th>Reason</th></tr></thead><tbody id="dependency-table"></tbody></table></div>
+</section>
+<section id="coverage-view" hidden>
+<h2>What is actually covered</h2>
+<p>Books, public procedures, publisher summaries and unavailable materials remain distinct. A related book does not acquire a podcast’s dialogue.</p>
+<div id="coverage-summary" class="notice"></div>
+<h3>Reviewed source objects</h3><div id="sources"></div>
+<h3>All 49 original inventory rows</h3><p class="quiet">Topics and expected outputs in these rows were supplied in the original CSV. They are leads when the underlying procedure is unavailable.</p><div id="inventory"></div>
+</section>
+</main>
+<footer>Original books remain where they were. Source procedures are paraphrased. Output schemas, AI roles, merge candidates and inferred dependencies are research/design proposals. <a href="README.md">Read the guide</a> · <a href="catalog.json">Structured catalog</a> · <a href="VERIFICATION.md">Verification and limits</a></footer>
+<script id="atlas-data" type="application/json">__ATLAS_DATA__</script>
+<script>
+(()=>{
+'use strict';
+const D=JSON.parse(document.getElementById('atlas-data').textContent);
+const $=id=>document.getElementById(id), escape=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const readable=v=>String(v||'').replaceAll('_',' ');
+const textOf=v=>typeof v==='string'?v:JSON.stringify(v);
+const list=items=>'<ul>'+items.map(x=>'<li>'+escape(textOf(x))+'</li>').join('')+'</ul>';
+const sourceById=new Map(D.sources.map(s=>[s.id,s]));
+const activityById=new Map(D.activities.map(a=>[a.id,a]));
+let selected=D.activities[0]?.id;
+const tags=a=>'<div class="tags"><span class="tag em">'+escape(a.id)+'</span><span class="tag">'+escape(readable(a.category))+'</span><span class="tag">'+escape(readable(a.execution))+'</span><span class="tag">'+escape(readable(a.evidence_status))+'</span></div>';
+function sourceLink(path,label){if(typeof path!=='string')return escape(textOf(path));let url;if(/^https?:\/\//.test(path))url=path;else if(path.startsWith('research/'))url='../../../'+path;else return escape(label||path);return '<a href="'+escape(url)+'" target="_blank" rel="noreferrer">'+escape(label||path)+'</a>';}
+function activityButton(id,label){return activityById.has(id)?'<button class="inline" data-activity="'+escape(id)+'">'+escape(label||id)+'</button>':escape(label||id);}
+function renderDetail(){const a=activityById.get(selected);if(!a){$('activity-detail').innerHTML='<p>Select an activity.</p>';return;}const s=sourceById.get(a.source_id);const outs=a.outputs.map(o=>typeof o==='string'?'<div class="contract">'+escape(o)+'</div>':'<div class="contract"><b>'+escape(o.artifact||o.name||o.title||'Output')+'</b>'+list(o.fields||[])+'</div>').join('');const deps=a.prerequisites.length?'<ul>'+a.prerequisites.map(p=>'<li><b>'+escape(readable(p.strength))+' input:</b> '+escape(p.artifact)+' '+(p.activity_id?'('+activityButton(p.activity_id)+')':'')+'<br><span class="quiet">'+escape(p.reason)+' · '+escape(p.basis)+'</span></li>').join('')+'</ul>':'<p>No separate prerequisite recorded. Check the inputs below.</p>';
+const families=D.families.filter(f=>f.activity_ids.includes(a.id));
+$('activity-detail').innerHTML=tags(a)+'<h2>'+escape(a.title)+'</h2><p>'+escape(a.purpose)+'</p><p class="quiet">'+escape(s?.title||a.source_id)+'</p><h3>Source actions and subitems</h3><ol>'+a.steps.map(x=>'<li>'+escape(textOf(x))+'</li>').join('')+'</ol><div class="split"><section><h3>Inputs</h3>'+list(a.inputs)+'</section><section><h3>Output and useful fields</h3>'+outs+'</section></div><h3>Order and independence</h3><p>'+escape(a.source_order)+'</p>'+deps+'<p>'+escape(a.independence)+'</p><div class="rule"></div><h3>Possible skill behavior · design proposal</h3><p>'+escape(a.skill_idea)+'</p><p><b>AI:</b> '+escape(a.ai_role)+'</p><p><b>Human:</b> '+escape(a.human_role)+'</p>'+(families.length?'<p class="quiet">Related families: '+families.map(f=>escape(f.title)).join(' · ')+'</p>':'')+(a.variants.length?'<h3>Variants to preserve</h3>'+list(a.variants):'')+(a.cautions.length?'<h3>Limits and interpretation</h3>'+list(a.cautions):'')+'<h3>Source locator</h3><p class="quiet">'+escape(textOf(a.source_ref))+'</p><p>'+sourceLink(s?.path,'Open source')+'</p><p class="quiet">'+escape(a.design_basis||'Source procedure is distinct from the proposed output fields and AI workflow. Dependency basis is shown above.')+'</p>';
+}
+function filtered(){const q=$('search').value.trim().toLowerCase();return D.activities.filter(a=>(!q||JSON.stringify(a).toLowerCase().includes(q))&&(!$('source-filter').value||a.source_id===$('source-filter').value)&&(!$('category-filter').value||a.category===$('category-filter').value)&&(!$('execution-filter').value||a.execution===$('execution-filter').value));}
+function renderActivities(){const rows=filtered();$('result-count').textContent=rows.length+' of '+D.activities.length+' activities';if(!rows.some(a=>a.id===selected))selected=rows[0]?.id;$('activity-list').innerHTML=rows.length?rows.map(a=>'<button class="item" data-activity="'+escape(a.id)+'" aria-pressed="'+(a.id===selected)+'"><strong>'+escape(a.title)+'</strong><small>'+escape(a.id)+' · '+escape(sourceById.get(a.source_id)?.title||a.source_id)+'</small><small>'+escape(readable(a.execution))+' · '+escape(readable(a.category))+'</small></button>').join(''):'<p class="empty">No matching activities.</p>';renderDetail();}
+function switchView(view){document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.view===view));['activities','families','order','coverage'].forEach(v=>$(v+'-view').hidden=v!==view);}
+function selectActivity(id){if(!activityById.has(id))return;selected=id;const a=activityById.get(id);if(!filtered().some(x=>x.id===id)){['search','source-filter','category-filter','execution-filter'].forEach(k=>$(k).value='');}switchView('activities');renderActivities();}
+function renderFamily(id){const f=D.families.find(x=>x.id===id);if(!f)return;$('family-detail').hidden=false;$('family-detail').innerHTML='<span class="eyebrow">Design candidate · '+escape(f.id)+'</span><h2>'+escape(f.title)+'</h2><p>'+escape(f.purpose)+'</p><h3>What could be shared</h3><p>'+escape(f.merge_strategy)+'</p><h3>Keep these distinctions</h3>'+list(f.preserve)+'<h3>Reusable output</h3>'+list(f.output_contract)+'<h3>Possible interaction</h3><p>'+escape(f.interaction)+'</p><h3>Entry and order</h3><p>'+escape(f.order)+'</p><h3>Related activities</h3><ul>'+f.activity_ids.map(a=>'<li>'+activityButton(a,activityById.get(a)?.title||a)+' <span class="quiet">'+escape(a)+'</span></li>').join('')+'</ul>';$('family-detail').scrollIntoView({behavior:'instant',block:'start'});}
+$('scope').textContent=D.activities.length+' activity records · '+D.sources.length+' source objects · '+D.resource_inventory.length+' original inventory rows · '+D.families.length+' possible skill families · '+D.review_date;
+for(const s of D.sources.filter(s=>D.activities.some(a=>a.source_id===s.id))){const o=document.createElement('option');o.value=s.id;o.textContent=s.title;$('source-filter').append(o);}
+for(const key of ['category','execution']){for(const v of [...new Set(D.activities.map(a=>a[key]))].sort()){const o=document.createElement('option');o.value=v;o.textContent=readable(v);$(key+'-filter').append(o);}}
+['search','source-filter','category-filter','execution-filter'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',renderActivities));
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.view)switchView(b.dataset.view);if(b.dataset.activity)selectActivity(b.dataset.activity);if(b.dataset.family)renderFamily(b.dataset.family);if(b.dataset.entry){['search','source-filter','execution-filter'].forEach(k=>$(k).value='');$('category-filter').value=b.dataset.entry;switchView('activities');renderActivities();}});
+$('family-grid').innerHTML=D.families.map(f=>'<button class="family" data-family="'+escape(f.id)+'"><span class="eyebrow">'+escape(f.id)+'</span><b>'+escape(f.title)+'</b><small>'+escape(f.purpose)+'</small><span class="quiet">'+f.activity_ids.length+' related activities</span></button>').join('');
+$('entry-points').innerHTML=[['frame','I have a rough idea'],['discover','I need to understand users'],['experiment','I have a risky assumption'],['measure','I have observations or usage'],['execute','I need to build or improve']].map(([c,l])=>'<button data-entry="'+c+'">'+l+'</button>').join('');
+$('compositions').innerHTML=D.compositions.map(c=>'<details class="source-row"><summary><b>'+escape(c.title)+'</b></summary><p>'+escape(c.entry)+'</p><ol>'+c.steps.map(t=>'<li>'+escape(t)+'</li>').join('')+'</ol><p class="quiet">'+escape(c.order_note)+'</p></details>').join('');
+$('dependency-table').innerHTML=D.activities.flatMap(a=>a.prerequisites.map(p=>'<tr><td>'+activityButton(a.id)+'</td><td>'+escape(p.artifact)+(p.activity_id?'<br>'+activityButton(p.activity_id):'')+'</td><td>'+escape(p.strength)+' · '+escape(p.basis)+'</td><td>'+escape(p.reason)+'</td></tr>')).join('');
+$('coverage-summary').textContent=D.coverage_statement;
+$('sources').innerHTML=D.sources.map(s=>'<details class="source-row"><summary><b>'+escape(s.title)+'</b> <span class="quiet">'+escape(s.kind)+' · '+D.activities.filter(a=>a.source_id===s.id).length+' records</span></summary><p>'+escape(textOf(s.coverage))+'</p>'+list(Array.isArray(s.limitations)?s.limitations:[s.limitations||''])+'<p>'+sourceLink(s.path,'Open source')+'</p><p class="quiet">Section-by-section coverage is in the structured catalog and accompanying research reports.</p></details>').join('');
+$('inventory').innerHTML=D.resource_inventory.map(r=>'<details class="source-row"><summary><b>'+escape(r.id)+' · '+escape(r.title)+'</b> <span class="quiet">'+escape(readable(r.access_status))+'</span></summary><p>'+escape(r.finding)+'</p><p class="quiet">Inventory topics: '+escape(r.candidate_topics_from_inventory)+'</p><p class="quiet">Inventory output lead: '+escape(r.candidate_output_from_inventory)+'</p><p>'+sourceLink(r.url,'Original link')+'</p></details>').join('');
+renderActivities();
+})();
+</script>
+</body>
+</html>

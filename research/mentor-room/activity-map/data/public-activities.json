@@ -1,0 +1,1728 @@
+{
+  "sources": [
+    {
+      "id": "yc-recap-1",
+      "title": "YC Week 1: Hale and Migicovsky (abridged)",
+      "kind": "public_primary",
+      "path": "https://www.ycombinator.com/blog/startup-school-week-1-recap-kevin-hale-and-eric-migicovsky/",
+      "coverage": "Hale 00:43–15:19; Migicovsky 15:19–end.",
+      "limitations": [
+        "Explicitly shortened lectures; original full videos remain unreviewed."
+      ]
+    },
+    {
+      "id": "walling-628",
+      "title": "Walling: 5PM",
+      "kind": "public_primary",
+      "path": "https://www.startupsfortherestofus.com/episodes/episode-628-the-5-pm-pre-validation-framework",
+      "coverage": "Framework and two worked examples; sponsorship/social chatter excluded.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "walling-840",
+      "title": "Walling: 5PM revisited and founder questions",
+      "kind": "public_primary",
+      "path": "https://www.startupsfortherestofus.com/episodes/episode-840-5-pm-revisited-starting-over-after-failure-never-shipping-and-more-listener-questions-rob-solo",
+      "coverage": "Framework update and product/business questions; personal recovery narrative is outside product-work scope.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "walling-706",
+      "title": "Walling: 2/20/200 and design decisions",
+      "kind": "public_primary",
+      "path": "https://www.startupsfortherestofus.com/episodes/episode-706-2-20-200-validation-prior-art-and-designing-by-committee-a-rob-solo-adventure",
+      "coverage": "Validation segment and adjacent attribution/decision guidance.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "nfx-patterns",
+      "title": "NFX: five idea patterns",
+      "kind": "public_primary",
+      "path": "https://www.nfx.com/post/hidden-patterns-great-startup-ideas",
+      "coverage": "All five public frameworks; private extra frameworks unavailable.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "nfx-pmf-places",
+      "title": "Gigi Levy-Weiss: 10 places to find PMF",
+      "kind": "public_primary",
+      "path": "https://www.nfx.com/post/10-places-to-find-product-market-fit",
+      "coverage": "Ten lenses, brief iteration outline and engagement/retention distinction.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "fr-idea-frameworks",
+      "title": "First Round: 12 idea-finding frameworks",
+      "kind": "public_primary",
+      "path": "https://review.firstround.com/12-frameworks-for-finding-startup-ideas-advice-for-future-founders/",
+      "coverage": "All twelve numbered sections; linked full contributor methods not acquired here.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "mom-teachers",
+      "title": "Fitzpatrick: teacher activity overview",
+      "kind": "public_primary",
+      "path": "https://www.momtestbook.com/teachers",
+      "coverage": "Four named activity types; chapter references only.",
+      "limitations": [
+        "Full book examples/instructions absent. Steps below map activity types; facilitation specifics are proposals."
+      ]
+    },
+    {
+      "id": "mellinger-discovery",
+      "title": "Mellinger: early customer discovery",
+      "kind": "public_primary",
+      "path": "https://review.firstround.com/how-to-know-if-your-ideas-the-right-one-a-founders-guide-for-successful-early-stage-customer-discovery/",
+      "coverage": "Three phases and their substantive subheadings.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "fr-validation-tactics",
+      "title": "First Round: seven validation tactics",
+      "kind": "public_primary",
+      "path": "https://review.firstround.com/unconventional-tactics-for-validating-your-startup-idea/",
+      "coverage": "Seven tactic sections; underlying cases are context-specific.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "biyani-mvt",
+      "title": "Biyani: Minimum Viable Testing",
+      "kind": "public_primary",
+      "path": "https://review.firstround.com/the-minimum-viable-testing-process-for-evaluating-startup-ideas/",
+      "coverage": "Three-step method, cases, next paths and limitations.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "stanford-llp",
+      "title": "Stanford: Lean LaunchPad course requirements",
+      "kind": "public_primary",
+      "path": "https://leanlaunchpad.stanford.edu/course-info",
+      "coverage": "How You’ll Learn, Projects, Deliverables; administrative requirements excluded.",
+      "limitations": [
+        "Public course brief, not all assigned readings, lectures or a complete course curriculum."
+      ]
+    },
+    {
+      "id": "maurya-fill-order",
+      "title": "Maurya: Lean Canvas fill order",
+      "kind": "public_primary",
+      "path": "https://medium.leanstack.com/what-is-the-right-fill-order-for-a-lean-canvas-f8071d0c6c8c",
+      "coverage": "Entire methodological argument and three deconstruction steps.",
+      "limitations": [
+        "Article only, not Running Lean book or full Lean Canvas workbook."
+      ]
+    },
+    {
+      "id": "aulet-interview",
+      "title": "Aulet: entrepreneurship interview (MIT-linked)",
+      "kind": "public_primary",
+      "path": "https://hbr.org/podcast/2024/09/24-steps-to-launch-a-start-up",
+      "coverage": "Interview framing only.",
+      "limitations": [
+        "Interview explicitly does not cover all 24 steps. No detailed DE exercises reconstructed from it."
+      ]
+    },
+    {
+      "id": "torres-ost",
+      "title": "Torres: Opportunity Solution Trees",
+      "kind": "public_primary",
+      "path": "https://www.producttalk.org/opportunity-solution-trees/",
+      "coverage": "Public guide: prerequisites, outcome, opportunity mapping, selection, solutions and iteration.",
+      "limitations": [
+        "Book and linked courses not reviewed; guide itself supplies usable bounded guidance."
+      ]
+    },
+    {
+      "id": "torres-assumptions",
+      "title": "Torres: Assumption Testing",
+      "kind": "public_primary",
+      "path": "https://www.producttalk.org/assumption-testing/",
+      "coverage": "Public assumption discovery, mapping, tests, evaluation and decisions.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "cagan-risks",
+      "title": "Cagan: Four Big Risks",
+      "kind": "public_primary",
+      "path": "https://www.svpg.com/four-big-risks/",
+      "coverage": "Full article.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "cagan-build",
+      "title": "Cagan: Build to Learn vs Build to Earn",
+      "kind": "public_primary",
+      "path": "https://www.svpg.com/build-to-learn-vs-build-to-earn/",
+      "coverage": "Concept article; FAQ is a linked expansion.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "dunford-positioning",
+      "title": "Dunford: positioning quickstart",
+      "kind": "public_primary",
+      "path": "https://www.aprildunford.com/post/a-quickstart-guide-to-positioning",
+      "coverage": "Five components, dependency argument and two common mistakes.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "yc-recap-2",
+      "title": "YC Week 2: Seibel MVP lesson (abridged)",
+      "kind": "public_primary",
+      "path": "https://www.ycombinator.com/blog/startup-school-week-2-recap-michael-seibel-adora-cheung-and-ilya-volodarsky/",
+      "coverage": "Seibel 00:43–10:12 only.",
+      "limitations": [
+        "Shortened official lesson. Adjacent KPI/analytics lectures are not silently included as the requested MVP resource."
+      ]
+    },
+    {
+      "id": "vohra-pmf",
+      "title": "Vohra: Superhuman PMF engine",
+      "kind": "public_primary",
+      "path": "https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/",
+      "coverage": "Survey eligibility, four-step engine and iteration.",
+      "limitations": [
+        "First-person case method; benchmark and roadmap split are not universal guarantees."
+      ]
+    },
+    {
+      "id": "fr-measure-pmf",
+      "title": "First Round: measuring PMF",
+      "kind": "public_primary",
+      "path": "https://review.firstround.com/how-to-measure-product-market-fit/",
+      "coverage": "Thesis, validation, MVP, survey and primary-metric sections.",
+      "limitations": [
+        "Public text only; linked books, videos, courses and templates are separate sources."
+      ]
+    },
+    {
+      "id": "fr-pmf-paths",
+      "title": "First Round: 20 paths to PMF",
+      "kind": "public_primary",
+      "path": "https://review.firstround.com/20-lessons-from-20-different-paths-to-product-market-fit-advice-for-founders-from-founders/",
+      "coverage": "Twenty numbered lessons; detailed per-case extraction is still pending.",
+      "limitations": [
+        "Do not label complete until all twenty numbered sections are explicitly mapped."
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "PB-001",
+      "title": "Evaluate a venture-growth hypothesis",
+      "source_id": "yc-recap-1",
+      "source_ref": "https://www.ycombinator.com/blog/startup-school-week-1-recap-kevin-hale-and-eric-migicovsky/ — Hale 02:13–15:09",
+      "category": "prioritize",
+      "kind": "exercise",
+      "purpose": "Examine why an idea could grow rapidly.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Describe problem, proposed solution and explanatory insight.",
+        "Consider reach, growth, urgency, cost, necessity and frequency of the problem.",
+        "Examine founder, market, product, acquisition and defensibility advantages.",
+        "Distinguish basic feasibility from the exceptional claim that would drive growth."
+      ],
+      "outputs": [
+        {
+          "artifact": "Growth hypothesis review",
+          "fields": [
+            "problem",
+            "solution",
+            "insight",
+            "advantage claims",
+            "evidence gaps"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Venture-growth lens; no universal rejection rule for small businesses."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-002",
+      "title": "Conduct a recent-behavior customer conversation",
+      "source_id": "yc-recap-1",
+      "source_ref": "https://www.ycombinator.com/blog/startup-school-week-1-recap-kevin-hale-and-eric-migicovsky/ — Migicovsky 17:36–end",
+      "category": "discover",
+      "kind": "exercise",
+      "purpose": "Understand experienced problems and attempted remedies.",
+      "inputs": [
+        "Learning question",
+        "Access to a relevant real participant"
+      ],
+      "steps": [
+        "Discuss the person’s circumstances rather than pitching.",
+        "Ask about a recent difficult incident and why it was difficult.",
+        "Explore attempted solutions and remaining frustrations.",
+        "Listen, record specifics and maintain direct founder contact.",
+        "Adapt recruiting and follow-up to idea, prototype or live-product stage."
+      ],
+      "outputs": [
+        {
+          "artifact": "Interview record",
+          "fields": [
+            "participant context",
+            "incident",
+            "attempts",
+            "frustrations",
+            "follow-up"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [
+        {
+          "activity_id": null,
+          "artifact": "Real participant access",
+          "strength": "hard",
+          "reason": "An interview record requires an actual conversation.",
+          "basis": "inferred"
+        }
+      ],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "This activity is a compact guide to the cited scope, not the complete author curriculum."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-003",
+      "title": "Screen an idea with 5PM",
+      "source_id": "walling-628",
+      "source_ref": "https://www.startupsfortherestofus.com/episodes/episode-628-the-5-pm-pre-validation-framework — 03:37–end of worked examples",
+      "category": "prioritize",
+      "kind": "exercise",
+      "purpose": "Compare bootstrap-oriented opportunities.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Check problem importance and urgency; consider alternative ways to solve it.",
+        "Identify purchaser, adoption habits, budget and buying context.",
+        "Examine subscription fit, charging model and expected account revenue.",
+        "Consider market size, competition and reachability.",
+        "Check product–founder fit and the effort required to validate."
+      ],
+      "outputs": [
+        {
+          "artifact": "5PM assessment",
+          "fields": [
+            "six dimensions",
+            "supporting evidence",
+            "unknowns",
+            "comparison rationale"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "A numeric weighted score would be our invention; the source supplies criteria."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-004",
+      "title": "Recheck pricing and market assumptions in context",
+      "source_id": "walling-840",
+      "source_ref": "https://www.startupsfortherestofus.com/episodes/episode-840-5-pm-revisited-starting-over-after-failure-never-shipping-and-more-listener-questions-rob-solo — 02:19–07:01",
+      "category": "model",
+      "kind": "exercise",
+      "purpose": "Refine an overly generic 5PM assessment.",
+      "inputs": [
+        "Customer and business context",
+        "Existing or draft pricing/market assumptions"
+      ],
+      "steps": [
+        "Consider pricing against the customer, use pattern and business context.",
+        "Check whether the market can support the intended business ambition.",
+        "Identify which judgments need experience or further evidence."
+      ],
+      "outputs": [
+        {
+          "artifact": "Contextual pricing review",
+          "fields": [
+            "customer/use case",
+            "business ambition",
+            "pricing assumptions",
+            "market sufficiency"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [
+        {
+          "activity_id": "PB-003",
+          "artifact": "5PM assessment",
+          "strength": "soft",
+          "reason": "Useful starting point, but equivalent assumptions suffice.",
+          "basis": "inferred"
+        }
+      ],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "This activity is a compact guide to the cited scope, not the complete author curriculum."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-005",
+      "title": "Review shipping and acquisition constraints",
+      "source_id": "walling-840",
+      "source_ref": "https://www.startupsfortherestofus.com/episodes/episode-840-5-pm-revisited-starting-over-after-failure-never-shipping-and-more-listener-questions-rob-solo — 07:01–end, excluding personal recovery story",
+      "category": "execute",
+      "kind": "exercise",
+      "purpose": "Identify concrete business bottlenecks.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Weigh custom internal tooling against growth work and maintenance.",
+        "Match acquisition effort to customer economics and awareness.",
+        "Reduce repeated launch delays to a concrete release decision.",
+        "Consider available validation channels when paid traffic is unsuitable."
+      ],
+      "outputs": [
+        {
+          "artifact": "Bottleneck review",
+          "fields": [
+            "constraint",
+            "candidate action",
+            "tradeoff",
+            "next check"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Advice is context-bound, especially B2C economics; no blanket prohibition is inferred."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-006",
+      "title": "Stage validation effort with 2/20/200",
+      "source_id": "walling-706",
+      "source_ref": "https://www.startupsfortherestofus.com/episodes/episode-706-2-20-200-validation-prior-art-and-designing-by-committee-a-rob-solo-adventure — 10:27–16:03",
+      "category": "experiment",
+      "kind": "exercise",
+      "purpose": "Escalate investment as evidence develops.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Use a short 5PM screen to compare initial ideas.",
+        "Take promising candidates to conversations and/or landing-page tests matching the intended channel.",
+        "Consider a usable MVP, including manual or no-code delivery, after that learning."
+      ],
+      "outputs": [
+        {
+          "artifact": "Staged learning plan",
+          "fields": [
+            "screen",
+            "field test",
+            "MVP option",
+            "decision checkpoints"
+          ]
+        }
+      ],
+      "source_order": "The source proposes progressive stages; the numbers are approximate hours.",
+      "prerequisites": [],
+      "independence": "A current project may enter at its existing evidence stage after reviewing what has already been learned.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Hours are rough effort bands, not respondent counts or compulsory budgets; confidence percentages are illustrative."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-007",
+      "title": "Set a small decision group and credit method origins",
+      "source_id": "walling-706",
+      "source_ref": "https://www.startupsfortherestofus.com/episodes/episode-706-2-20-200-validation-prior-art-and-designing-by-committee-a-rob-solo-adventure — 02:37–10:27 and 16:03–end",
+      "category": "facilitate",
+      "kind": "exercise",
+      "purpose": "Keep decision-making coherent and acknowledge prior work.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Identify and credit the origin of borrowed frameworks.",
+        "Limit design input to people appropriate to the decision.",
+        "Use broad feedback selectively rather than giving everyone authorship."
+      ],
+      "outputs": [
+        {
+          "artifact": "Decision setup",
+          "fields": [
+            "decision owner",
+            "contributors",
+            "feedback purpose",
+            "method attribution"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "This activity is a compact guide to the cited scope, not the complete author curriculum."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-008",
+      "title": "Explore five structural idea lenses",
+      "source_id": "nfx-patterns",
+      "source_ref": "https://www.nfx.com/post/hidden-patterns-great-startup-ideas — Frameworks 1–5",
+      "category": "frame",
+      "kind": "exercise",
+      "purpose": "Examine the opportunity structure behind an idea.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Separate proven elements from the specific novelty.",
+        "Identify recent technological changes enabling a different experience.",
+        "Test a non-consensus thesis rather than equating consensus with merit.",
+        "Consider both relieving problems and creating desirable possibilities.",
+        "Separate market uncertainty from execution uncertainty and assess founder fit."
+      ],
+      "outputs": [
+        {
+          "artifact": "Structural lens review",
+          "fields": [
+            "novel element",
+            "enabling change",
+            "contrarian thesis",
+            "desired possibility",
+            "risk mix"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "The five lenses can be applied independently or in parallel to the same idea.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "This activity is a compact guide to the cited scope, not the complete author curriculum."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-009",
+      "title": "Generate opportunities from ten market patterns",
+      "source_id": "nfx-pmf-places",
+      "source_ref": "https://www.nfx.com/post/10-places-to-find-product-market-fit — Ten numbered places and opening/closing PMF guidance",
+      "category": "frame",
+      "kind": "exercise",
+      "purpose": "Find underserved needs or desires.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Explore much easier or better/networked existing activities.",
+        "Look for unused supply, new willingness to pay or disconnected communities.",
+        "Consider new earning opportunities or digitizing analog activities.",
+        "Explore free pricing, younger audiences for proven products or new sources of enjoyment.",
+        "Define a customer/value hypothesis, test an MVP and iterate.",
+        "Inspect engagement and retention as well as acquisition."
+      ],
+      "outputs": [
+        {
+          "artifact": "Opportunity alternatives",
+          "fields": [
+            "pattern",
+            "audience",
+            "value change",
+            "assumption",
+            "next observation"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Opportunity patterns are alternatives, not sequential steps.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "The CSV misattributes the author; the page credits Gigi Levy-Weiss. Opportunity patterns do not prove PMF."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-010",
+      "title": "Choose among twelve idea-development approaches",
+      "source_id": "fr-idea-frameworks",
+      "source_ref": "https://review.firstround.com/12-frameworks-for-finding-startup-ideas-advice-for-future-founders/ — Numbered sections 1–12",
+      "category": "frame",
+      "kind": "process",
+      "purpose": "Use complementary approaches to find and sharpen ideas.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Invest in choosing the problem.",
+        "Prepare through immersion and invite challenges.",
+        "Connect large problems, personal advantages and a business possibility.",
+        "Inspect changing, apparently crowded or overlooked markets.",
+        "Relax plausible constraints.",
+        "Timebox a shared project to explore idea and cofounder fit.",
+        "Let a clear problem thesis develop.",
+        "Describe customer jobs and compare unmet importance.",
+        "State a specific vision, advantage and timing.",
+        "Review functional need, emotional need, market and experience.",
+        "Pitch, record feedback and revise selectively.",
+        "Check enduring personal motivation."
+      ],
+      "outputs": [
+        {
+          "artifact": "Idea exploration menu",
+          "fields": [
+            "chosen lens",
+            "candidate ideas",
+            "learning artifact",
+            "fit rationale"
+          ]
+        }
+      ],
+      "source_order": "Article groups approaches by exploration context; it does not require all twelve.",
+      "prerequisites": [],
+      "independence": "Choose any relevant lens; cofounder and idea exploration can run together.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "The menu is compact; examples and linked full procedures require their own sources."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-011",
+      "title": "Practice customer-conversation skills",
+      "source_id": "mom-teachers",
+      "source_ref": "https://www.momtestbook.com/teachers — Recommended teaching topics",
+      "category": "discover",
+      "kind": "exercise",
+      "purpose": "Prepare for less misleading interviews.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Practice rewriting weak questions.",
+        "Identify major risks and three learning goals.",
+        "Plan appropriate commitments for meetings.",
+        "Rehearse with mock conversations."
+      ],
+      "outputs": [
+        {
+          "artifact": "Interview preparation pack",
+          "fields": [
+            "revised prompts",
+            "learning goals",
+            "commitment options",
+            "rehearsal notes"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "These four activities can run separately; use rehearsal before real conversations when useful.",
+      "execution": "team_workshop",
+      "ai_role": "Facilitate prompts and synthesize separately captured contributions.",
+      "human_role": "Participate independently and resolve the final team decision.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Official page names activities but does not expose full book exercises. A simulated respondent is practice, never customer evidence."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-012",
+      "title": "Plan a focused research sprint",
+      "source_id": "mellinger-discovery",
+      "source_ref": "https://review.firstround.com/how-to-know-if-your-ideas-the-right-one-a-founders-guide-for-successful-early-stage-customer-discovery/ — Phase 1",
+      "category": "discover",
+      "kind": "exercise",
+      "purpose": "Make the next research decision explicit.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Choose the next decision and one or two learning questions.",
+        "Narrow the audience by behavior and relevant demographics.",
+        "Recruit a small focused batch; examine distinct groups separately."
+      ],
+      "outputs": [
+        {
+          "artifact": "Research plan",
+          "fields": [
+            "decision",
+            "learning questions",
+            "audience criteria",
+            "recruitment batch"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "This activity is a compact guide to the cited scope, not the complete author curriculum."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-013",
+      "title": "Interview from broad context to specifics and back",
+      "source_id": "mellinger-discovery",
+      "source_ref": "https://review.firstround.com/how-to-know-if-your-ideas-the-right-one-a-founders-guide-for-successful-early-stage-customer-discovery/ — Phase 2",
+      "category": "discover",
+      "kind": "exercise",
+      "purpose": "Collect useful accounts while checking bias.",
+      "inputs": [
+        "Research focus",
+        "Real participant"
+      ],
+      "steps": [
+        "Begin with broad context, explore specifics, then revisit wider priorities.",
+        "Avoid leading wording and premature product disclosure.",
+        "Ask about past behavior; use short questions and follow-ups."
+      ],
+      "outputs": [
+        {
+          "artifact": "Conversation notes",
+          "fields": [
+            "context",
+            "reported behavior",
+            "counterevidence",
+            "follow-ups"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [
+        {
+          "activity_id": "PB-012",
+          "artifact": "Research focus",
+          "strength": "soft",
+          "reason": "Focus guides questions.",
+          "basis": "inferred"
+        },
+        {
+          "activity_id": null,
+          "artifact": "Real participant",
+          "strength": "hard",
+          "reason": "Actual accounts cannot be simulated.",
+          "basis": "inferred"
+        }
+      ],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "An elicited price reaction is not a purchase commitment."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-014",
+      "title": "Synthesize interviews at three cadences",
+      "source_id": "mellinger-discovery",
+      "source_ref": "https://review.firstround.com/how-to-know-if-your-ideas-the-right-one-a-founders-guide-for-successful-early-stage-customer-discovery/ — Phase 3",
+      "category": "measure",
+      "kind": "exercise",
+      "purpose": "Move from observations to patterns and actions.",
+      "inputs": [
+        "Real interview notes"
+      ],
+      "steps": [
+        "Keep records of supporting and conflicting data and strong reactions.",
+        "Debrief each interview into data, interpretation and action.",
+        "Review findings weekly and use broader affinity grouping when needed."
+      ],
+      "outputs": [
+        {
+          "artifact": "Research synthesis",
+          "fields": [
+            "observation links",
+            "themes",
+            "counterexamples",
+            "actions"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [
+        {
+          "activity_id": "PB-013",
+          "artifact": "Interview notes",
+          "strength": "hard",
+          "reason": "Synthesis needs source observations.",
+          "basis": "inferred"
+        }
+      ],
+      "independence": "Can analyze any suitable existing notes; longer synthesis need not await a fixed number of sessions.",
+      "execution": "ai_draft",
+      "ai_role": "Draft and compare an artifact from supplied evidence; retain provenance and missing fields.",
+      "human_role": "Review factual accuracy and make consequential choices.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "The article gives differing short-debrief durations; preserve the purpose rather than a universal timer."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-015",
+      "title": "Select a conditional validation tactic",
+      "source_id": "fr-validation-tactics",
+      "source_ref": "https://review.firstround.com/unconventional-tactics-for-validating-your-startup-idea/ — Seven tactic subheadings",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Expand the ways to learn about a proposal.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Test a small unit of value.",
+        "Explore selling before a product exists.",
+        "Observe relevant workplace problems.",
+        "Seek reactions outside friendly social circles.",
+        "Consult industry insiders.",
+        "Interview skeptics and adoption gatekeepers.",
+        "Compare ideas with founders without signaling a favorite."
+      ],
+      "outputs": [
+        {
+          "artifact": "Tactic selection",
+          "fields": [
+            "uncertainty",
+            "audience",
+            "chosen tactic",
+            "observed signal"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Seven alternative tactics, not required predecessors for each other.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Keep recruiting transparent; no invented sales, misleading product availability or unapproved outreach is implied. Founder excitement differs from customer behavior."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-016",
+      "title": "Design a Minimum Viable Test",
+      "source_id": "biyani-mvt",
+      "source_ref": "https://review.firstround.com/the-minimum-viable-testing-process-for-evaluating-startup-ideas/ — Three-step process; What comes next; Closing thoughts",
+      "category": "experiment",
+      "kind": "exercise",
+      "purpose": "Test one essential assumption with the smallest useful unit.",
+      "inputs": [
+        "Candidate promise",
+        "Relevant audience"
+      ],
+      "steps": [
+        "Clarify the customer promise from current behavior.",
+        "List demand, execution, marketing, market-size and profit risks.",
+        "Choose one primary uncertainty and a narrow unit of value.",
+        "Deliver or simulate only what that test requires; observe actual action.",
+        "Review remaining risks and choose another test, product work or stopping.",
+        "Keep one-off test revenue distinct from sustainable growth."
+      ],
+      "outputs": [
+        {
+          "artifact": "MVT brief and result",
+          "fields": [
+            "value promise",
+            "primary risk",
+            "unit of value",
+            "measurement",
+            "result",
+            "next decision"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [
+        {
+          "activity_id": null,
+          "artifact": "Primary uncertainty",
+          "strength": "hard",
+          "reason": "The test scope must be tied to a question.",
+          "basis": "inferred"
+        }
+      ],
+      "independence": "Run when a risky claim is identifiable. Other MVTs may run in parallel if results and exposures can be separated.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "This activity is a compact guide to the cited scope, not the complete author curriculum."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-017",
+      "title": "Run a weekly business-model learning cycle",
+      "source_id": "stanford-llp",
+      "source_ref": "https://leanlaunchpad.stanford.edu/course-info — How You’ll Learn; Projects; Deliverables",
+      "category": "facilitate",
+      "kind": "exercise",
+      "purpose": "Test a business model through repeated fieldwork.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Prepare hypotheses and contacts around a model area.",
+        "Conduct customer fieldwork and revise the concept from learning.",
+        "Present weekly learning, discuss critiques and record lessons.",
+        "Produce an appropriate real prototype/product; physical products include costed materials."
+      ],
+      "outputs": [
+        {
+          "artifact": "Weekly learning review",
+          "fields": [
+            "model area",
+            "hypotheses",
+            "contacts",
+            "observations",
+            "changes",
+            "product evidence"
+          ]
+        }
+      ],
+      "source_order": "Repeated course cadence; stated interview loads belong to that course.",
+      "prerequisites": [],
+      "independence": "Can be adapted around any current model uncertainty; not a prerequisite for individual catalog exercises.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "This activity is a compact guide to the cited scope, not the complete author curriculum."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-018",
+      "title": "Snapshot an idea and inspect its chain of beliefs",
+      "source_id": "maurya-fill-order",
+      "source_ref": "https://medium.leanstack.com/what-is-the-right-fill-order-for-a-lean-canvas-f8071d0c6c8c — How to Deconstruct an Idea",
+      "category": "model",
+      "kind": "exercise",
+      "purpose": "Make the origin and uncertainty of a model visible.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Start from the idea’s real backstory; sketch a quick canvas, allowing blanks.",
+        "Examine the first boxes filled and how they constrain later beliefs.",
+        "Distinguish intuition, anecdote and empirical support.",
+        "Review customer, market and technical risks; learn about the weakest important links."
+      ],
+      "outputs": [
+        {
+          "artifact": "Canvas and belief audit",
+          "fields": [
+            "idea trigger",
+            "canvas boxes",
+            "belief sequence",
+            "support type",
+            "learning priorities"
+          ]
+        }
+      ],
+      "source_order": "No universal canvas fill order; testing order depends on risk.",
+      "prerequisites": [],
+      "independence": "May begin with a solution, customer, invention or constraint. Revisit after any major new evidence.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Do not fabricate customer/problem boxes to justify a favored solution."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-019",
+      "title": "Build and revise an Opportunity Solution Tree",
+      "source_id": "torres-ost",
+      "source_ref": "https://www.producttalk.org/opportunity-solution-trees/ — Prerequisites through solution selection",
+      "category": "discover",
+      "kind": "exercise",
+      "purpose": "Connect an outcome to evidenced opportunities and alternatives.",
+      "inputs": [
+        "Outcome",
+        "Target customer/value hypothesis",
+        "Customer stories"
+      ],
+      "steps": [
+        "Start with a customer/value theory, outcome and several real customer stories.",
+        "Map experiences and group unmet needs into opportunity branches.",
+        "Separate needs from solutions; compare importance and strategic fit.",
+        "Choose a small opportunity and explore alternative solutions.",
+        "Link assumption tests; refine the tree as interviews continue."
+      ],
+      "outputs": [
+        {
+          "artifact": "Opportunity tree",
+          "fields": [
+            "outcome",
+            "story-linked needs",
+            "branches",
+            "target opportunity",
+            "solutions",
+            "tests"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [
+        {
+          "activity_id": null,
+          "artifact": "Customer stories",
+          "strength": "hard",
+          "reason": "The source requires story-grounded opportunities.",
+          "basis": "source"
+        },
+        {
+          "activity_id": null,
+          "artifact": "Outcome",
+          "strength": "hard",
+          "reason": "The tree is organized toward an outcome.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start from existing suitable interviews; does not require a Foundation Sprint first.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Fictional profile details are not valid evidence for opportunity branches."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-020",
+      "title": "Compare solutions through assumption tests",
+      "source_id": "torres-assumptions",
+      "source_ref": "https://www.producttalk.org/assumption-testing/ — Identify assumptions; prioritize; evaluate tests",
+      "category": "experiment",
+      "kind": "exercise",
+      "purpose": "Learn about risky parts before committing to a whole solution.",
+      "inputs": [
+        "Candidate solutions",
+        "Current evidence"
+      ],
+      "steps": [
+        "Walk through alternative experiences and expose their assumptions.",
+        "Consider desirability, viability, feasibility, usability and ethical uncertainties.",
+        "Prioritize important claims with weak support.",
+        "Define success before selecting and running a small test.",
+        "Evaluate patterns across tests and revise the alternatives or opportunity."
+      ],
+      "outputs": [
+        {
+          "artifact": "Alternative-assumption comparison",
+          "fields": [
+            "solutions",
+            "assumptions",
+            "priority",
+            "test criteria",
+            "results",
+            "decision"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [
+        {
+          "activity_id": null,
+          "artifact": "Candidate solutions",
+          "strength": "hard",
+          "reason": "Specific solution assumptions require a proposed experience.",
+          "basis": "inferred"
+        },
+        {
+          "activity_id": "PB-019",
+          "artifact": "Opportunity tree",
+          "strength": "soft",
+          "reason": "Helpful context, not required to test an already defined assumption.",
+          "basis": "inferred"
+        }
+      ],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Small discovery tests are not necessarily controlled experiments or conclusive validation."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-021",
+      "title": "Separate four product risks",
+      "source_id": "cagan-risks",
+      "source_ref": "https://www.svpg.com/four-big-risks/ — The four risks and team responsibilities",
+      "category": "prioritize",
+      "kind": "exercise",
+      "purpose": "Avoid using one kind of evidence to answer a different risk.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "Check whether people will choose or buy the product.",
+        "Check whether intended users can use it.",
+        "Check technical delivery feasibility.",
+        "Check whether it works within the business.",
+        "Involve product, design and engineering in the appropriate questions."
+      ],
+      "outputs": [
+        {
+          "artifact": "Risk register",
+          "fields": [
+            "value",
+            "usability",
+            "feasibility",
+            "viability",
+            "owner",
+            "evidence",
+            "next check"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "No source numeric ranking or pass threshold."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-022",
+      "title": "Choose learning or delivery requirements for a build",
+      "source_id": "cagan-build",
+      "source_ref": "https://www.svpg.com/build-to-learn-vs-build-to-earn/ — Full concept article",
+      "category": "design",
+      "kind": "exercise",
+      "purpose": "Match engineering effort to the purpose of the artifact.",
+      "inputs": [
+        "A relevant idea, product or decision context"
+      ],
+      "steps": [
+        "State which uncertainty a learning prototype addresses.",
+        "Distinguish temporary learning needs from production obligations.",
+        "Continue discovery alongside delivery as new risks emerge."
+      ],
+      "outputs": [
+        {
+          "artifact": "Build-purpose brief",
+          "fields": [
+            "learning question",
+            "prototype scope",
+            "production obligations",
+            "next evidence"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "A conceptual distinction; this brief format is our adaptation. A prototype does not establish all four risks."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-023",
+      "title": "Develop positioning from real customer alternatives",
+      "source_id": "dunford-positioning",
+      "source_ref": "https://www.aprildunford.com/post/a-quickstart-guide-to-positioning — Customer-Centric Methodology; Common Mistakes",
+      "category": "position",
+      "kind": "exercise",
+      "purpose": "Make differentiated value clear to the right customers.",
+      "inputs": [
+        "Product capabilities",
+        "Customer alternatives"
+      ],
+      "steps": [
+        "Identify what customers would do without the product, including the status quo.",
+        "List capabilities those alternatives lack.",
+        "Translate capabilities into customer value.",
+        "Identify customers who care most about that value.",
+        "Choose a market context that makes the value understandable."
+      ],
+      "outputs": [
+        {
+          "artifact": "Positioning brief",
+          "fields": [
+            "actual alternatives",
+            "distinct capabilities",
+            "value",
+            "best-fit characteristics",
+            "category"
+          ]
+        }
+      ],
+      "source_order": "Alternatives → capabilities → value → best-fit customers → category in this method.",
+      "prerequisites": [
+        {
+          "activity_id": null,
+          "artifact": "Customer alternatives",
+          "strength": "hard",
+          "reason": "The source derives differentiation from the actual comparison set.",
+          "basis": "source"
+        }
+      ],
+      "independence": "A standalone positioning exercise once a comparison set exists; the customer profile can be revised here even if one was drafted earlier.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "A web competitor list alone is not the customer’s real alternatives. Choosing a category differs from writing messaging."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-024",
+      "title": "Write and cut an MVP specification",
+      "source_id": "yc-recap-2",
+      "source_ref": "https://www.ycombinator.com/blog/startup-school-week-2-recap-michael-seibel-adora-cheung-and-ilya-volodarsky/ — Seibel 00:43–10:12",
+      "category": "execute",
+      "kind": "exercise",
+      "purpose": "Put a useful initial version in front of a narrow first audience.",
+      "inputs": [
+        "Initial audience and problem",
+        "Delivery constraints"
+      ],
+      "steps": [
+        "Choose initial users and their highest-priority problem.",
+        "Write a timeboxed specification with very limited functionality.",
+        "Cut scope when the date is threatened.",
+        "Get users interacting, gather feedback and iterate on the solution.",
+        "For long technical development, consider a simple explanatory starting artifact."
+      ],
+      "outputs": [
+        {
+          "artifact": "MVP scope",
+          "fields": [
+            "first users",
+            "core problem",
+            "included features",
+            "deferred features",
+            "release target",
+            "feedback loop"
+          ]
+        }
+      ],
+      "source_order": "Scope → build/release → observe → iterate; no fixed prior workshop.",
+      "prerequisites": [],
+      "independence": "Can use existing customer/problem work. A product experiment and a production MVP have different completion criteria.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Release speed does not waive real operational or regulatory requirements."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-025",
+      "title": "Survey experienced users and find strong-fit segments",
+      "source_id": "vohra-pmf",
+      "source_ref": "https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/ — Anchoring metric and step 1",
+      "category": "measure",
+      "kind": "exercise",
+      "purpose": "Locate groups that strongly value an existing product.",
+      "inputs": [
+        "Product in use",
+        "Eligible real users and survey responses"
+      ],
+      "steps": [
+        "Survey users who recently experienced the core product.",
+        "Ask about losing access, likely beneficiaries, main benefit and improvements.",
+        "Analyze disappointment by segment and characterize strongest-fit users."
+      ],
+      "outputs": [
+        {
+          "artifact": "PMF segment analysis",
+          "fields": [
+            "eligibility",
+            "denominators",
+            "responses",
+            "segment definitions",
+            "valued benefit"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [
+        {
+          "activity_id": null,
+          "artifact": "Actual product experience",
+          "strength": "hard",
+          "reason": "A raw idea or fictional persona cannot answer this survey.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "hybrid",
+      "ai_role": "Prepare the material and analyze supplied results; keep a checkpoint before field execution.",
+      "human_role": "Arrange and conduct real interactions, supply observations and decide next actions.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "The reported 40% benchmark is a diagnostic, not proof of success."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-026",
+      "title": "Turn segmented PMF feedback into a roadmap",
+      "source_id": "vohra-pmf",
+      "source_ref": "https://review.firstround.com/how-superhuman-built-an-engine-to-find-product-market-fit/ — Steps 2–4",
+      "category": "decide",
+      "kind": "exercise",
+      "purpose": "Use benefit-aligned feedback to guide improvements.",
+      "inputs": [
+        "Segmented survey results"
+      ],
+      "steps": [
+        "Identify what committed users value and what holds similar users back.",
+        "Prioritize strengthening the core benefit and removing relevant barriers.",
+        "Repeat measurement and revise priorities."
+      ],
+      "outputs": [
+        {
+          "artifact": "PMF-informed roadmap",
+          "fields": [
+            "valued themes",
+            "barriers",
+            "segment rationale",
+            "work choices",
+            "repeat measurement"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [
+        {
+          "activity_id": "PB-025",
+          "artifact": "Segmented survey results",
+          "strength": "hard",
+          "reason": "The feedback policy depends on who values which benefit.",
+          "basis": "inferred"
+        }
+      ],
+      "independence": "Can enter directly when the listed input exists; equivalent prior work can supply it.",
+      "execution": "ai_draft",
+      "ai_role": "Draft and compare an artifact from supplied evidence; retain provenance and missing fields.",
+      "human_role": "Review factual accuracy and make consequential choices.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "Do not turn the case’s selective feedback policy into a rule to ignore all dissatisfied users."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    },
+    {
+      "id": "PB-027",
+      "title": "Choose a product-value metric and supporting measures",
+      "source_id": "fr-measure-pmf",
+      "source_ref": "https://review.firstround.com/how-to-measure-product-market-fit/ — How to find PMF; How to measure PMF",
+      "category": "measure",
+      "kind": "exercise",
+      "purpose": "Keep product learning tied to meaningful usage.",
+      "inputs": [
+        "Product stage and intended value"
+      ],
+      "steps": [
+        "Start with a customer/problem thesis and test a focused product.",
+        "Use product-experience feedback to investigate fit.",
+        "Select a primary metric relevant to value and track useful supporting measures.",
+        "Distinguish impressive totals from operational signals."
+      ],
+      "outputs": [
+        {
+          "artifact": "Measurement plan",
+          "fields": [
+            "primary value metric",
+            "definition",
+            "supporting metrics",
+            "audience",
+            "review cadence"
+          ]
+        }
+      ],
+      "source_order": "No required global order.",
+      "prerequisites": [],
+      "independence": "Can be drafted early; actual PMF measurement requires experienced users.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions, organize answers and flag unsupported claims.",
+      "human_role": "Supply context, correct assumptions and choose the result.",
+      "skill_idea": "Proposed: inspect existing work, ask only for missing context, draft this output, then review it with the user.",
+      "cautions": [
+        "The article’s metric menu is not a prescription to track every metric or treat market size as a usage outcome."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked",
+      "design_basis": "Steps/purpose summarize the cited source. Output field schema, execution role, skill idea and any inferred dependencies are our design proposals."
+    }
+  ],
+  "coverage": [
+    {
+      "source_id": "aulet-interview",
+      "section": "Whole available interview",
+      "status": "bounded_overview",
+      "activity_ids": [],
+      "notes": "The overview is a resource lead; the 24-step book needs independent procedure/worksheet coverage."
+    },
+    {
+      "source_id": "fr-pmf-paths",
+      "section": "20 numbered lessons",
+      "status": "pending_mapping",
+      "activity_ids": [],
+      "notes": "Article accessed; final catalog must account for every numbered lesson, including beginning/end sections not yet mapped."
+    },
+    {
+      "source_id": "yc-recap-1",
+      "section": "Hale 00:43–15:19; Migicovsky 15:19–end.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-001",
+        "PB-002"
+      ],
+      "notes": "Explicitly shortened lectures; original full videos remain unreviewed."
+    },
+    {
+      "source_id": "walling-628",
+      "section": "Framework and two worked examples; sponsorship/social chatter excluded.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-003"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "walling-840",
+      "section": "Framework update and product/business questions; personal recovery narrative is outside product-work scope.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-004",
+        "PB-005"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "walling-706",
+      "section": "Validation segment and adjacent attribution/decision guidance.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-006",
+        "PB-007"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "nfx-patterns",
+      "section": "All five public frameworks; private extra frameworks unavailable.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-008"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "nfx-pmf-places",
+      "section": "Ten lenses, brief iteration outline and engagement/retention distinction.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-009"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "fr-idea-frameworks",
+      "section": "All twelve numbered sections; linked full contributor methods not acquired here.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-010"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "mom-teachers",
+      "section": "Four named activity types; chapter references only.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-011"
+      ],
+      "notes": "Full book examples/instructions absent. Steps below map activity types; facilitation specifics are proposals."
+    },
+    {
+      "source_id": "mellinger-discovery",
+      "section": "Three phases and their substantive subheadings.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-012",
+        "PB-013",
+        "PB-014"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "fr-validation-tactics",
+      "section": "Seven tactic sections; underlying cases are context-specific.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-015"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "biyani-mvt",
+      "section": "Three-step method, cases, next paths and limitations.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-016"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "stanford-llp",
+      "section": "How You’ll Learn, Projects, Deliverables; administrative requirements excluded.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-017"
+      ],
+      "notes": "Public course brief, not all assigned readings, lectures or a complete course curriculum."
+    },
+    {
+      "source_id": "maurya-fill-order",
+      "section": "Entire methodological argument and three deconstruction steps.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-018"
+      ],
+      "notes": "Article only, not Running Lean book or full Lean Canvas workbook."
+    },
+    {
+      "source_id": "torres-ost",
+      "section": "Public guide: prerequisites, outcome, opportunity mapping, selection, solutions and iteration.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-019"
+      ],
+      "notes": "Book and linked courses not reviewed; guide itself supplies usable bounded guidance."
+    },
+    {
+      "source_id": "torres-assumptions",
+      "section": "Public assumption discovery, mapping, tests, evaluation and decisions.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-020"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "cagan-risks",
+      "section": "Full article.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-021"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "cagan-build",
+      "section": "Concept article; FAQ is a linked expansion.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-022"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "dunford-positioning",
+      "section": "Five components, dependency argument and two common mistakes.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-023"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    },
+    {
+      "source_id": "yc-recap-2",
+      "section": "Seibel 00:43–10:12 only.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-024"
+      ],
+      "notes": "Shortened official lesson. Adjacent KPI/analytics lectures are not silently included as the requested MVP resource."
+    },
+    {
+      "source_id": "vohra-pmf",
+      "section": "Survey eligibility, four-step engine and iteration.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-025",
+        "PB-026"
+      ],
+      "notes": "First-person case method; benchmark and roadmap split are not universal guarantees."
+    },
+    {
+      "source_id": "fr-measure-pmf",
+      "section": "Thesis, validation, MVP, survey and primary-metric sections.",
+      "status": "bounded_procedure_mapped",
+      "activity_ids": [
+        "PB-027"
+      ],
+      "notes": "Public text only; linked books, videos, courses and templates are separate sources."
+    }
+  ]
+}

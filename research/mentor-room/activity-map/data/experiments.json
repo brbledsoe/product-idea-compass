@@ -1,0 +1,1441 @@
+{
+  "sources": [],
+  "activities": [
+    {
+      "id": "EX-001",
+      "title": "Define market success and acceptable investment",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/009-chapter-1.md; Ch. 1, source pp. 16–18",
+      "category": "frame",
+      "kind": "deliverable",
+      "purpose": "Make expected results explicit before judging success.",
+      "inputs": [
+        "Idea",
+        "Expected investment and outcome"
+      ],
+      "steps": [
+        "Name money, time, resources, and reputation being invested.",
+        "Specify the result expected by each relevant party.",
+        "Record how actual outcomes would meet, exceed, or fall short of those expectations."
+      ],
+      "outputs": [
+        "Success criteria: outcome, threshold, beneficiary, investment",
+        "Failure boundary"
+      ],
+      "source_order": "Ch. 1, source pp. 16–18",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Technical excellence and market success are separate.",
+        "No universal success threshold is supplied."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-002",
+      "title": "Map success factors and diagnose FLOP",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/009-chapter-1.md; Ch. 1, pp. 19–20, 25–28",
+      "category": "frame",
+      "kind": "exercise",
+      "purpose": "Separate an unsupported premise from reaching customers or delivering reliably.",
+      "inputs": [
+        "Idea or disappointing launch",
+        "Evidence of reach, operation, and demand"
+      ],
+      "steps": [
+        "List factors that must work for the idea to succeed.",
+        "Classify trouble as launch, operations, or premise.",
+        "Look beyond departmental blame and inspect evidence for each explanation.",
+        "Choose an uncertainty to investigate."
+      ],
+      "outputs": [
+        "Factor map: factor, failure mode, evidence, uncertainty"
+      ],
+      "source_order": "Ch. 1, pp. 19–20, 25–28",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Operational application of the framework, not a named source worksheet.",
+        "The Success Equation is not calibrated probability."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-003",
+      "title": "Compare remembered successes with failed launches",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/009-chapter-1.md; Ch. 1, pp. 21–23",
+      "category": "facilitate",
+      "kind": "exercise",
+      "purpose": "Expose survivorship bias before assuming competence ensures demand.",
+      "inputs": [
+        "Familiar company",
+        "Documented product history"
+      ],
+      "steps": [
+        "List products participants use or remember.",
+        "Compare with documented unsuccessful launches by the same company.",
+        "Discuss what competence does and does not establish about the next idea."
+      ],
+      "outputs": [
+        "Source-linked success/failure comparison",
+        "Assumptions to test"
+      ],
+      "source_order": "Ch. 1, pp. 21–23",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "hybrid",
+      "ai_role": "Draft the materials, organize data, and analyze actual results.",
+      "human_role": "Verify the draft, run the test, and bring back observations.",
+      "skill_idea": "Gather missing inputs, draft the materials, then support a separate run-and-review phase.",
+      "cautions": [
+        "Historical examples do not calculate this idea's success probability."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-004",
+      "title": "Audit evidence as YODA or outside information",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/011-chapter-3.md; Ch. 3, pp. 51–58; glossary pp. 252–254",
+      "category": "measure",
+      "kind": "task",
+      "purpose": "Check freshness, relevance, provenance, sufficiency, and customer commitment.",
+      "inputs": [
+        "Candidate evidence",
+        "Market claim"
+      ],
+      "steps": [
+        "Identify collector, date, setting, and collection method.",
+        "Check audience, offer, and conditions against this decision.",
+        "Separate firsthand observations from outside results and opinions.",
+        "Flag sample limitations and what customers committed.",
+        "Specify firsthand evidence still needed."
+      ],
+      "outputs": [
+        "Evidence ledger: source, date, context, method, commitment, relevance, limits",
+        "Data gaps"
+      ],
+      "source_order": "Ch. 3, pp. 51–58; glossary pp. 252–254",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "hybrid",
+      "ai_role": "Draft the materials, organize data, and analyze actual results.",
+      "human_role": "Verify the draft, run the test, and bring back observations.",
+      "skill_idea": "Gather missing inputs, draft the materials, then support a separate run-and-review phase.",
+      "cautions": [
+        "Outside information can inform and supplement decisions.",
+        "Firsthand collection does not establish statistical significance.",
+        "AI-generated customers and outcomes are not YODA."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-005",
+      "title": "State a Market Engagement Hypothesis",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/013-chapter-4.md; Ch. 4, pp. 62–65",
+      "category": "frame",
+      "kind": "deliverable",
+      "purpose": "Express the product premise as expected customer behavior.",
+      "inputs": [
+        "Idea",
+        "Proposed audience"
+      ],
+      "steps": [
+        "Describe the market.",
+        "State how the offer changes what those people do.",
+        "Select the engagement claimed: investigate, try, buy, adopt, return, or recommend.",
+        "Write a compact hypothesis and expose disagreements in meaning."
+      ],
+      "outputs": [
+        "MEH: audience, offer, expected engagement"
+      ],
+      "source_order": "Ch. 4, pp. 62–65",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "The source treats this as a necessary starting point; an existing equivalent claim can supply it."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-006",
+      "title": "Sharpen the MEH into an XYZ hypothesis",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/013-chapter-4.md; Ch. 4, pp. 66–74",
+      "category": "model",
+      "kind": "deliverable",
+      "purpose": "Replace vague predictions with measurable conditions.",
+      "inputs": [
+        "MEH",
+        "Minimum worthwhile engagement and pricing assumptions"
+      ],
+      "steps": [
+        "Identify fuzzy amounts, audience labels, prices, and behaviors.",
+        "Specify minimum proportion, exact audience, and observable engagement.",
+        "Add relevant price, conditions, and period.",
+        "Use plausible initial estimates and discuss team differences.",
+        "Keep the values marked as assumptions until tested."
+      ],
+      "outputs": [
+        "XYZ: X threshold, Y audience, Z behavior, price, conditions",
+        "Numeric assumptions"
+      ],
+      "source_order": "Ch. 4, pp. 66–74",
+      "prerequisites": [
+        {
+          "activity_id": "EX-005",
+          "artifact": "Engagement hypothesis",
+          "strength": "hard",
+          "reason": "Quantification needs an audience and behavior.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Rough estimates do not justify false precision or confidence."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-007",
+      "title": "Hypozoom into an accessible xyz hypothesis",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/013-chapter-4.md; Ch. 4, pp. 74–77; glossary pp. 250, 254",
+      "category": "design",
+      "kind": "exercise",
+      "purpose": "Make a broad claim testable in a small reachable setting.",
+      "inputs": [
+        "XYZ hypothesis",
+        "Audience access"
+      ],
+      "steps": [
+        "Narrow the target to a relevant group reachable now.",
+        "Reduce place, scope, or time for a practical test.",
+        "Preserve the target behavior where possible.",
+        "Record how a lighter commitment or narrower cohort differs from the broad claim.",
+        "Choose a sample appropriate to the question and decision."
+      ],
+      "outputs": [
+        "Local xyz: eligibility, behavior, threshold, place, time",
+        "Bridge assumptions"
+      ],
+      "source_order": "Ch. 4, pp. 74–77; glossary pp. 250, 254",
+      "prerequisites": [
+        {
+          "activity_id": "EX-006",
+          "artifact": "Broad quantified claim",
+          "strength": "hard",
+          "reason": "The local claim derives from the broad hypothesis.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Convenient audiences are not automatically representative.",
+        "The 100–1,000 suggestion is a heuristic, not a statistical guarantee."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-008",
+      "title": "Pretostorm and combine techniques",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 140, 142–147; Ch. 8 pp. 203–206",
+      "category": "design",
+      "kind": "exercise",
+      "purpose": "Find a quick and inexpensive behavioral test before substantial building.",
+      "inputs": [
+        "Specific hypothesis",
+        "People, props, channels, budget"
+      ],
+      "steps": [
+        "Generate several ways to expose the experience or offer.",
+        "Consider named techniques and combinations.",
+        "Check that each collects relevant firsthand commitment.",
+        "Compare time, cost, and access without losing needed evidence.",
+        "Select a candidate and state what remains simulated."
+      ],
+      "outputs": [
+        "Options: mechanism, claim, commitment, resources, limits",
+        "Selected experiment concept"
+      ],
+      "source_order": "Ch. 5, pp. 140, 142–147; Ch. 8 pp. 203–206",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Reachable testable claim",
+          "strength": "soft",
+          "reason": "Local scope usually makes the test practical.",
+          "basis": "inferred"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "hybrid",
+      "ai_role": "Draft the materials, organize data, and analyze actual results.",
+      "human_role": "Verify the draft, run the test, and bring back observations.",
+      "skill_idea": "Gather missing inputs, draft the materials, then support a separate run-and-review phase.",
+      "cautions": [
+        "A mock-up alone is not a market experiment.",
+        "Techniques are options, not a mandatory sequence."
+      ],
+      "variants": [
+        "Combine techniques",
+        "Invent a technique satisfying evidence, speed, and cost requirements"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-009",
+      "title": "Mechanical Turk pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 79–95, especially 88–95",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Test an experience before automating it.",
+      "inputs": [
+        "Engagement claim",
+        "Human operator and credible interface"
+      ],
+      "steps": [
+        "Define the experience to simulate.",
+        "Have a human perform the expensive or unavailable technical function.",
+        "Trial handoffs before customer use.",
+        "Offer it and record uptake, payment, and use.",
+        "Repeat when novelty may inflate initial interest."
+      ],
+      "outputs": [
+        "Usage and transaction log",
+        "Manual delivery observations",
+        "Repeat-use evidence"
+      ],
+      "source_order": "Ch. 5, pp. 79–95, especially 88–95",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Defined audience and observable engagement",
+          "strength": "hard",
+          "reason": "Need a specific claim to decide what to observe.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "human_fieldwork",
+      "ai_role": "Prepare the plan and logging materials; analyze supplied observations.",
+      "human_role": "Obtain access, operate the test, fulfill promises, and record actual behavior.",
+      "skill_idea": "Co-design the test in dialogue, export a fieldwork brief and observation log, then resume with actual evidence.",
+      "cautions": [
+        "Does not demonstrate future automation or scale.",
+        "Handle participant expectations carefully."
+      ],
+      "variants": [
+        "Speech-to-text simulation",
+        "Fold4U"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-010",
+      "title": "Pinocchio pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 95–104",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Explore everyday fit with a nonfunctioning stand-in.",
+      "inputs": [
+        "Product form or interaction idea",
+        "Cheap stand-in"
+      ],
+      "steps": [
+        "Make a rough object with the required form and controls.",
+        "Carry or place it where the product would be used.",
+        "Pretend to use it in real situations over time.",
+        "Log availability, occasions, intended functions, and inconvenience.",
+        "Refine the design and plan tests with others."
+      ],
+      "outputs": [
+        "Engagement log: availability, context, intended action, frequency",
+        "Design changes",
+        "Self-use limitations"
+      ],
+      "source_order": "Ch. 5, pp. 95–104",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "human_fieldwork",
+      "ai_role": "Prepare the plan and logging materials; analyze supplied observations.",
+      "human_role": "Obtain access, operate the test, fulfill promises, and record actual behavior.",
+      "skill_idea": "Co-design the test in dialogue, export a fieldwork brief and observation log, then resume with actual evidence.",
+      "cautions": [
+        "Imagined function is not a working product.",
+        "One inventor cannot establish general demand."
+      ],
+      "variants": [
+        "PalmPilot",
+        "Smart Horn",
+        "Bean-can assistant"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-011",
+      "title": "Fake Door pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 104–117",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Measure attempted engagement before the product exists.",
+      "inputs": [
+        "xyz claim",
+        "Offer, audience, entry point"
+      ],
+      "steps": [
+        "Create a credible ad, storefront, page, or button representing the offer.",
+        "Define eligible exposures and meaningful next actions.",
+        "Prepare prompt disclosure and a useful response for interested people.",
+        "Expose the offer and count attempted engagement.",
+        "Compare response by context and refine the claim or channel."
+      ],
+      "outputs": [
+        "Funnel: exposures, notices, clicks or knocks, contact commitments",
+        "Price and context record"
+      ],
+      "source_order": "Ch. 5, pp. 104–117",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Defined audience and observable engagement",
+          "strength": "hard",
+          "reason": "Need a specific claim to decide what to observe.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "hybrid",
+      "ai_role": "Draft the materials, organize data, and analyze actual results.",
+      "human_role": "Verify the draft, run the test, and bring back observations.",
+      "skill_idea": "Gather missing inputs, draft the materials, then support a separate run-and-review phase.",
+      "cautions": [
+        "Clicks are not fulfilled orders or revenue.",
+        "Source excludes inappropriate categories such as medical treatments.",
+        "Use disclosure and compensate inconvenience rather than copying deceptive anecdotes."
+      ],
+      "variants": [
+        "Physical doorway",
+        "Digital buy-intent page",
+        "Coming-soon offer"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-012",
+      "title": "Facade pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 117–121",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Test an offer with actual fulfillment behind a minimal front end.",
+      "inputs": [
+        "Specific offer",
+        "Small-scale fulfillment capacity"
+      ],
+      "steps": [
+        "Create a minimal customer-facing offer.",
+        "Arrange a manual back end that honors the promise.",
+        "Limit volume to delivery capacity.",
+        "Accept and fulfill initial orders.",
+        "Record payment, needs, effort, and process surprises."
+      ],
+      "outputs": [
+        "Completed-order ledger",
+        "Fulfillment workflow and costs",
+        "Customer learning"
+      ],
+      "source_order": "Ch. 5, pp. 117–121",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Defined audience and observable engagement",
+          "strength": "hard",
+          "reason": "Need a specific claim to decide what to observe.",
+          "basis": "source"
+        },
+        {
+          "activity_id": null,
+          "artifact": "Delivery capacity",
+          "strength": "hard",
+          "reason": "A facade supplies promised value.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "human_fieldwork",
+      "ai_role": "Prepare the plan and logging materials; analyze supplied observations.",
+      "human_role": "Obtain access, operate the test, fulfill promises, and record actual behavior.",
+      "skill_idea": "Co-design the test in dialogue, export a fieldwork brief and observation log, then resume with actual evidence.",
+      "cautions": [
+        "Manual delivery at a loss does not establish scalable economics."
+      ],
+      "variants": [
+        "Manual car sourcing",
+        "Temporary bookstore service"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-013",
+      "title": "YouTube pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 121–129",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Use a simulated video experience to invite commitment.",
+      "inputs": [
+        "Testable offer",
+        "Storyboard or screens",
+        "Audience"
+      ],
+      "steps": [
+        "Show the proposed experience through video or animated screens.",
+        "State the offered terms and what remains proposed.",
+        "Attach a relevant commitment opportunity.",
+        "Put the video before qualified viewers and track the funnel.",
+        "Follow initial response with stronger continued-use tests where needed."
+      ],
+      "outputs": [
+        "Demo brief",
+        "View-to-commitment funnel",
+        "Next validation question"
+      ],
+      "source_order": "Ch. 5, pp. 121–129",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Defined audience and observable engagement",
+          "strength": "hard",
+          "reason": "Need a specific claim to decide what to observe.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "hybrid",
+      "ai_role": "Draft the materials, organize data, and analyze actual results.",
+      "human_role": "Verify the draft, run the test, and bring back observations.",
+      "skill_idea": "Gather missing inputs, draft the materials, then support a separate run-and-review phase.",
+      "cautions": [
+        "Views, likes, and comments alone do not meet the method's commitment requirement.",
+        "Simulated performance is not technical evidence."
+      ],
+      "variants": [
+        "Any video platform",
+        "Slide-based software demo"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-014",
+      "title": "One-Night Stand pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 129–133",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Test a long-term idea with a short limited offer.",
+      "inputs": [
+        "Defined offer",
+        "Temporary venue or service capacity"
+      ],
+      "steps": [
+        "Choose the smallest time/location commitment that can answer the claim.",
+        "Arrange access, delivery, and acquisition.",
+        "Run the offer and record engagement or payment.",
+        "Close the trial and inspect results before committing longer."
+      ],
+      "outputs": [
+        "Limited-run plan",
+        "Commitments, revenue, costs, context",
+        "Next decision"
+      ],
+      "source_order": "Ch. 5, pp. 129–133",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Defined audience and observable engagement",
+          "strength": "hard",
+          "reason": "Need a specific claim to decide what to observe.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "human_fieldwork",
+      "ai_role": "Prepare the plan and logging materials; analyze supplied observations.",
+      "human_role": "Obtain access, operate the test, fulfill promises, and record actual behavior.",
+      "skill_idea": "Co-design the test in dialogue, export a fieldwork brief and observation log, then resume with actual evidence.",
+      "cautions": [
+        "An exceptional event may not predict everyday demand.",
+        "The name does not impose a one-night schedule."
+      ],
+      "variants": [
+        "One-off service",
+        "Pop-up showroom",
+        "Temporary accommodation"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-015",
+      "title": "Infiltrator pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 134–138",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Test a small batch in an existing sales setting.",
+      "inputs": [
+        "Small batch or representation",
+        "Retailer access"
+      ],
+      "steps": [
+        "Find a setting where customers buy the category.",
+        "Arrange an authorized retailer trial.",
+        "Place the offer where people naturally encounter it.",
+        "Count exposure, inspection, purchase attempts, and completed sales separately.",
+        "Compare placement, packaging, and price implications."
+      ],
+      "outputs": [
+        "In-context funnel",
+        "Placement observations",
+        "Retailer trial terms"
+      ],
+      "source_order": "Ch. 5, pp. 134–138",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Defined audience and observable engagement",
+          "strength": "hard",
+          "reason": "Need a specific claim to decide what to observe.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "human_fieldwork",
+      "ai_role": "Prepare the plan and logging materials; analyze supplied observations.",
+      "human_role": "Obtain access, operate the test, fulfill promises, and record actual behavior.",
+      "skill_idea": "Co-design the test in dialogue, export a fieldwork brief and observation log, then resume with actual evidence.",
+      "cautions": [
+        "Use the source's permission-based alternative; do not impersonate staff.",
+        "Retailer credibility and traffic belong to the tested context."
+      ],
+      "variants": [
+        "Physical retail",
+        "Online retailer"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-016",
+      "title": "Relabel pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 138–142",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Test a represented variant using a suitable stand-in.",
+      "inputs": [
+        "Offer variant",
+        "Existing object or representation"
+      ],
+      "steps": [
+        "Choose a stand-in conveying the tested attribute.",
+        "Change label, cover, packaging, or price presentation.",
+        "Place it before the relevant audience.",
+        "Record inspection, choice, attempted purchase, and later commitments separately.",
+        "Explain the simulation and preserve untested function assumptions."
+      ],
+      "outputs": [
+        "Variant-response log",
+        "Presentation changes",
+        "Untested product and conversion assumptions"
+      ],
+      "source_order": "Ch. 5, pp. 138–142",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Defined audience and observable engagement",
+          "strength": "hard",
+          "reason": "Need a specific claim to decide what to observe.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "human_fieldwork",
+      "ai_role": "Prepare the plan and logging materials; analyze supplied observations.",
+      "human_role": "Obtain access, operate the test, fulfill promises, and record actual behavior.",
+      "skill_idea": "Co-design the test in dialogue, export a fieldwork brief and observation log, then resume with actual evidence.",
+      "cautions": [
+        "Book pickup is not purchase.",
+        "Keep representations appropriate for safety-relevant properties."
+      ],
+      "variants": [
+        "Book-cover test",
+        "Relabel plus Infiltrator"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-017",
+      "title": "Live Demo pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 143–144",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Invite commitment after demonstrating the proposition live.",
+      "inputs": [
+        "Audience",
+        "Demonstration",
+        "Commitment offer"
+      ],
+      "steps": [
+        "Choose the brief experience people must understand.",
+        "Create and rehearse a demonstrable simulation.",
+        "Present it to qualified people.",
+        "State availability and invite contact, deposit, or preorder commitment.",
+        "Count eligible viewers and actions separately."
+      ],
+      "outputs": [
+        "Demo outline",
+        "Audience and commitment counts",
+        "Follow-up obligations"
+      ],
+      "source_order": "Ch. 5, pp. 143–144",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Defined audience and observable engagement",
+          "strength": "hard",
+          "reason": "Need a specific claim to decide what to observe.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "human_fieldwork",
+      "ai_role": "Prepare the plan and logging materials; analyze supplied observations.",
+      "human_role": "Obtain access, operate the test, fulfill promises, and record actual behavior.",
+      "skill_idea": "Co-design the test in dialogue, export a fieldwork brief and observation log, then resume with actual evidence.",
+      "cautions": [
+        "A staged demonstration is not efficacy evidence.",
+        "An email and a purchase at full price test different claims."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-018",
+      "title": "Morsel pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 145–146; overview pp. 8–9",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Test appetite for more with a small real sample.",
+      "inputs": [
+        "Content or product idea",
+        "Useful sample",
+        "Audience"
+      ],
+      "steps": [
+        "Create a sample preserving the core appeal.",
+        "Release it to the target audience.",
+        "Invite commitment for continuation or more value.",
+        "Observe consumption, return, contributions, and purchases.",
+        "Use sustained behavior to decide whether to expand."
+      ],
+      "outputs": [
+        "Sample release",
+        "Consumption and return log",
+        "Requests, contributions, purchases"
+      ],
+      "source_order": "Ch. 5, pp. 145–146; overview pp. 8–9",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Defined audience and observable engagement",
+          "strength": "hard",
+          "reason": "Need a specific claim to decide what to observe.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "hybrid",
+      "ai_role": "Draft the materials, organize data, and analyze actual results.",
+      "human_role": "Verify the draft, run the test, and bring back observations.",
+      "skill_idea": "Gather missing inputs, draft the materials, then support a separate run-and-review phase.",
+      "cautions": [
+        "Free consumption does not establish willingness to pay."
+      ],
+      "variants": [
+        "Sample chapters",
+        "Serial installments",
+        "Short precursor booklet"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-019",
+      "title": "Calibrate skin in the game",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/015-chapter-6.md; Ch. 6, pp. 149–158",
+      "category": "measure",
+      "kind": "exercise",
+      "purpose": "Separate expressions of interest from meaningful commitments.",
+      "inputs": [
+        "Observed or proposed actions",
+        "Market context"
+      ],
+      "steps": [
+        "List evidence types and participant cost.",
+        "Separate passive attention and opinions from voluntary valuable commitments.",
+        "Use a coarse contextual scale for contacts, time, deposits, and orders.",
+        "Retain raw action types and counts alongside scores.",
+        "Improve the next test using these distinctions."
+      ],
+      "outputs": [
+        "Commitment rubric: action, participant stake, indicative weight, reason",
+        "Scored observations"
+      ],
+      "source_order": "Ch. 6, pp. 149–158",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Points are heuristic weights, not probability or universal equivalence.",
+        "The source gives no value to contacts obtained without consent."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-020",
+      "title": "Plot an experiment on the TRI Meter",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/015-chapter-6.md; Ch. 6, pp. 158–165",
+      "category": "measure",
+      "kind": "exercise",
+      "purpose": "Compare a result to its prediction and mark ambiguity.",
+      "inputs": [
+        "xyz claim",
+        "Actual results",
+        "Confounders"
+      ],
+      "steps": [
+        "Check provenance and commitment.",
+        "Compare observed performance with prediction.",
+        "Classify strongly exceeds, meets, misses, or greatly misses.",
+        "Flag ambiguous or corrupted data separately.",
+        "Record the reason next to each result."
+      ],
+      "outputs": [
+        "Per-test interpretation: prediction, result, exceptions, qualitative category"
+      ],
+      "source_order": "Ch. 6, pp. 158–165",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Prior hypothesis",
+          "strength": "hard",
+          "reason": "A result is interpreted against its prediction.",
+          "basis": "source"
+        },
+        {
+          "activity_id": "EX-004",
+          "artifact": "Actual evidence",
+          "strength": "hard",
+          "reason": "Only firsthand evidence belongs on the meter.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Percentage labels are not calibrated success probabilities.",
+        "Do not change a threshold and retroactively call the original test a pass."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-021",
+      "title": "Use multiple experiments to decide whether to proceed",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/015-chapter-6.md; Ch. 6, pp. 165–172; Ch. 9 pp. 230–233",
+      "category": "decide",
+      "kind": "process",
+      "purpose": "Make a proportionate investment decision from several results.",
+      "inputs": [
+        "Interpreted results",
+        "Idea version",
+        "Consequences of error"
+      ],
+      "steps": [
+        "Group results by exact idea version and claim.",
+        "Confirm results with additional experiments.",
+        "Increase evidence requirements with investment and consequences.",
+        "Decide to proceed, stop, or modify and retest.",
+        "Retain the rationale and remaining uncertainty."
+      ],
+      "outputs": [
+        "Decision: version, evidence, limitations, next investment/test"
+      ],
+      "source_order": "Ch. 6, pp. 165–172; Ch. 9 pp. 230–233",
+      "prerequisites": [
+        {
+          "activity_id": "EX-020",
+          "artifact": "Interpreted results",
+          "strength": "hard",
+          "reason": "A decision requires evidence and interpretation.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Three-to-five experiments is a heuristic, not a readiness certificate.",
+        "More tests are not automatically independent."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-022",
+      "title": "Minimize Distance to Data",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/017-chapter-7.md; Ch. 7, pp. 176–181",
+      "category": "prioritize",
+      "kind": "exercise",
+      "purpose": "Reach a relevant audience with less access friction.",
+      "inputs": [
+        "Audiences and channels",
+        "Testable claim"
+      ],
+      "steps": [
+        "List nearby physical and familiar digital communities.",
+        "Estimate physical distance or contact steps.",
+        "Choose a reachable relevant cohort.",
+        "Record differences from the wider market and access needed."
+      ],
+      "outputs": [
+        "Access options: cohort, distance/steps, relevance, chosen route"
+      ],
+      "source_order": "Ch. 7, pp. 176–181",
+      "prerequisites": [
+        {
+          "activity_id": "EX-007",
+          "artifact": "Relevant audience definition",
+          "strength": "soft",
+          "reason": "Locality sharpens hypozooming.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Closeness does not establish representativeness."
+      ],
+      "variants": [
+        "Digital locality includes familiar platforms"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-023",
+      "title": "Minimize Hours to Data",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/017-chapter-7.md; Ch. 7, pp. 181–184",
+      "category": "prioritize",
+      "kind": "exercise",
+      "purpose": "Shorten the delay to useful evidence.",
+      "inputs": [
+        "Candidate experiment",
+        "Setup and response constraints"
+      ],
+      "steps": [
+        "Estimate elapsed hours until useful observations.",
+        "Expose dependencies and avoidable waits.",
+        "Reduce the test while preserving needed learning.",
+        "Choose a start time and later record actual elapsed time."
+      ],
+      "outputs": [
+        "HTD estimate and actual",
+        "Immediate test plan",
+        "Remaining waits"
+      ],
+      "source_order": "Ch. 7, pp. 181–184",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "The 48-hour classroom limit is an example.",
+        "Fast evidence can remain weak."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-024",
+      "title": "Reduce Dollars to Data through cheaper redesigns",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/017-chapter-7.md; Ch. 7, pp. 184–186",
+      "category": "prioritize",
+      "kind": "exercise",
+      "purpose": "Reduce expense while preserving the question and evidence.",
+      "inputs": [
+        "Experiment concept",
+        "Resource estimate"
+      ],
+      "steps": [
+        "Cost the proposed experiment.",
+        "Generate a cheaper design for the same question.",
+        "Repeat the challenge rather than accepting the first option.",
+        "Check evidence quality after each reduction.",
+        "Set a budget and record actual cost."
+      ],
+      "outputs": [
+        "Design alternatives and costs",
+        "Chosen $TD budget",
+        "Evidence preserved/lost"
+      ],
+      "source_order": "Ch. 7, pp. 184–186",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Cheapness does not compensate for missing evidence."
+      ],
+      "variants": [
+        "Local currency",
+        "Volunteer resources"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-025",
+      "title": "Tweak an idea using market observations",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/017-chapter-7.md; Ch. 7, pp. 187–194",
+      "category": "design",
+      "kind": "process",
+      "purpose": "Revise a promising opportunity before abandoning it.",
+      "inputs": [
+        "Current idea",
+        "Supporting and refuting observations"
+      ],
+      "steps": [
+        "Identify assumptions contradicted by evidence.",
+        "Generate changes to price, scope, packaging, audience, or model.",
+        "Preserve the problem while evidence supports it.",
+        "Form new claims and test variants.",
+        "Stop or change opportunity if results stay discouraging."
+      ],
+      "outputs": [
+        "Versioned variants",
+        "Changed assumptions and evidence",
+        "Next tests"
+      ],
+      "source_order": "Ch. 7, pp. 187–194",
+      "prerequisites": [
+        {
+          "activity_id": "EX-004",
+          "artifact": "Market evidence",
+          "strength": "soft",
+          "reason": "Source also permits variants before initial testing.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Do not endlessly tweak to avoid negative evidence."
+      ],
+      "variants": [
+        "Several initial alternatives"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-026",
+      "title": "Flip assumptions to generate alternatives",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/017-chapter-7.md; Ch. 7, pp. 190–193, Tina Seelig exercise",
+      "category": "design",
+      "kind": "exercise",
+      "purpose": "Expose alternatives hidden by category conventions.",
+      "inputs": [
+        "Problem or product category"
+      ],
+      "steps": [
+        "List taken-for-granted features, rules, pricing, and operations.",
+        "Write opposites.",
+        "Choose conventional elements to retain and assumptions to invert.",
+        "Combine into distinct concepts.",
+        "Select concepts for real tests."
+      ],
+      "outputs": [
+        "Assumption/opposite table",
+        "Concept alternatives",
+        "Testable variants"
+      ],
+      "source_order": "Ch. 7, pp. 190–193, Tina Seelig exercise",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "team_workshop",
+      "ai_role": "Prepare prompts and synthesize the group's decisions.",
+      "human_role": "Contribute independent judgments and resolve choices together.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Savoia credits Tina Seelig; this book is the reviewed source."
+      ],
+      "variants": [
+        "Course challenge: 100 ideas",
+        "Book also permits a few alternatives"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-027",
+      "title": "Build a staged engagement and experiment plan",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/018-chapter-8.md; Ch. 8, pp. 195–207, especially 201–206",
+      "category": "design",
+      "kind": "process",
+      "purpose": "Order tests by learning and commitment without a rigid project checklist.",
+      "inputs": [
+        "XYZ and local claims",
+        "Access, time, budget"
+      ],
+      "steps": [
+        "Draft claims for interest, costly attention, purchase, and return where relevant.",
+        "Identify tests for each.",
+        "Compare DTD, HTD, $TD, and commitment strength.",
+        "Start with an informative feasible test.",
+        "Revise the sequence when evidence or resources change."
+      ],
+      "outputs": [
+        "Portfolio: claim, funnel stage, DTD, HTD, $TD, commitment",
+        "Conditional plan"
+      ],
+      "source_order": "Ch. 8, pp. 195–207, especially 201–206",
+      "prerequisites": [
+        {
+          "activity_id": "EX-006",
+          "artifact": "Quantified engagement claim",
+          "strength": "hard",
+          "reason": "Staged claims derive from the premise.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "BusU is fictional.",
+        "Funnel conversions remain assumptions until observed.",
+        "Source explicitly allows backtracking and skipping ahead."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-028",
+      "title": "Test repeat purchase with a real follow-up offer",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/018-chapter-8.md; Ch. 8, pp. 214–218; Ch. 5 p. 124",
+      "category": "experiment",
+      "kind": "process",
+      "purpose": "Check whether initial enthusiasm becomes ongoing use.",
+      "inputs": [
+        "Initial-use cohort",
+        "Follow-up offers"
+      ],
+      "steps": [
+        "Identify recurring behavior the model requires.",
+        "Give initial customers a concrete next offer.",
+        "Track re-enrollment, payment, or continued use.",
+        "Record cancellations, refunds, and contextual feedback.",
+        "Revise duration, price, or service and retest."
+      ],
+      "outputs": [
+        "Cohort: eligible users, returns, payments, refusals, refunds",
+        "Repeat-use update"
+      ],
+      "source_order": "Ch. 8, pp. 214–218; Ch. 5 p. 124",
+      "prerequisites": [
+        {
+          "activity_id": null,
+          "artifact": "Real initial-use cohort",
+          "strength": "hard",
+          "reason": "Repeat behavior requires prior use.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "human_fieldwork",
+      "ai_role": "Prepare the plan and logging materials; analyze supplied observations.",
+      "human_role": "Obtain access, operate the test, fulfill promises, and record actual behavior.",
+      "skill_idea": "Co-design the test in dialogue, export a fieldwork brief and observation log, then resume with actual evidence.",
+      "cautions": [
+        "Satisfied comments are not repeat purchases."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-029",
+      "title": "Assemble a business case from trial operations",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/018-chapter-8.md; Ch. 8, pp. 217–220",
+      "category": "model",
+      "kind": "deliverable",
+      "purpose": "Support investment with observed economics and delivery.",
+      "inputs": [
+        "Operations",
+        "Revenue, cost, return, fulfillment records"
+      ],
+      "steps": [
+        "Gather actual revenue and delivery costs.",
+        "Include repeat behavior and refunds.",
+        "Document what the team delivered and changed.",
+        "Identify untested scale assumptions.",
+        "Support a specific next investment."
+      ],
+      "outputs": [
+        "Business case: economics, delivery, behavior, changes, uncertainty"
+      ],
+      "source_order": "Ch. 8, pp. 217–220",
+      "prerequisites": [
+        {
+          "activity_id": null,
+          "artifact": "Actual operations",
+          "strength": "hard",
+          "reason": "The example distinguishes observed activity from projections.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "hybrid",
+      "ai_role": "Draft the materials, organize data, and analyze actual results.",
+      "human_role": "Verify the draft, run the test, and bring back observations.",
+      "skill_idea": "Gather missing inputs, draft the materials, then support a separate run-and-review phase.",
+      "cautions": [
+        "Illustrative investor outcomes are not funding promises.",
+        "Trial economics do not automatically scale."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-030",
+      "title": "Check whether the work is right for the founder",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/019-chapter-9.md; Ch. 9, pp. 234–240",
+      "category": "decide",
+      "kind": "exercise",
+      "purpose": "Judge personal fit from actual early work.",
+      "inputs": [
+        "Founder priorities",
+        "Operating experience"
+      ],
+      "steps": [
+        "Reflect on actual tasks, customers, and problems.",
+        "Identify meaningful, enjoyable, draining, or unacceptable work.",
+        "Consider committing to that market for years.",
+        "Choose to continue, change role, redesign, or stop."
+      ],
+      "outputs": [
+        "Founder-fit record: observations, motivations, concerns, decision"
+      ],
+      "source_order": "Ch. 9, pp. 234–240",
+      "prerequisites": [
+        {
+          "activity_id": null,
+          "artifact": "Direct experience",
+          "strength": "soft",
+          "reason": "Actual work improves this reflection.",
+          "basis": "source"
+        }
+      ],
+      "independence": "Can start with equivalent existing inputs. Follow artifact dependencies; chapter order does not make every other exercise mandatory.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Personal fit and market desirability are different."
+      ],
+      "variants": [],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-031",
+      "title": "Check whether the idea is right for the world",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/019-chapter-9.md; Ch. 9, pp. 240–244",
+      "category": "decide",
+      "kind": "exercise",
+      "purpose": "Choose worthwhile as well as commercially promising ideas.",
+      "inputs": [
+        "Idea",
+        "Beneficiaries and harms",
+        "Values"
+      ],
+      "steps": [
+        "Identify benefits, harms, and affected people.",
+        "Consider lasting value and resource use.",
+        "Judge whether the idea is worth pursuing.",
+        "Generate more meaningful alternatives when appropriate."
+      ],
+      "outputs": [
+        "Impact and values assessment",
+        "Proceed/redesign rationale"
+      ],
+      "source_order": "Ch. 9, pp. 240–244",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Reflection is not a universal morality score."
+      ],
+      "variants": [
+        "Nonprofit and public-interest outcomes"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-032",
+      "title": "Practice redesigning an expensive launch as a pretotype",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/014-chapter-5.md; Ch. 5, pp. 86–88; Fold4U exercise p. 91",
+      "category": "facilitate",
+      "kind": "exercise",
+      "purpose": "Practice testing a premise before building a complete solution.",
+      "inputs": [
+        "A failed launch or proposed large build",
+        "Pretotyping techniques"
+      ],
+      "steps": [
+        "Identify demand assumptions.",
+        "Propose a small test that could expose them.",
+        "Sketch the simulation and required customer commitment.",
+        "Compare learning cost with original investment.",
+        "Discuss what remains uncertain in this counterfactual."
+      ],
+      "outputs": [
+        "Practice brief: assumption, test, metric, cost comparison"
+      ],
+      "source_order": "Ch. 5, pp. 86–88; Fold4U exercise p. 91",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Counterfactual practice is not causal evidence."
+      ],
+      "variants": [
+        "Fold4U investor role-play",
+        "User's own project"
+      ],
+      "evidence_status": "primary_checked"
+    },
+    {
+      "id": "EX-033",
+      "title": "Audit Thoughtland traps and compare research with behavior",
+      "source_id": "right-it-book",
+      "source_ref": "research/mentor-room/derived/the-right-it/010-chapter-2.md; Ch. 2, pp. 31–50, especially 36–42",
+      "category": "measure",
+      "kind": "task",
+      "purpose": "Prevent misunderstanding, prediction, low-stakes opinion, and confirmation bias from masquerading as demand.",
+      "inputs": [
+        "Opinion-based research",
+        "Market claim"
+      ],
+      "steps": [
+        "Check that respondents understood the same offer.",
+        "Separate past behavior from future prediction.",
+        "Identify actual commitments.",
+        "Look for discarded contrary evidence.",
+        "Where useful, compare a behavioral test with existing research."
+      ],
+      "outputs": [
+        "Bias audit",
+        "Opinion/action comparison",
+        "Behavioral follow-up plan"
+      ],
+      "source_order": "Ch. 2, pp. 31–50, especially 36–42",
+      "prerequisites": [],
+      "independence": "Standalone; can run in parallel with other idea work and be revisited.",
+      "execution": "dialogue",
+      "ai_role": "Ask focused questions and draft the artifact from supplied context.",
+      "human_role": "Supply context, correct assumptions, and decide.",
+      "skill_idea": "A short exchange produces a reviewable artifact; assumptions and real evidence remain visibly separate.",
+      "cautions": [
+        "Disagreement needs investigation."
+      ],
+      "variants": [
+        "Parallel research and pretotyping on pp. 36–37"
+      ],
+      "evidence_status": "primary_checked"
+    }
+  ],
+  "coverage": []
+}

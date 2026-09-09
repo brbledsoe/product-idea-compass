@@ -1,0 +1,3064 @@
+{
+  "schema_version": 1,
+  "id": "remote-rental-operations",
+  "title": "Remote rental operations for independent hosts",
+  "created": "2026-09-06T10:40:47.710222+00:00",
+  "core_version": "mentor-room-core-v0.2-2026-09-06",
+  "lifecycle": "paused",
+  "scope": {
+    "revision": 3,
+    "audience": "Provisional: remote independent rental owners and family/local coordinators who struggle with fragmented tools and dependable delegation. Mom, about 66-67, is the concrete initial example in Texas; a broader age-defined segment and initial sales market remain untested.",
+    "context": "Family rental in Texas, with overseas founders and local family help. Prior incidents and rough frequency estimates retained in scope history and E01-E28. New clarification: walkthroughs continue before almost every arrival and cover cleanliness, staging, supplies and cooling. Brandon relays Mom identifying cleaner acknowledgment/chasing as a major time burden, Tuesday trash as a coverage gap, and repair coordination/status uncertainty while away as especially overwhelming. Income and outside expenses are not consolidated, so profitability and pricing choices are unclear. An actual free eight-hour late checkout with extensive cooking reportedly required about two extra cleaning hours at unchanged cleaner pay. The earlier muddy-party scenario remains hypothetical. Same family/property reports; no invoices, independent observation or measured time study inspected. Follow-up 2026-09-09: Brandon explicitly says nobody currently could take responsibility if Mom were unavailable and cleaning coverage failed. This does not establish local provider scarcity. Clarification 2026-09-09: Mom has tried no other dedicated operations app besides the family-built app; earlier Airbnb/message use remains part of the workflow. The existing app is the comparison baseline. Follow-up E47: explicit cleaner acceptance/decline is not really present according to Brandon; wording qualified and implementation uninspected. E48: cleaner reportedly stopped using existing completion features because they were too difficult/annoying. Photo evidence informs payment, but the current workaround is unknown. Do not equate implemented completion features with continued use. E49-E52: Brandon explicitly offers a speculative interruption/navigation explanation; long room-by-room form and existing minimum-photo/grouping changes described. Cleaner in fifties with unspecified phone; age and near-universal smartphone adoption are not established causal/market evidence. Delegating substitute search remains a proposal. Follow-up E56-E62: actual app repository inspected at main/c2ba5cc. A13 is now the code baseline, superseding earlier implementation-unknown wording for the inspected paths only. Current compact cleaning UI, broader finance/AI modules and absence of a minimum-photo submit check may reflect later revisions. Deployed version, configuration and adoption remain unknown. Founder favors free-order capture and proposes assistive camera review/shared tablet; these are untested.",
+    "ambition": "User prefers an owner-facing automation/software business without a staffed cleaning service. Independent-provider referral/marketplace and professional-manager buyers remain exploratory alternatives. Exact income target, time budget and acceptable support burden unknown.",
+    "success_criteria": [
+      "Proposed for next learning investment: identify a recurring, consequential problem in a reachable audience and a demonstrable gap versus the current alternative.",
+      "Commercial thresholds remain unknown: establish willingness to pay and continue, owner time savings, provider reliability, and support-adjusted economics before a larger commitment.",
+      "Candidate scoped outcome: fewer avoidable family reinspection visits while maintaining agreed readiness standards and acceptable provider effort; no numeric threshold or perfection guarantee established.",
+      "Proposed first mechanics test: two jobs accepted and accounted for by agreed cutoffs, no Mom confirmation-chasing and no unowned exception; total coordination and cleaner effort must be visible. Does not demonstrate market demand or reliability."
+    ],
+    "next_investment": "Prepare a bounded one-room reference/current image comparison after establishing reference-photo availability; use the existing app baseline and ordinary-camera capture first. No app build, hardware purchase or live cleaner trial committed.",
+    "constraints": [
+      "Very simple experience and inexpensive price; exact fee unknown.",
+      "Two-programmer ambition and preference against operating a staffed cleaning service; local provider partnerships remain possible.",
+      "App setup/navigation and mandatory evidence steps burden substitute cleaners; reduce that burden while retaining adequate readiness assurance.",
+      "Exact city, supported hardware/integrations, provider supply, measured hours/cost and initial market remain unknown; rough recurrence estimates are now recorded.",
+      "Low-invasiveness preference; hardware is a possible tool only after identifying the specific condition that needs checking."
+    ],
+    "pending_questions": [
+      "Does Mom already have photos of the rooms arranged exactly how she wants them?"
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H01",
+      "revision": 1,
+      "claim": "Remote small-property owners experience recurring consequential cleaning or repair coordination interruptions.",
+      "subject": "whole",
+      "scope_revision": 1,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Recurring family burden further supported by relayed Mom feedback: confirmation chasing and repair coordination. Hours and independent prevalence remain unmeasured.",
+      "evidence_ids": [
+        "E01",
+        "E10",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E21",
+        "E22",
+        "E23",
+        "E30",
+        "E31"
+      ]
+    },
+    {
+      "id": "H02",
+      "revision": 1,
+      "claim": "A simple low-priced bundle of the listed automations offers a compelling advantage over existing alternatives.",
+      "subject": "whole",
+      "scope_revision": 1,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Existing overlap now includes human replacement assistance under specific conditions. A superior low-priced bundle remains unproven.",
+      "evidence_ids": [
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E08",
+        "E34",
+        "E36",
+        "E38",
+        "E40",
+        "E41",
+        "E44",
+        "E45",
+        "E46"
+      ]
+    },
+    {
+      "id": "H03",
+      "revision": 1,
+      "claim": "Older owners form a reachable segment with distinct unmet usability or delegation needs.",
+      "subject": "whole",
+      "scope_revision": 1,
+      "risk": "medium",
+      "importance": "medium",
+      "current_assessment": "Concrete founder-selected example: Mom about 66-67 reports usability/delegation burdens through Brandon. Broader segment differences, reachability and demand remain untested.",
+      "evidence_ids": [
+        "E01",
+        "E34"
+      ]
+    },
+    {
+      "id": "H04",
+      "revision": 1,
+      "claim": "Following through on exceptions with approved providers reduces owner effort beyond existing cleaning/operations tools.",
+      "subject": "C01",
+      "scope_revision": 1,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Existing vendor workflows address backup routing and some replacement coordination. Specific incremental value remains untested; establish actual prior use next.",
+      "evidence_ids": [
+        "E03",
+        "E05",
+        "E10",
+        "E11",
+        "E30",
+        "E44",
+        "E45",
+        "E46",
+        "E52"
+      ]
+    },
+    {
+      "id": "H05",
+      "revision": 1,
+      "claim": "Two programmers can deliver the selected promise at a low price with sustainable support and service-recovery costs.",
+      "subject": "whole",
+      "scope_revision": 1,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "No backup owner currently exists for the family. Software-plus-independent-provider arrangements remain possible, but the broader off-duty promise and support economics are untested.",
+      "evidence_ids": [
+        "E01",
+        "E07",
+        "E13",
+        "E14",
+        "E16",
+        "E23",
+        "E24",
+        "E31",
+        "E35",
+        "E43",
+        "E44",
+        "E52"
+      ]
+    },
+    {
+      "id": "H06",
+      "revision": 1,
+      "claim": "The team can obtain reliable authorized booking and device integrations for the initial market.",
+      "subject": "C03",
+      "scope_revision": 1,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Static calendar import, configurable webhooks and Home Assistant dashboard links found; hardware control may live elsewhere. Configuration, live delivery and comprehensive Airbnb integration remain unverified.",
+      "evidence_ids": [
+        "E08",
+        "E09",
+        "E14",
+        "E57"
+      ]
+    },
+    {
+      "id": "H07",
+      "revision": 1,
+      "claim": "Reachable independent hosts will pay for and continue using the selected workflow.",
+      "subject": "whole",
+      "scope_revision": 1,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "untested; no independent purchase or usage evidence",
+      "evidence_ids": []
+    },
+    {
+      "id": "H08",
+      "revision": 1,
+      "claim": "Enough suitable local providers will accept and complete requests within the required deadlines.",
+      "subject": "C02",
+      "scope_revision": 1,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "No one currently owns coverage when Mom is unavailable. This is an accountability gap, not evidence that no local providers are available.",
+      "evidence_ids": [
+        "E10",
+        "E30",
+        "E31",
+        "E43",
+        "E44",
+        "E52"
+      ]
+    },
+    {
+      "id": "H09",
+      "revision": 1,
+      "claim": "Linking readiness and amenity reports to follow-through and affected-guest communication reduces remote family coordination burden.",
+      "subject": "whole",
+      "scope_revision": 2,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Recurring family readiness visits and coordination reported; whether a different handover can remove them without missed work remains untested.",
+      "evidence_ids": [
+        "E12",
+        "E15",
+        "E19",
+        "E21",
+        "E23",
+        "E25"
+      ]
+    },
+    {
+      "id": "H10",
+      "revision": 1,
+      "claim": "A job-specific invitation and short guide reduces substitute-cleaner setup and assistance compared with the existing app.",
+      "subject": "C01",
+      "scope_revision": 2,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Untested proposed variant; no comparative usability study.",
+      "evidence_ids": [
+        "E11",
+        "E46"
+      ]
+    },
+    {
+      "id": "H11",
+      "revision": 1,
+      "claim": "Low-burden photo/checklist evidence can provide enough readiness assurance without excessive cleaner or owner effort.",
+      "subject": "C04",
+      "scope_revision": 2,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Reported completion abandonment remains material. Current photo attachment and submit code inspected; no minimum-photo enforcement found in this handler. Adequate owner assurance and lower burden remain untested; close vendor AI/human inspection overlap exists.",
+      "evidence_ids": [
+        "E12",
+        "E21",
+        "E27",
+        "E29",
+        "E36",
+        "E37",
+        "E39",
+        "E48",
+        "E49",
+        "E50",
+        "E54",
+        "E58",
+        "E62"
+      ]
+    },
+    {
+      "id": "H12",
+      "revision": 1,
+      "claim": "Supported-device monitoring and a defined recovery route reduce access/connection incidents requiring family intervention.",
+      "subject": "C03",
+      "scope_revision": 2,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Supported-device oversight exists commercially; actual household compatibility, reliability and recovery route remain untested.",
+      "evidence_ids": [
+        "E13",
+        "E14",
+        "E23",
+        "E38"
+      ]
+    },
+    {
+      "id": "H13",
+      "revision": 1,
+      "claim": "The proposed Airbnb-guest email and discounted off-platform repeat-booking funnel is a viable distribution approach.",
+      "subject": "C09",
+      "scope_revision": 2,
+      "risk": "high",
+      "importance": "medium",
+      "current_assessment": "Challenged by explicit Airbnb off-platform/marketing restrictions as described; do not pursue this variant without material revision.",
+      "evidence_ids": [
+        "E17",
+        "E18"
+      ]
+    },
+    {
+      "id": "H14",
+      "revision": 1,
+      "claim": "Family post-cleaner inspections uncover actionable readiness gaps that the existing cleaner handover does not reliably address.",
+      "subject": "C04",
+      "scope_revision": 2,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Further supported in this family: walkthroughs persist before almost every arrival and include recurring actionable staging/supply/readiness corrections. Severity and time not measured; no new major cleaning failure established.",
+      "evidence_ids": [
+        "E21",
+        "E26",
+        "E27",
+        "E29"
+      ]
+    },
+    {
+      "id": "H15",
+      "revision": 1,
+      "claim": "An improved on-site work and handover process can reduce avoidable family reinspection while preserving agreed readiness standards at acceptable provider effort.",
+      "subject": "C04",
+      "scope_revision": 2,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Ongoing visits now established by report. Whether better handover can safely replace them is untested; Properly overlaps this direction and should be a comparator.",
+      "evidence_ids": [
+        "E21",
+        "E24",
+        "E26",
+        "E27",
+        "E29",
+        "E36",
+        "E37"
+      ]
+    },
+    {
+      "id": "H16",
+      "revision": 1,
+      "claim": "A property-specific standards and feedback workflow reduces family effort when onboarding a cleaner and establishes a useful handover afterward.",
+      "subject": "C04",
+      "scope_revision": 2,
+      "risk": "medium",
+      "importance": "high",
+      "current_assessment": "Specific reference standards are available from Mom examples; agreed cleaner scope and better outcomes remain untested.",
+      "evidence_ids": [
+        "E26",
+        "E27",
+        "E29",
+        "E37"
+      ]
+    },
+    {
+      "id": "H17",
+      "revision": 1,
+      "claim": "A clear exceptional-cleaning scope/time/price approval flow reduces coordination and compensates providers fairly when routine fixed-price work changes.",
+      "subject": "C01",
+      "scope_revision": 2,
+      "risk": "medium",
+      "importance": "medium",
+      "current_assessment": "Now supported by an actual reported cooking/late-checkout extra-work incident as well as the earlier hypothetical. Fair workable approval rules and recurrence remain untested.",
+      "evidence_ids": [
+        "E28",
+        "E33"
+      ]
+    },
+    {
+      "id": "H18",
+      "revision": 1,
+      "claim": "Explicit cleaner acceptance, completion/exception reporting and an agreed backup owner reduce Mom's confirmation chasing without leaving work unowned.",
+      "subject": "C01",
+      "scope_revision": 3,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Untested broader claim. No backup owner is available, and the existing completion workflow is reportedly not being used. Reliable acceptance/completion cannot be assumed from feature presence.",
+      "evidence_ids": [
+        "E30",
+        "E31",
+        "E43",
+        "E45",
+        "E46",
+        "E47",
+        "E48"
+      ]
+    },
+    {
+      "id": "H19",
+      "revision": 1,
+      "claim": "A repair workflow with a responsible person, current status and explicit outcome/follow-up reporting reduces owner coordination and unresolved worry.",
+      "subject": "C02",
+      "scope_revision": 3,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Untested proposed improvement grounded in family reports; existing alternatives and actual use remain to be compared.",
+      "evidence_ids": [
+        "E31"
+      ]
+    },
+    {
+      "id": "H20",
+      "revision": 1,
+      "claim": "Consolidated income, property costs, exceptional spending and family effort in an understandable view help owners like Mom judge whether the rental is worthwhile and act on that information.",
+      "subject": "C10",
+      "scope_revision": 3,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Consolidated ledger/reporting and bill-photo prefill exist in supplied checkout; deployment/use/data completeness unknown. A property-summary compensation classification inconsistency was reproduced with synthetic data. Financial clarity remains unestablished.",
+      "evidence_ids": [
+        "E32",
+        "E34",
+        "E40",
+        "E42",
+        "E57",
+        "E60"
+      ]
+    },
+    {
+      "id": "H21",
+      "revision": 1,
+      "claim": "Clear agreed checkout and exceptional-work rules, informed by property economics, reduce ad hoc decisions and unexpected cleaning work.",
+      "subject": "C11",
+      "scope_revision": 3,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Untested proposed improvement grounded in family reports; existing alternatives and actual use remain to be compared.",
+      "evidence_ids": [
+        "E32",
+        "E33",
+        "E41"
+      ]
+    },
+    {
+      "id": "H22",
+      "revision": 1,
+      "claim": "Proactive explicit confirmation of a specific cleaning window, visible to Mom, reduces her messages/calls solely to establish whether the cleaner will attend.",
+      "subject": "C01",
+      "scope_revision": 3,
+      "risk": "medium",
+      "importance": "high",
+      "current_assessment": "Current checklist status model is open/submitted; no dedicated acceptance/decline lifecycle found in inspected paths. Notification machinery exists but does not establish acknowledgment.",
+      "evidence_ids": [
+        "E30",
+        "E45",
+        "E47",
+        "E48",
+        "E57"
+      ]
+    },
+    {
+      "id": "H23",
+      "revision": 1,
+      "claim": "A short final camera sequence with clear reference views and no repeated form navigation reduces cleaner interruption/reporting effort while retaining agreed readiness evidence.",
+      "subject": "C04",
+      "scope_revision": 3,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Untested proposed variant; founder review is next, not evidence of actual cleaner usability, reduced total effort or adequate owner assurance.",
+      "evidence_ids": [
+        "E48",
+        "E49",
+        "E50",
+        "E51",
+        "E37",
+        "E53"
+      ]
+    },
+    {
+      "id": "H24",
+      "revision": 1,
+      "claim": "A job-specific free-capture photo inbox reduces cleaner navigation burden while keeping missing views, classification uncertainty and owner review effort manageable.",
+      "subject": "C04",
+      "scope_revision": 3,
+      "risk": "high",
+      "importance": "high",
+      "current_assessment": "Founder-preferred variant. Static code confirms current item-associated uploads and reusable AI image plumbing, but no job-level capture/classification workflow. Usability and adequate evidence remain untested.",
+      "evidence_ids": [
+        "E48",
+        "E49",
+        "E50",
+        "E51",
+        "E53",
+        "E55",
+        "E56",
+        "E58",
+        "E59"
+      ]
+    },
+    {
+      "id": "H25",
+      "revision": 1,
+      "claim": "Assistive comparison of current room images with owner-approved references catches useful visible staging deviations without excessive false alarms, missed issues or cleaner effort.",
+      "subject": "C04",
+      "scope_revision": 3,
+      "risk": "high",
+      "importance": "medium",
+      "current_assessment": "Untested implementation variant; no actual image comparison or cleaner-device trial. LiDAR is optional for H26 and does not certify readiness.",
+      "evidence_ids": [
+        "E54",
+        "E56",
+        "E59",
+        "E61",
+        "E62"
+      ]
+    },
+    {
+      "id": "H26",
+      "revision": 1,
+      "claim": "A property-owned handheld capture device reduces setup and device variability enough to outweigh carrying, charging and sign-in burdens.",
+      "subject": "C04",
+      "scope_revision": 3,
+      "risk": "high",
+      "importance": "medium",
+      "current_assessment": "Untested implementation variant; no actual image comparison or cleaner-device trial. LiDAR is optional for H26 and does not certify readiness.",
+      "evidence_ids": [
+        "E51",
+        "E56",
+        "E61"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E01",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, initial user message; preserved in sessions/2026-09-06-01-intake.md",
+      "observation": "Brandon reports a cross-border family rental, connected devices, an automation app, technical experience, and a proposed host-facing business.",
+      "audience": "One founder/family operation",
+      "context": "Remote operation of one family rental; country unknown",
+      "claim_ids": [
+        "H01",
+        "H03",
+        "H05"
+      ],
+      "limitations": "Self-report; no logs, code, customer interviews, incidents, invoices, or comparative measurements inspected.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E02",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://hospitable.com/pricing",
+      "observation": "Vendor advertises free Essentials with messaging, channels and cleaning/team workflows; specified paid plans add AI and device automation.",
+      "audience": "Hosts and property managers",
+      "context": "Official pricing page retrieved 2026-09-06",
+      "claim_ids": [
+        "H02"
+      ],
+      "limitations": "Published features, not tested performance; paid base amounts and some table alignment not reliably rendered.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E03",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://help.turno.com/en/articles/8576288-as-a-host-what-do-i-do-after-accepting-a-bid ; https://help.turno.com/en/articles/10192100-project-settings ; https://help.turno.com/en/articles/8638551-finding-cleaners-on-the-turno-marketplace-as-a-host",
+      "observation": "Turno documents primary/backup cleaner offers, reservation-generated tasks, assignment settings, and photo/checklist workflows.",
+      "audience": "Hosts using Turno and participating cleaners",
+      "context": "Official help documentation retrieved 2026-09-06",
+      "claim_ids": [
+        "H02",
+        "H04"
+      ],
+      "limitations": "No regional supply, actual fulfillment, customer usability, or reliability measured.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E04",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://help.turno.com/en/articles/2142069-what-are-the-fees-for-using-turno-as-a-host ; https://help.turno.com/en/articles/5607345-how-do-paid-subscriptions-work-for-hosts-on-turno",
+      "observation": "Turno describes subscription-free single-property use and eligible multi-property external-provider subscriptions at USD10 monthly or USD8/month annual equivalent; payment and service costs are separate.",
+      "audience": "Turno hosts",
+      "context": "Official fee documentation retrieved 2026-09-06",
+      "claim_ids": [
+        "H02"
+      ],
+      "limitations": "Conditional fees; not an actual account quote. Main marketing pricing page blocked by interstitial.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E05",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.breezeway.io/breezeway-pricing",
+      "observation": "Breezeway advertises cleaning, inspections, maintenance and workflow automation. Page includes first-property free and Host Essentials USD19.99/unit/month blocks.",
+      "audience": "Hosts and property operations teams",
+      "context": "Official pricing page retrieved 2026-09-06",
+      "claim_ids": [
+        "H02",
+        "H04"
+      ],
+      "limitations": "Overlapping offer blocks limit exact pricing interpretation; add-ons and eligibility require confirmation; no product trial.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E06",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.guesty.com/pricing/",
+      "observation": "Guesty explicitly targets 1–3 listings with Lite, describing Airbnb/Vrbo/Booking.com sync, multi-calendar and unified inbox.",
+      "audience": "Small independent hosts",
+      "context": "Official pricing page retrieved 2026-09-06",
+      "claim_ids": [
+        "H02"
+      ],
+      "limitations": "Paid base amount not reliably rendered; broader capabilities not automatically attributed to Lite.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E07",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://evolve.com/owner/vacation-rental-management ; https://evolve.com/support-faq ; https://evolve.com/cleaners",
+      "observation": "Evolve advertises hybrid management at Core10%, Plus15%, Pro custom and connections to local partners whom owners pay directly.",
+      "audience": "Owners in Evolve service markets",
+      "context": "Official service and partner pages retrieved 2026-09-06",
+      "claim_ids": [
+        "H05"
+      ],
+      "limitations": "Service-market applicability to this property unknown. Not independent evidence of competitor management-fee averages or customer outcomes.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E08",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.airbnb.com/help/article/3478 ; https://www.airbnb.com/resources/hosting-homes/a/connect-a-smart-lock-to-airbnb-for-smoother-check-ins-667",
+      "observation": "Airbnb documents native guest-code automation for eligible listings/compatible smart locks; reviewed Resource Center page specifies US and Canada.",
+      "audience": "Eligible Airbnb hosts",
+      "context": "Official documentation retrieved 2026-09-06",
+      "claim_ids": [
+        "H02",
+        "H06"
+      ],
+      "limitations": "Resource Center article updated in2024; hardware/region and current-app applicability unverified.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E09",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.airbnb.com/help/article/3418 ; https://www.airbnb.com/software-partners",
+      "observation": "Airbnb describes program-specific API scopes and lists existing software partners.",
+      "audience": "Software providers and connected hosts",
+      "context": "Official platform pages retrieved 2026-09-06",
+      "claim_ids": [
+        "H06"
+      ],
+      "limitations": "This team has no verified program eligibility or scope access in the record. No integration prototype or legal analysis performed.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E10",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message following FB-0003, beginning \"opk thats better\"; sessions/2026-09-06-02-incidents.md and artifacts/04-incident-map.md",
+      "observation": "Primary cleaner saw an upcoming task but could not attend while out of town. Mom/family and cleaner exchanged messages and sought referrals. Substitute reportedly covered a few visits until the primary returned.",
+      "audience": "Brandon reporting one family rental operation and its guests/providers",
+      "context": "Texas local coordination with overseas family; single-property context",
+      "claim_ids": [
+        "H01",
+        "H04",
+        "H08"
+      ],
+      "limitations": "One absence episode and several substitute visits; no dates, measured labor, prices or independent provider evidence.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E11",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message following FB-0003, beginning \"opk thats better\"; sessions/2026-09-06-02-incidents.md and artifacts/04-incident-map.md",
+      "observation": "Family created a temporary sign-in; substitute installed the app and had difficulty using the access/work/payment-related flow.",
+      "audience": "Brandon reporting one family rental operation and its guests/providers",
+      "context": "Texas local coordination with overseas family; single-property context",
+      "claim_ids": [
+        "H04",
+        "H10"
+      ],
+      "limitations": "Founder report of another person's experience; no direct usability observation or exact failure-step record.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E12",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message following FB-0003, beginning \"opk thats better\"; sessions/2026-09-06-02-incidents.md and artifacts/04-incident-map.md",
+      "observation": "Cleaner checklist includes rooms, replenishment and damage checks with photos before payment. Brandon describes a tradeoff between evidence sufficiency and intrusive/burdensome navigation.",
+      "audience": "Brandon reporting one family rental operation and its guests/providers",
+      "context": "Texas local coordination with overseas family; single-property context",
+      "claim_ids": [
+        "H01",
+        "H11"
+      ],
+      "limitations": "No measured checklist burden or objective cleaning-quality comparison; not proof photos can certify every standard.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E13",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message following FB-0003, beginning \"opk thats better\"; sessions/2026-09-06-02-incidents.md and artifacts/04-incident-map.md",
+      "observation": "Storm and power cycling preceded loss of the alarm connection integrated through Home Assistant. Mom went to the property and handled calls/troubleshooting.",
+      "audience": "Brandon reporting one family rental operation and its guests/providers",
+      "context": "Texas local coordination with overseas family; single-property context",
+      "claim_ids": [
+        "H01",
+        "H05",
+        "H12"
+      ],
+      "limitations": "ADT identity tentative; failure point, root cause, resolution details and cost unverified.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E14",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message following FB-0003, beginning \"opk thats better\"; sessions/2026-09-06-02-incidents.md and artifacts/04-incident-map.md",
+      "observation": "An older guest couple could not use their received entry code and waited in the heat. Mom attended and supplied her personal code. Low lock battery was reported; app disconnection was suspected.",
+      "audience": "Brandon reporting one family rental operation and its guests/providers",
+      "context": "Texas local coordination with overseas family; single-property context",
+      "claim_ids": [
+        "H01",
+        "H05",
+        "H06",
+        "H12"
+      ],
+      "limitations": "Battery role and chronology not established; using a different code does not demonstrate recovery from a completely dead battery. No logs or hardware identity.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E15",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message following FB-0003, beginning \"opk thats better\"; sessions/2026-09-06-02-incidents.md and artifacts/04-incident-map.md",
+      "observation": "Guests repeatedly asked for additional towels for a week-long stay. Washer/dryer broke; family did not know how to keep guests/listing informed about unavailability and restoration.",
+      "audience": "Brandon reporting one family rental operation and its guests/providers",
+      "context": "Texas local coordination with overseas family; single-property context",
+      "claim_ids": [
+        "H01",
+        "H09"
+      ],
+      "limitations": "Towel and appliance events are not established as causally related; quantities, repair timeline, costs and actual listing changes unknown.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E16",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message following FB-0003, beginning \"opk thats better\"; sessions/2026-09-06-02-incidents.md and artifacts/04-incident-map.md",
+      "observation": "Brandon prefers an automation business without employing cleaners, leans owner-facing, and is open to exploring manager buyers or a Fiverr-like independent provider network. Local family management in Texas is described.",
+      "audience": "Brandon reporting one family rental operation and its guests/providers",
+      "context": "Texas local coordination with overseas family; single-property context",
+      "claim_ids": [
+        "H05"
+      ],
+      "limitations": "Founder preference and context, not independent demand or a selected business model.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E17",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message following FB-0003, beginning \"opk thats better\"; sessions/2026-09-06-02-incidents.md and artifacts/04-incident-map.md",
+      "observation": "Brandon proposes easier guest feedback, TV/local-event guidance, and an email-through-Wi-Fi repeat-booking discount/payment flow.",
+      "audience": "Brandon reporting one family rental operation and its guests/providers",
+      "context": "Texas local coordination with overseas family; single-property context",
+      "claim_ids": [
+        "H13"
+      ],
+      "limitations": "These are ideas/perceptions, not verified guest demand, an implemented funnel or tested unit economics.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E18",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.airbnb.com/help/article/2799",
+      "observation": "Policy prohibits steering future/repeat bookings off Airbnb and off-platform booking discounts; restricts guest-contact marketing and external surveys; guest entry generally must not require another account/app, subject to stated exceptions.",
+      "audience": "Airbnb hosts and guests",
+      "context": "Official platform documentation retrieved 2026-09-06",
+      "claim_ids": [
+        "H13"
+      ],
+      "limitations": "Platform policy/instructions only; not legal advice, exhaustive compliance review or proof of API availability.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E19",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.airbnb.com/help/article/1506",
+      "observation": "Airbnb says pending/confirmed guests will not see listing changes and directs hosts to message upcoming guests immediately about removed expected amenities.",
+      "audience": "Airbnb hosts and guests",
+      "context": "Official platform documentation retrieved 2026-09-06",
+      "claim_ids": [
+        "H09"
+      ],
+      "limitations": "Platform policy/instructions only; not legal advice, exhaustive compliance review or proof of API availability.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E20",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.airbnb.com/help/article/3060",
+      "observation": "Airbnb privacy standards prohibit cameras monitoring home interiors.",
+      "audience": "Airbnb hosts and guests",
+      "context": "Official platform documentation retrieved 2026-09-06",
+      "claim_ids": [],
+      "limitations": "Platform policy/instructions only; not legal advice, exhaustive compliance review or proof of API availability.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E21",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message beginning \"Over the past three months, what consumed the most of our family's time?\"; sessions/2026-09-06-03-workflow.md and artifacts/05-readiness-and-response.md",
+      "observation": "Mom or sister-in-law visits before incoming guests to confirm cleanliness, instructions, coffee/supplies and readiness after cleaning. Brandon wants the existing on-site worker to fulfill the necessary tasks so family does not feel compelled to check afterward.",
+      "audience": "Brandon reporting the same family rental and local coordinators",
+      "context": "Remote operation with local Texas relatives; recent three-month reference window with rough estimates",
+      "claim_ids": [
+        "H01",
+        "H09",
+        "H11",
+        "H14",
+        "H15"
+      ],
+      "limitations": "Actual inspection findings, agreed cleaner scope, number of stays and hours per visit are unknown; duplicate visits do not prove failed cleaning.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E22",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message beginning \"Over the past three months, what consumed the most of our family's time?\"; sessions/2026-09-06-03-workflow.md and artifacts/05-readiness-and-response.md",
+      "observation": "Brandon estimates cleaner coordination/checking weekly to biweekly, small/medium problems at least twice per month, and major failures roughly every 2.5 to 3.5 months.",
+      "audience": "Brandon reporting the same family rental and local coordinators",
+      "context": "Remote operation with local Texas relatives; recent three-month reference window with rough estimates",
+      "claim_ids": [
+        "H01"
+      ],
+      "limitations": "Retrospective rough estimates with overlapping possible categories; not exact counts, measured effort or population rates.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E23",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message beginning \"Over the past three months, what consumed the most of our family's time?\"; sessions/2026-09-06-03-workflow.md and artifacts/05-readiness-and-response.md",
+      "observation": "During guest stays the family researches equipment/model information, decides whether to attend or find a provider, makes difficult international/local calls, and coordinates provider timing/access with the guest. Medium issues were described as particularly stressful.",
+      "audience": "Brandon reporting the same family rental and local coordinators",
+      "context": "Remote operation with local Texas relatives; recent three-month reference window with rough estimates",
+      "claim_ids": [
+        "H01",
+        "H05",
+        "H09",
+        "H12"
+      ],
+      "limitations": "No episode-level timeline, costs or independent observation; device causes and API capabilities untested.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E24",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message beginning \"Over the past three months, what consumed the most of our family's time?\"; sessions/2026-09-06-03-workflow.md and artifacts/05-readiness-and-response.md",
+      "observation": "Unplanned responsibility repeatedly falls on mom or another nearby relative and creates family tension. Brandon prefers low-invasiveness and is open to hardware but has not selected a mechanism.",
+      "audience": "Brandon reporting the same family rental and local coordinators",
+      "context": "Remote operation with local Texas relatives; recent three-month reference window with rough estimates",
+      "claim_ids": [
+        "H05",
+        "H15"
+      ],
+      "limitations": "Founder report of family experience and preferences; no direct relative interview or willingness-to-pay evidence.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E25",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message beginning \"Over the past three months, what consumed the most of our family's time?\"; sessions/2026-09-06-03-workflow.md and artifacts/05-readiness-and-response.md",
+      "observation": "Guest questions require local recommendation research and device-use assistance; extension/discount requests create manual work. Brandon assumes Airbnb may automate parts of messaging but does not know the configuration. Guest-facing availability/deposit concepts remain ideas.",
+      "audience": "Brandon reporting the same family rental and local coordinators",
+      "context": "Remote operation with local Texas relatives; recent three-month reference window with rough estimates",
+      "claim_ids": [
+        "H09"
+      ],
+      "limitations": "Messaging setup and reported time burden not inspected; no exact customer identities or booking data requested; speculative availability feature is not a selected requirement.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E26",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message beginning \"Okay, to answer your question, it's usually that\"; sessions/2026-09-06-04-standards.md",
+      "observation": "Family post-cleaner checks usually found the house fairly acceptable, with occasional small omissions. No huge cleaning problem reported. Examples included dust near router cabinet, towels, coffee, cleaning-supply shortage reporting and a missing chocolate.",
+      "audience": "Brandon reporting family inspections and proposing an exceptional-work flow",
+      "context": "Same remote rental, primary cleaner and nearby family; historical and hypothetical material distinguished",
+      "claim_ids": [
+        "H14",
+        "H15"
+      ],
+      "limitations": "One founder account with no dated inspection log; standards are family-defined; do not infer repeated serious failure or quantify defect rates.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E27",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message beginning \"Okay, to answer your question, it's usually that\"; sessions/2026-09-06-04-standards.md",
+      "observation": "Early inspections coached the primary cleaner toward agreed family expectations and family corrected shortfalls before arrival. Cleaner price was usually fixed. Current inspection cadence after learning and agreed division of tasks remain unclear.",
+      "audience": "Brandon reporting family inspections and proposing an exceptional-work flow",
+      "context": "Same remote rental, primary cleaner and nearby family; historical and hypothetical material distinguished",
+      "claim_ids": [
+        "H11",
+        "H14",
+        "H15",
+        "H16"
+      ],
+      "limitations": "Initial learning versus current recurring burden not distinguished; no direct cleaner/coordinator interviews or measured hours.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E28",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, user message beginning \"Okay, to answer your question, it's usually that\"; sessions/2026-09-06-04-standards.md",
+      "observation": "Brandon described a hypothetical muddy-party scenario requiring extra cleaning and proposed evidence, agreement about extra work/time, fair compensation and consideration in a guest review.",
+      "audience": "Brandon reporting family inspections and proposing an exceptional-work flow",
+      "context": "Same remote rental, primary cleaner and nearby family; historical and hypothetical material distinguished",
+      "claim_ids": [
+        "H17"
+      ],
+      "limitations": "Explicit what-if: not an observed party, extra-work incident, dispute or guest violation; proposed willingness to compensate is not independent purchase evidence.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E29",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, message beginning \"How often? I would say, I mean, she goes there\", including relayed mother feedback; sessions/2026-09-06-05-owner-jobs.md",
+      "observation": "Walkthroughs continue before almost every arrival. Mom reportedly checks shower debris, paper fragments, toilet presentation, furniture/lamp placement, coffee/spoons, towels, smooth beds, entrance smudges and cooling. Small but actionable preparation tasks persist beyond initial coaching.",
+      "audience": "Same family operation; Brandon relaying his mother and offering proposals",
+      "context": "Texas family rental; firsthand account by Brandon and relayed mother report, not an independent interview",
+      "claim_ids": [
+        "H11",
+        "H14",
+        "H15",
+        "H16"
+      ],
+      "limitations": "Self/relayed report, no logs or independent inspection; approximate frequency/cost/time; no external demand evidence.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E30",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, message beginning \"How often? I would say, I mean, she goes there\", including relayed mother feedback; sessions/2026-09-06-05-owner-jobs.md",
+      "observation": "Mom identifies repeated confirmation that the cleaner saw the booking/cleaning and will attend as a major time burden. Tuesday trash duties fall to Mom when no cleaner is there.",
+      "audience": "Same family operation; Brandon relaying his mother and offering proposals",
+      "context": "Texas family rental; firsthand account by Brandon and relayed mother report, not an independent interview",
+      "claim_ids": [
+        "H01",
+        "H04",
+        "H18"
+      ],
+      "limitations": "Self/relayed report, no logs or independent inspection; approximate frequency/cost/time; no external demand evidence.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E31",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, message beginning \"How often? I would say, I mean, she goes there\", including relayed mother feedback; sessions/2026-09-06-05-owner-jobs.md",
+      "observation": "Repair coordination while Mom is away is especially overwhelming: changing ETAs, arranging guest access, missing outcome/parts/return-visit information and inability to reach guest/provider. Responsibility and worry remain with her; a reliable alternative owner is not established.",
+      "audience": "Same family operation; Brandon relaying his mother and offering proposals",
+      "context": "Texas family rental; firsthand account by Brandon and relayed mother report, not an independent interview",
+      "claim_ids": [
+        "H01",
+        "H05",
+        "H08",
+        "H19"
+      ],
+      "limitations": "Self/relayed report, no logs or independent inspection; approximate frequency/cost/time; no external demand evidence.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E32",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, message beginning \"How often? I would say, I mean, she goes there\", including relayed mother feedback; sessions/2026-09-06-05-owner-jobs.md",
+      "observation": "Family cannot readily tell whether the rental is worth its spending and work. Payouts, utilities, taxes, cleaning and replacement purchases are scattered. Mom wants understandable performance and payment status to guide prices, minimum stays and service effort.",
+      "audience": "Same family operation; Brandon relaying his mother and offering proposals",
+      "context": "Texas family rental; firsthand account by Brandon and relayed mother report, not an independent interview",
+      "claim_ids": [
+        "H20",
+        "H21"
+      ],
+      "limitations": "Self/relayed report, no logs or independent inspection; approximate frequency/cost/time; no external demand evidence.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E33",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, message beginning \"How often? I would say, I mean, she goes there\", including relayed mother feedback; sessions/2026-09-06-05-owner-jobs.md",
+      "observation": "Reported actual event: eight-hour free late checkout followed by extensive cooking created about two extra cleaning hours at unchanged pay. Approximate flat cleaner fee is $150; a separate quick visit reportedly took about twenty minutes. No agreed exceptional-work rule was described.",
+      "audience": "Same family operation; Brandon relaying his mother and offering proposals",
+      "context": "Texas family rental; firsthand account by Brandon and relayed mother report, not an independent interview",
+      "claim_ids": [
+        "H17",
+        "H21"
+      ],
+      "limitations": "Relayed retrospective account, not invoices/time logs. Prior E28 muddy-party example remains hypothetical. No breach, optimal fee, guest liability or intent established; $50 is a hindsight proposed surcharge, not a charge made.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E34",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, message beginning \"How often? I would say, I mean, she goes there\", including relayed mother feedback; sessions/2026-09-06-05-owner-jobs.md",
+      "observation": "Mom, reportedly about 66-67 and less comfortable with technology, strongly dislikes switching among Airbnb calendar/messages, the family app, WhatsApp/messages and calls. Brandon explicitly identifies her as an intended user.",
+      "audience": "Same family operation; Brandon relaying his mother and offering proposals",
+      "context": "Texas family rental; firsthand account by Brandon and relayed mother report, not an independent interview",
+      "claim_ids": [
+        "H02",
+        "H03",
+        "H20"
+      ],
+      "limitations": "Self/relayed report, no logs or independent inspection; approximate frequency/cost/time; no external demand evidence.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E35",
+      "date": "2026-09-06",
+      "kind": "participant-report",
+      "source": "Brandon, message beginning \"How often? I would say, I mean, she goes there\", including relayed mother feedback; sessions/2026-09-06-05-owner-jobs.md",
+      "observation": "User proposes payment/expense capture and nudges, pricing support, private iPad feedback, local events, acquisition alerts, cleaner incentives and sensors/AI as possible implementations. Wants accountable backup except extreme emergencies, with no staffed cleaning company.",
+      "audience": "Same family operation; Brandon relaying his mother and offering proposals",
+      "context": "Texas family rental; firsthand account by Brandon and relayed mother report, not an independent interview",
+      "claim_ids": [
+        "H05",
+        "H11",
+        "H20",
+        "H21"
+      ],
+      "limitations": "Proposals and preferences, not implemented features, commitments to purchase, validated feasibility or independent demand. One-platform preference does not establish an all-in-one winning product.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E36",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://getproperly.com/real-time-inspection",
+      "observation": "Properly advertises AI-assisted review of cleaner photos with expert human inspection and feedback/reporting before arrival.",
+      "audience": "Owners/providers; published source",
+      "context": "Official source accessed 2026-09-06; documented in A07/A08",
+      "claim_ids": [
+        "H02",
+        "H11",
+        "H15"
+      ],
+      "limitations": "Published capability, not observed usability, accuracy, savings or suitability for this family.",
+      "inspected_by": "facilitator with research-agent source review"
+    },
+    {
+      "id": "E37",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://help.getproperly.com/en/articles/5470548-take-verification-photos",
+      "observation": "Properly documents live verification photos, matching reference-photo vantage points and adequate lighting.",
+      "audience": "Owners/providers; published source",
+      "context": "Official source accessed 2026-09-06; documented in A07/A08",
+      "claim_ids": [
+        "H11",
+        "H15",
+        "H16"
+      ],
+      "limitations": "Documented capture workflow does not establish complete room coverage, hidden cleanliness, genuine linen changes or fraud-proof evidence.",
+      "inspected_by": "facilitator with research-agent source review"
+    },
+    {
+      "id": "E38",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://hospitable.com/features/smart-devices-management",
+      "observation": "Hospitable advertises supported-lock battery/connectivity status and entry logs, plus thermostat temperature visibility/control.",
+      "audience": "Owners/providers; published source",
+      "context": "Official source accessed 2026-09-06; documented in A07/A08",
+      "claim_ids": [
+        "H02",
+        "H06",
+        "H12"
+      ],
+      "limitations": "Vendor capabilities; exact household hardware, permissions, fresh telemetry and recovery reliability unverified. A setting is not proof of a measured condition.",
+      "inspected_by": "facilitator with research-agent source review"
+    },
+    {
+      "id": "E39",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.epa.gov/indoor-air-quality-iaq/low-cost-air-pollution-monitors-and-indoor-air-quality",
+      "observation": "EPA describes monitors for specified airborne pollutants/environmental factors and limitations even for overall indoor-air-quality representation.",
+      "audience": "Owners/providers; published source",
+      "context": "Official source accessed 2026-09-06; documented in A07/A08",
+      "claim_ids": [
+        "H11"
+      ],
+      "limitations": "Authoritative measurement-scope guidance. Inference: air-particle readings cannot certify surfaces, furniture position or stocked towels. Not an exhaustive review of every possible sensor.",
+      "inspected_by": "facilitator with research-agent source review"
+    },
+    {
+      "id": "E40",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.stessa.com/",
+      "observation": "Stessa advertises transaction organization, income and cash-flow reporting, and maintenance expense tracking.",
+      "audience": "Owners/providers; published source",
+      "context": "Official source accessed 2026-09-06; documented in A07/A08",
+      "claim_ids": [
+        "H02",
+        "H20"
+      ],
+      "limitations": "Published capability, not observed usability, accuracy, savings or suitability for this family.",
+      "inspected_by": "facilitator with research-agent source review"
+    },
+    {
+      "id": "E41",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://hello.pricelabs.co/blog/minimum-stay-restrictions/",
+      "observation": "PriceLabs documents minimum-stay restrictions and settings addressing seasonal demand and booking gaps.",
+      "audience": "Owners/providers; published source",
+      "context": "Official source accessed 2026-09-06; documented in A07/A08",
+      "claim_ids": [
+        "H02",
+        "H21"
+      ],
+      "limitations": "Vendor feature documentation, not a recommended pricing rule, independently proven outcome or validation of this property economics.",
+      "inspected_by": "facilitator with research-agent source review"
+    },
+    {
+      "id": "E42",
+      "date": "2026-09-06",
+      "kind": "external-research",
+      "source": "https://www.airbnb.com/resources/hosting-homes/a/get-valuable-insights-in-the-earnings-dashboard-675",
+      "observation": "Airbnb describes earnings reports with gross earnings, deductions, net pay, nights booked and average stay, including reports by property/date range.",
+      "audience": "Owners/providers; published source",
+      "context": "Official source accessed 2026-09-06; documented in A07/A08",
+      "claim_ids": [
+        "H20"
+      ],
+      "limitations": "Platform reporting description, not the family account inspected. External costs remain uncollected in this account; Airbnb net pay alone is not a full property profitability calculation.",
+      "inspected_by": "facilitator with research-agent source review"
+    },
+    {
+      "id": "E43",
+      "date": "2026-09-09",
+      "kind": "participant-report",
+      "source": "Brandon, user reply \"Nobody right now\", 2026-09-09; sessions/2026-09-09-06-no-backup.md",
+      "observation": "Brandon reports nobody currently could take responsibility when Mom is unavailable and the cleaner does not confirm or cannot attend.",
+      "audience": "Same family operation",
+      "context": "Scope revision 3 follow-up",
+      "claim_ids": [
+        "H05",
+        "H08",
+        "H18"
+      ],
+      "limitations": "Same family/property. Does not establish absence of available local cleaners, lack of informal referrals or infeasibility of paid backup arrangements.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E44",
+      "date": "2026-09-09",
+      "kind": "external-research",
+      "source": "https://turno.com/cleaner-guarantee/",
+      "observation": "Turno describes human replacement assistance for marketplace cleanings following host contact; privately added cleaners are excluded and unsuccessful replacement searches are contemplated.",
+      "audience": "Hosts using vendor workflows",
+      "context": "Scope revision 3 follow-up",
+      "claim_ids": [
+        "H02",
+        "H04",
+        "H05",
+        "H08"
+      ],
+      "limitations": "Vendor description accessed 2026-09-09, not observed performance, local availability, automatic intervention or partnership/integration permission.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E45",
+      "date": "2026-09-09",
+      "kind": "external-research",
+      "source": "https://help.turno.com/en/articles/10192100-project-settings ; https://help.turno.com/en/articles/8576288-as-a-host-what-do-i-do-after-accepting-a-bid",
+      "observation": "Documentary recheck: configured backups can receive rejected projects or projects opened ahead of a cutoff; direct/automatic assignment is distinct from affirmative acceptance.",
+      "audience": "Hosts using vendor workflows",
+      "context": "Scope revision 3 follow-up",
+      "claim_ids": [
+        "H02",
+        "H04",
+        "H18"
+      ],
+      "limitations": "Rechecks earlier competitor evidence; not another independent outcome. Delivery, response and suitability for the family untested.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E46",
+      "date": "2026-09-09",
+      "kind": "participant-report",
+      "source": "Brandon: \"whats turno? she hasn't treid any apps for all of this besides the app we made...you are aware we made an app right?\"; sessions/2026-09-09-07-existing-app.md",
+      "observation": "Brandon confirms Mom has not tried other dedicated operations apps besides the family-built app and asks what Turno is. The family app was already described in the initial and subsequent accounts.",
+      "audience": "Same family property and existing family-built app",
+      "context": "Scope revision 3; competitor exposure clarification",
+      "claim_ids": [
+        "H02",
+        "H04",
+        "H10",
+        "H18"
+      ],
+      "limitations": "Does not mean Mom never uses Airbnb/messages. Brandon's complete personal competitor-use history is unknown. Current app code/screens and explicit job acceptance behavior remain uninspected.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E47",
+      "date": "2026-09-09",
+      "kind": "participant-report",
+      "source": "Brandon reply: \"ah...got you...no it doesnt'....have that...the app...not necessarily....\"; sessions/2026-09-09-08-acceptance.md",
+      "observation": "Asked whether the existing family app lets cleaners explicitly accept or decline an upcoming cleaning, Brandon says it does not really have that capability.",
+      "audience": "Same family operation using its own app",
+      "context": "Qualified clarification about current app; notifications and completion evidence already described",
+      "claim_ids": [
+        "H18",
+        "H22"
+      ],
+      "limitations": "Qualified participant report; code/screens not inspected. Does not prove this causes Mom's follow-ups or that adding acceptance would reduce them.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E48",
+      "date": "2026-09-09",
+      "kind": "participant-report",
+      "source": "Brandon message beginning \"well now wait...just keep in mind that the current app does have a system\"; sessions/2026-09-09-09-completion-abandonment.md",
+      "observation": "The existing app has photo evidence and job-completion confirmation used in payment decisions. The primary cleaner stopped using the completion features because they were too difficult and annoying.",
+      "audience": "Same family property and primary cleaner using the family app",
+      "context": "Clarification of actual continued use versus implemented capabilities; acceptance and completion are distinct",
+      "claim_ids": [
+        "H11",
+        "H18",
+        "H22"
+      ],
+      "limitations": "Relayed report, no direct usability observation or implementation audit. Exact abandoned steps, dates and current payment/evidence workaround unknown. Does not mean all app use, cleaning or payment stopped.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E49",
+      "date": "2026-09-09",
+      "kind": "participant-report",
+      "source": "Brandon message beginning \"Look, the best bet is that, and this is just speculation\"; sessions/2026-09-09-10-capture-friction.md",
+      "observation": "Brandon speculates that repeated phone handling interrupts the cleaner's normal routine and repeated photo work is burdensome. He explicitly authorizes using that tentative explanation to move the idea forward.",
+      "audience": "Same family rental and primary cleaner",
+      "context": "Scope 3 capture-workflow clarification and bounded research; official sources accessed 2026-09-09",
+      "claim_ids": [
+        "H11",
+        "H23",
+        "H24"
+      ],
+      "limitations": "Speculation, not direct cleaner interview or measured observation. Photo workload, interface friction and interruption have not been isolated.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E50",
+      "date": "2026-09-09",
+      "kind": "participant-report",
+      "source": "sessions/2026-09-09-10-capture-friction.md",
+      "observation": "Brandon describes a long technical room-by-room form, unclear required/optional hierarchy, finding the correct room/photo field, camera invocation and saving. Minimum photo counts already exist; grouping cleaning, inventory, problems and save reportedly helped somewhat.",
+      "audience": "Same family rental and primary cleaner",
+      "context": "Scope 3 capture-workflow clarification and bounded research; official sources accessed 2026-09-09",
+      "claim_ids": [
+        "H11",
+        "H23",
+        "H24"
+      ],
+      "limitations": "Description and founder impression; no code/screens inspected or before/after metrics. Do not treat regrouping or making every photo optional as novel fixes.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E51",
+      "date": "2026-09-09",
+      "kind": "participant-report",
+      "source": "sessions/2026-09-09-10-capture-friction.md",
+      "observation": "Cleaner is described as in her fifties with an ordinary smartphone of unspecified model; user expresses an unverified near-universal smartphone assumption.",
+      "audience": "Same family rental and primary cleaner",
+      "context": "Scope 3 capture-workflow clarification and bounded research; official sources accessed 2026-09-09",
+      "claim_ids": [
+        "H23",
+        "H24"
+      ],
+      "limitations": "Age is not a demonstrated cause, hardware performance is unmeasured and the 99.9% figure is not accepted as population evidence. Current phone ownership does not establish universal provider access.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E52",
+      "date": "2026-09-09",
+      "kind": "participant-report",
+      "source": "sessions/2026-09-09-10-capture-friction.md",
+      "observation": "Family considered asking the primary cleaner to find substitutes for her shifts, alongside a possible network.",
+      "audience": "Same family rental and primary cleaner",
+      "context": "Scope 3 capture-workflow clarification and bounded research; official sources accessed 2026-09-09",
+      "claim_ids": [
+        "H04",
+        "H05",
+        "H08"
+      ],
+      "limitations": "Proposed responsibility, not an agreement or evidence of coverage. No cost, authority, acceptance or available substitute was established; E43 remains applicable.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E53",
+      "date": "2026-09-09",
+      "kind": "external-research",
+      "source": "https://help.companycam.com/en/articles/15946673-companycam-glossary ; https://companycam.com/resources/user-guides/ai",
+      "observation": "CompanyCam documents creating a Walkthrough Note from spoken input and photos, explicitly distinguishing it from a video walkthrough.",
+      "audience": "Published developer/field-documentation users",
+      "context": "Scope 3 capture-workflow clarification and bounded research; official sources accessed 2026-09-09",
+      "claim_ids": [
+        "H23",
+        "H24"
+      ],
+      "limitations": "Adjacent contractor-product capability described by vendor; not validated cleaner adoption, accurate transcription or a product recommendation.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E54",
+      "date": "2026-09-09",
+      "kind": "external-research",
+      "source": "https://developer.apple.com/augmented-reality/roomplan/",
+      "observation": "Apple documents camera/LiDAR room capture for dimensions and recognized furniture; this is a geometry capability.",
+      "audience": "Published developer/field-documentation users",
+      "context": "Scope 3 capture-workflow clarification and bounded research; official sources accessed 2026-09-09",
+      "claim_ids": [
+        "H11"
+      ],
+      "limitations": "Compatible hardware is required and the current device is unknown. The documentation does not establish cleanliness, stock or linen-change verification; this is a bounded source review.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "id": "E55",
+      "date": "2026-09-09",
+      "kind": "external-research",
+      "source": "https://help.companycam.com/en/articles/14808615-getting-started-with-companycam ; https://help.companycam.com/en/articles/6828446-using-companycam-with-guest-access",
+      "observation": "CompanyCam documents project-associated photo capture/upload and a guest-access photo/note link with email verification.",
+      "audience": "Published developer/field-documentation users",
+      "context": "Scope 3 capture-workflow clarification and bounded research; official sources accessed 2026-09-09",
+      "claim_ids": [
+        "H10",
+        "H24"
+      ],
+      "limitations": "Vendor workflow, not a zero-friction guarantee or proof of suitability for this cleaner. Project context does not establish automatic room classification.",
+      "inspected_by": "facilitator"
+    },
+    {
+      "date": "2026-09-09",
+      "audience": "Same family property; implementation and technology comparison",
+      "context": "Scope 3; repository inspection and camera-assistance exploration",
+      "inspected_by": "facilitator",
+      "id": "E56",
+      "kind": "participant-report",
+      "source": "Current conversation; sessions/2026-09-09-11-repo-and-camera.md",
+      "observation": "Brandon favors free-order photos with suggested room labels; proposes an optional camera pass for visible setup fixes and a shared property device. He provides the app repository for inspection.",
+      "claim_ids": [
+        "H24",
+        "H25",
+        "H26"
+      ],
+      "limitations": "Founder preference, not cleaner adoption, model accuracy or agreement to buy hardware."
+    },
+    {
+      "date": "2026-09-09",
+      "audience": "Same family property; implementation and technology comparison",
+      "context": "Scope 3; repository inspection and camera-assistance exploration",
+      "inspected_by": "facilitator",
+      "id": "E57",
+      "kind": "code-inspection",
+      "source": "C:/Users/Brandon/Documents/Projects/airbnb @ c2ba5ccddb3034617f5dc6562a2e546e0a17ece2; artifacts/10-app-repo-rundown.md",
+      "observation": "Inspected Vue/PWA, custom PHP API and schema: calendars/iCal, task lists, scheduling rules, notification queues, inventory, roles, finance and AI. Home Assistant dashboard links and configurable webhooks exist; dedicated acceptance/backup dispatch and full Airbnb reservation/channel management were not found.",
+      "claim_ids": [
+        "H06",
+        "H18",
+        "H20",
+        "H22"
+      ],
+      "limitations": "Static checkout only. Configured/live behavior, deployment version and external Home Assistant flows unknown. Searches do not prove absence in every external system."
+    },
+    {
+      "date": "2026-09-09",
+      "audience": "Same family property; implementation and technology comparison",
+      "context": "Scope 3; repository inspection and camera-assistance exploration",
+      "inspected_by": "facilitator",
+      "id": "E58",
+      "kind": "code-inspection",
+      "source": "C:/Users/Brandon/Documents/Projects/airbnb @ c2ba5ccddb3034617f5dc6562a2e546e0a17ece2; src/views/ChecklistView.vue:1490; app/Http/api.php:7717",
+      "observation": "Photos upload one at a time against a checklist item. Current UI already has compact cards, grouped tasks, attention filtering and low-stock-only reporting. Submit validates done-or-exception answers; no minimum-photo enforcement found in reviewed submit flow.",
+      "claim_ids": [
+        "H11",
+        "H23",
+        "H24"
+      ],
+      "limitations": "Does not establish the abandoned version or actual cleaner behavior. Does not refute remembered minimum-photo expectations; preserve version uncertainty."
+    },
+    {
+      "date": "2026-09-09",
+      "audience": "Same family property; implementation and technology comparison",
+      "context": "Scope 3; repository inspection and camera-assistance exploration",
+      "inspected_by": "facilitator",
+      "id": "E59",
+      "kind": "code-inspection",
+      "source": "C:/Users/Brandon/Documents/Projects/airbnb @ c2ba5ccddb3034617f5dc6562a2e546e0a17ece2; src/components/admin/AdminAssistantTab.vue:100; app/Lib/assistant_chat_lib.php:1719",
+      "observation": "Image input, browser-dependent speech dictation, image compression, property/wiki/inventory tools and permission-checked assistant read/write actions exist. Inventory images and floorplan pins can appear in replies.",
+      "claim_ids": [
+        "H24",
+        "H25"
+      ],
+      "limitations": "No room classification, reference-comparison, continuous scanner or readiness certification workflow found. AI key/model configuration and actual quality unverified."
+    },
+    {
+      "date": "2026-09-09",
+      "audience": "Same family property; implementation and technology comparison",
+      "context": "Scope 3; repository inspection and camera-assistance exploration",
+      "inspected_by": "facilitator",
+      "id": "E60",
+      "kind": "technical-measurement",
+      "source": "C:/Users/Brandon/Documents/Projects/airbnb @ c2ba5ccddb3034617f5dc6562a2e546e0a17ece2; app/Http/api.php:2587 and :3230; A13 finance issue",
+      "observation": "Main helper treats staff_compensation as outflow; exact property-summary SQL classifies a synthetic confirmed $150 staff-compensation row as $150 inflow and $0 outflow in isolated SQLite execution. Finance also contains ledger, totals, reimbursement, compensation and bill-photo prefill.",
+      "claim_ids": [
+        "H20"
+      ],
+      "limitations": "Synthetic arithmetic fixture, not customer evidence or deployed MySQL test. No real balances inspected; no source fix. Ledger records and approval do not prove money transfers or complete profit accounting."
+    },
+    {
+      "date": "2026-09-09",
+      "audience": "Same family property; implementation and technology comparison",
+      "context": "Scope 3; repository inspection and camera-assistance exploration",
+      "inspected_by": "facilitator",
+      "id": "E61",
+      "kind": "external-research",
+      "source": "https://www.apple.com/iphone-17-pro/specs/ ; https://www.apple.com/iphone-17/specs/ ; https://www.apple.com/ipad-pro/specs/ ; https://www.apple.com/ipad-air/specs/",
+      "observation": "Apple lists LiDAR for iPhone 17 Pro and current iPad Pro, but not standard iPhone 17 or iPad Air. RoomPlan requires compatible camera/LiDAR hardware; model matters.",
+      "claim_ids": [
+        "H25",
+        "H26"
+      ],
+      "limitations": "No measured market share or actual cleaner device identified. Specs establish hardware, not cleanliness detection. E54 supplies RoomPlan geometry scope."
+    },
+    {
+      "date": "2026-09-09",
+      "audience": "Same family property; implementation and technology comparison",
+      "context": "Scope 3; repository inspection and camera-assistance exploration",
+      "inspected_by": "facilitator",
+      "id": "E62",
+      "kind": "external-research",
+      "source": "https://getproperly.com/vacation-rental-inspection-software",
+      "observation": "Properly advertises AI flagging of photo-based quality/staging issues followed by human inspector confirmation and feedback while the cleaner is present.",
+      "claim_ids": [
+        "H02",
+        "H11",
+        "H25"
+      ],
+      "limitations": "Vendor description; no independent accuracy study, product trial or proof that fully automated inspection has equivalent outcomes."
+    }
+  ],
+  "experiments": [
+    {
+      "id": "X01",
+      "claim_id": "H04",
+      "claim_revision": 1,
+      "method": "Proposed comparative workflow study; detailed Knapp–Zeratsky study design pending",
+      "source": "../../research/mentor-room/click-book-method.md",
+      "audience": "Reachable independent remote hosts in one region; exact screen pending",
+      "recruitment": "Unknown; no external contact authorized or made",
+      "context": "One concrete recent cleaning/repair incident versus current alternative",
+      "metric": "Pending incident and offer selection; observe task completion and owner interventions",
+      "criteria": "Not yet set; predeclare before running",
+      "threshold_rationale": "Requires baseline, meaningful host benefit and exact study aim",
+      "resources": "Existing app/workflow and competitor examples; no production build required for initial reconstruction",
+      "owner": "Proposed: Brandon recruits, facilitator prepares study; ownership not confirmed",
+      "stage": "backlog",
+      "raw_results": [],
+      "evidence_ids": []
+    },
+    {
+      "id": "X02",
+      "claim_id": "H07",
+      "claim_revision": 1,
+      "method": "Proposed small paid operating pilot; Savoia/Bland method application pending",
+      "source": "artifacts/03-options-and-learning.md",
+      "audience": "Proposed3–5 non-family hosts in one region, conditional on a discovered gap",
+      "recruitment": "Pending discovery; no messages or offers sent",
+      "context": "Existing approved providers and an explicitly bounded service promise",
+      "metric": "Paid continuation, owner interruptions, task completion, founder minutes and contribution per property over a predeclared period",
+      "criteria": "No thresholds or fee set; predeclare success/failure/unclear criteria before pilot",
+      "threshold_rationale": "Founder economic goals, baseline burden and adequate turnover/incident exposure needed",
+      "resources": "Bounded manual coordination may test demand; disclose simulation and separately test automation",
+      "owner": "Founders, pending agreement",
+      "stage": "backlog",
+      "raw_results": [],
+      "evidence_ids": []
+    },
+    {
+      "id": "X03",
+      "claim_id": "H18",
+      "claim_revision": 1,
+      "method": "Draft Test Card structure with facilitator-designed operational workflow observation; not yet finalized or run",
+      "source": "../../research/mentor-room/testing-business-ideas-process.md",
+      "audience": "Existing family coordinator, primary cleaner and proposed backup owner",
+      "recruitment": "Existing relationships only; participants have not agreed to a trial and no contact sent",
+      "context": "Next two eligible ordinary turnovers after agreed setup; current walkthroughs and fallback arrangements retained",
+      "metric": "Timely accepted jobs/2; timely completed-or-owned-exception jobs/2; Mom chasing messages/calls and minutes per job; cleaner reporting minutes and all other family/founder coordination minutes. Dates/cutoffs and effort budgets pending.",
+      "criteria": "PROPOSED: both jobs accepted and accounted for by cutoffs, zero Mom confirmation chasing, no unowned exception, effort within budgets agreed before run. Failure: missed/unowned job, Mom chasing or agreed effort exceeded. Unclear: incomplete two-job exposure/records or unsupported effort comparison. No exception means backup behavior untested.",
+      "threshold_rationale": "Two jobs are an inexpensive usability/mechanics check, not a reliability estimate. Proposed local criteria, not published universal thresholds; dates, cutoffs and effort budgets still required.",
+      "resources": "Existing app or simple record, current cleaner/family arrangements; no production build or paid service required to prepare; all coordination effort counted.",
+      "owner": "Proposed Brandon organizes; actual cleaner, coordinator and backup ownership require agreement",
+      "stage": "backlog",
+      "raw_results": [],
+      "evidence_ids": [],
+      "artifact_path": "artifacts/06-owner-jobs-and-first-test.md",
+      "setup_gaps": [
+        "2026-09-09 E43: nobody currently owns unresolved cleaning jobs besides Mom; originally proposed backup prerequisite is unmet.",
+        "Dates, cutoffs, scope and participant effort budgets remain unagreed."
+      ],
+      "readiness_assessment": "Not ready to run. Retain original hypothesis/criteria; D06 first calls for a focused competitor comparison. No results."
+    },
+    {
+      "id": "X04",
+      "claim_id": "H22",
+      "claim_revision": 1,
+      "method": "Proposed manual workflow observation using the Bland-Osterwalder Test Card structure; facilitator adaptation, not a completed sprint",
+      "source": "../../research/mentor-room/testing-business-ideas-process.md",
+      "audience": "Existing primary cleaner and Mom at the family property",
+      "recruitment": "Participant agreement pending; no messages sent by facilitator",
+      "context": "Next two eligible ordinary cleaning jobs with explicit response deadlines; original walkthroughs and human handling of uncovered work retained",
+      "metric": "Timely explicit replies / 2 notices; accepted jobs without Mom confirmation-chasing / accepted jobs observed; Mom chasing before and after acceptance, plus all other coordination/reporting minutes. Record comparable recent baseline if available and label estimates.",
+      "criteria": "PROPOSED encouraging signal: 2 accepted jobs confirmed by agreed cutoffs without Mom chasing and no subsequent attendance-confirmation chasing. Against mechanism: timely clear acceptance but same confirmation chasing, or repeated chasing needed to obtain response. Mixed/unclear: fewer than 2 accepted jobs, incomplete records or circumstances/effort comparisons inconclusive. Timely decline is useful information but does not test reassurance or coverage.",
+      "threshold_rationale": "Two-job local learning check, not statistical reliability or demand evidence. Without baseline do not claim quantified improvement. Dates, cutoffs and agreement remain unset; assess total effort before deciding value.",
+      "resources": "Existing notification and messaging channel; A10 two-row log. Count manual notice preparation, setup, reminders and forwarding. No app implementation required for this observation.",
+      "owner": "Proposed Brandon coordinates observations, Mom and cleaner agree roles; facilitator interprets returned results",
+      "stage": "backlog",
+      "raw_results": [],
+      "evidence_ids": [],
+      "artifact_path": "artifacts/08-confirmation-test.md",
+      "readiness_assessment": "On hold 2026-09-09 by D08; no user task to fill the sheet or run the proposed test now. Understand E48 completion-workflow friction first. Claim and proposed criteria preserved; no results.",
+      "setup_gaps": [
+        "Exact abandoned completion step and cause unknown; adding a response requirement could add friction.",
+        "Participant agreement, dates and deadlines remain unestablished."
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "A01",
+      "title": "Foundation Basics — provisional draft",
+      "path": "artifacts/01-basics.md",
+      "type": "foundation-basics",
+      "scope_revision": 1,
+      "status": "draft",
+      "limitations": "Selections, incident details, geography and investment objective await user answers."
+    },
+    {
+      "id": "A02",
+      "title": "Competitor reality check",
+      "path": "artifacts/02-competitors.md",
+      "type": "external-research",
+      "scope_revision": 1,
+      "status": "checked",
+      "limitations": "Checked against official published pages only; no hands-on comparisons or local supply assessment."
+    },
+    {
+      "id": "A03",
+      "title": "Four approaches and next learning investment",
+      "path": "artifacts/03-options-and-learning.md",
+      "type": "options-and-learning-plan",
+      "scope_revision": 1,
+      "status": "draft",
+      "limitations": "Facilitator proposals; no founder selection, full lens exercise, preregistered experiment, or field results."
+    },
+    {
+      "id": "A04",
+      "title": "Reported incidents and provisional problem priorities",
+      "path": "artifacts/04-incident-map.md",
+      "type": "incident-and-component-map",
+      "scope_revision": 2,
+      "status": "checked",
+      "limitations": "Checked for fidelity to the user account and reviewed platform sources; not independent field or technical verification. Priorities lack frequency/cost data."
+    },
+    {
+      "id": "A05",
+      "title": "Recurring readiness checks and incident response",
+      "path": "artifacts/05-readiness-and-response.md",
+      "type": "workflow-and-learning-focus",
+      "scope_revision": 2,
+      "status": "checked",
+      "limitations": "Fidelity checked against participant report; estimates are not measured, categories may overlap, no inspection outcomes or third-party demand evidence yet."
+    },
+    {
+      "id": "A06",
+      "title": "Standards, trust and exceptional work clarification",
+      "path": "sessions/2026-09-06-04-standards.md",
+      "type": "problem-clarification",
+      "scope_revision": 2,
+      "status": "checked",
+      "limitations": "Checked for fidelity to the user account; no field verification. Hypothetical mud/party event explicitly separated."
+    },
+    {
+      "id": "A07",
+      "title": "Owner jobs and first operational test",
+      "path": "artifacts/06-owner-jobs-and-first-test.md",
+      "type": "problem-synthesis-and-draft-test",
+      "scope_revision": 3,
+      "status": "draft",
+      "limitations": "Family/relayed evidence only. Test roles, dates, cutoffs and effort budgets not finalized; no trial or profit calculation."
+    },
+    {
+      "id": "A08",
+      "title": "Readiness technology and evidence limits",
+      "path": "artifacts/07-readiness-technology.md",
+      "type": "source-research",
+      "scope_revision": 3,
+      "status": "checked",
+      "limitations": "Official source review, not independent product performance validation or an exhaustive hardware survey."
+    },
+    {
+      "id": "A09",
+      "title": "No backup owner and the next competitor comparison",
+      "path": "sessions/2026-09-09-06-no-backup.md",
+      "type": "clarification-and-competitor-reality-check",
+      "scope_revision": 3,
+      "status": "checked",
+      "limitations": "Fidelity and source review only; no independent trial, local availability check or commercial validation."
+    },
+    {
+      "id": "A10",
+      "title": "Existing cleaning handoff and narrow confirmation test",
+      "path": "artifacts/08-confirmation-test.md",
+      "type": "workflow-map-and-draft-test",
+      "scope_revision": 3,
+      "status": "draft",
+      "limitations": "Participant account only; no implementation audit. X04 agreement, dates and cutoffs pending; no results or independent validation."
+    },
+    {
+      "id": "A11",
+      "title": "Completion-workflow abandonment and revised next step",
+      "path": "sessions/2026-09-09-09-completion-abandonment.md",
+      "type": "reported-adoption-friction-and-handoff",
+      "scope_revision": 3,
+      "status": "checked",
+      "limitations": "Checked for fidelity to user correction; no usability observation. Current payment/evidence workaround unknown."
+    },
+    {
+      "id": "A12",
+      "title": "Low-interruption capture alternatives and four-step concept",
+      "path": "artifacts/09-capture-alternatives.md",
+      "type": "bounded-research-and-concept-sketches",
+      "scope_revision": 3,
+      "status": "draft",
+      "limitations": "No runnable prototype, code inspection, actual cleaner test or verified room classification. User explanation remains speculative; vendor capabilities are not outcome evidence."
+    },
+    {
+      "id": "A13",
+      "title": "Actual app baseline and camera-assisted readiness",
+      "path": "artifacts/10-app-repo-rundown.md",
+      "type": "code-inspection-and-bounded-technology-research",
+      "scope_revision": 3,
+      "status": "checked",
+      "limitations": "Static source and official docs checked; one isolated synthetic SQL fixture. No deployed app exercise, credentials, real financial records, camera test, usability trial or business validation."
+    }
+  ],
+  "core": [
+    {
+      "id": "CLICK-SETUP",
+      "state": "pending",
+      "artifact_ids": [
+        "A01"
+      ],
+      "check": "Initial draft inspected; user selections, real incident and final Decider not yet established. No completion credit.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-NOTE-VOTE",
+      "state": "pending",
+      "artifact_ids": [
+        "A01"
+      ],
+      "check": "Initial draft inspected; user selections, real incident and final Decider not yet established. No completion credit.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-CUSTOMER",
+      "state": "pending",
+      "artifact_ids": [
+        "A01",
+        "A04",
+        "A07"
+      ],
+      "check": "Current artifact reviewed: ongoing readiness work, cleaner confirmation, repair ownership and financial uncertainty distinguished. Candidate customer/problem/test sharpened, but human selection and remaining source-specific outputs are pending. No field-study or demand credit inferred.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-PROBLEM",
+      "state": "pending",
+      "artifact_ids": [
+        "A01",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A09",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "check": "A12 records bounded primary-source research and component-level capture variants. Founder explanation is speculative; whole-product selection and source-specific outputs remain pending. No prototype or study completion credited.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "CLICK-ADVANTAGES",
+      "state": "pending",
+      "artifact_ids": [
+        "A01",
+        "A04",
+        "A05",
+        "A07"
+      ],
+      "check": "Current artifact reviewed: ongoing readiness work, cleaner confirmation, repair ownership and financial uncertainty distinguished. Candidate customer/problem/test sharpened, but human selection and remaining source-specific outputs are pending. No field-study or demand credit inferred.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-COMPETITION",
+      "state": "pending",
+      "artifact_ids": [
+        "A01",
+        "A02",
+        "A04",
+        "A07",
+        "A08",
+        "A09",
+        "A10",
+        "A12"
+      ],
+      "check": "A12 records bounded primary-source research and component-level capture variants. Founder explanation is speculative; whole-product selection and source-specific outputs remain pending. No prototype or study completion credited.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "CLICK-DIFFERENTIATORS",
+      "state": "pending",
+      "artifact_ids": [
+        "A07",
+        "A08",
+        "A09"
+      ],
+      "check": "A09 records absent backup ownership and new competitor support scope. Further comparison and source-specific exercise completion remain pending; no field evidence inferred.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "CLICK-DIFFERENTIATION-CHART",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-PRINCIPLES",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-OPTIONS",
+      "state": "pending",
+      "artifact_ids": [
+        "A03",
+        "A04",
+        "A07",
+        "A12"
+      ],
+      "check": "A12 records bounded primary-source research and component-level capture variants. Founder explanation is speculative; whole-product selection and source-specific outputs remain pending. No prototype or study completion credited.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "CLICK-OPTION-SUMMARIES",
+      "state": "pending",
+      "artifact_ids": [
+        "A03"
+      ],
+      "check": "Four facilitator-generated approaches and a proposed comparison are recorded; human selection and required exercise outputs remain pending.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-LENS-CRITERIA",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-CLASSIC-LENSES",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-CUSTOM-LENSES",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-APPROACH-DECISION",
+      "state": "pending",
+      "artifact_ids": [
+        "A03"
+      ],
+      "check": "Four facilitator-generated approaches and a proposed comparison are recorded; human selection and required exercise outputs remain pending.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-HYPOTHESIS",
+      "state": "pending",
+      "artifact_ids": [
+        "A01",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A10",
+        "A11",
+        "A12"
+      ],
+      "check": "A12 records bounded primary-source research and component-level capture variants. Founder explanation is speculative; whole-product selection and source-specific outputs remain pending. No prototype or study completion credited.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "DS-SETUP",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-GOAL-METRICS",
+      "state": "pending",
+      "artifact_ids": [
+        "A07",
+        "A10"
+      ],
+      "check": "A10 maps the existing handoff and a narrow untested mechanism. Test criteria are proposed; no customer study or source-specific core completion inferred.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "DS-RISKS",
+      "state": "pending",
+      "artifact_ids": [
+        "A07",
+        "A08",
+        "A09",
+        "A11",
+        "A12"
+      ],
+      "check": "A12 records bounded primary-source research and component-level capture variants. Founder explanation is speculative; whole-product selection and source-specific outputs remain pending. No prototype or study completion credited.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "DS-MAP",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-EXPERTS-HMW",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-LIGHTNING-DEMOS",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-SKETCH",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-DECIDE",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-STORYBOARD",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-RECRUIT",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-PROTOTYPE",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-INTERVIEW-PLAN",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-CUSTOMER-TEST",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-SYNTHESIS",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "DS-NEXT-STEPS",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "CLICK-COMPARATIVE-TESTS",
+      "state": "pending",
+      "artifact_ids": [
+        "A03"
+      ],
+      "check": "Four facilitator-generated approaches and a proposed comparison are recorded; human selection and required exercise outputs remain pending.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "KZ-REPEAT",
+      "state": "pending",
+      "artifact_ids": [],
+      "check": "Required activity not yet completed; retain pinned completion check.",
+      "adaptation": "",
+      "reviewer": "facilitator",
+      "date": "2026-09-06"
+    }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "state": "deferred",
+      "reason": "Use reviewed Click and board baseline for the host problem; the catalog interview is unreceived and not needed for intake.",
+      "references": []
+    },
+    {
+      "id": 2,
+      "state": "selected",
+      "reason": "Mandatory Foundation and Design Sprint baseline will guide remote-host customer, alternatives and prototype studies; no sprint is complete.",
+      "references": [
+        "../../research/mentor-room/knapp-template-coverage.md"
+      ]
+    },
+    {
+      "id": 3,
+      "state": "deferred",
+      "reason": "Venture-scale selection is premature while a two-programmer small business and reachable host market are still being scoped.",
+      "references": []
+    },
+    {
+      "id": 4,
+      "state": "deferred",
+      "reason": "Further venture claims await ambition clarification; detailed lecture is not acquired.",
+      "references": []
+    },
+    {
+      "id": 5,
+      "state": "selected",
+      "reason": "Bootstrap pre-validation can compare buyer reachability and economics once host segment, price and founder hours are known.",
+      "references": [
+        "../../research/mentor-room/specialist-methods.md"
+      ]
+    },
+    {
+      "id": 6,
+      "state": "deferred",
+      "reason": "Use the available original5PM method first; partial revisited transcript adds no necessary incident evidence now.",
+      "references": []
+    },
+    {
+      "id": 7,
+      "state": "deferred",
+      "reason": "Attractive-market comparison is secondary to identifying the actual unsolved rental incident; source not acquired.",
+      "references": []
+    },
+    {
+      "id": 8,
+      "state": "deferred",
+      "reason": "Provider-marketplace traps merit later attention if approachC is selected; no interview method acquired or applied.",
+      "references": []
+    },
+    {
+      "id": 9,
+      "state": "deferred",
+      "reason": "General AI availability does not establish an inflection; revisit the saved book if a specific enabling change becomes central, not the unreceived interview.",
+      "references": []
+    },
+    {
+      "id": 10,
+      "state": "deferred",
+      "reason": "Network-effect/venture patterns depend on selecting a provider marketplace and venture ambition; neither is established.",
+      "references": []
+    },
+    {
+      "id": 11,
+      "state": "deferred",
+      "reason": "Structural PMF opportunity search is secondary to this concrete host workflow and current alternatives.",
+      "references": []
+    },
+    {
+      "id": 12,
+      "state": "deferred",
+      "reason": "A broad idea-generation collection is unnecessary while four variants of the founder rental problem remain to compare.",
+      "references": []
+    },
+    {
+      "id": 13,
+      "state": "covered",
+      "reason": "Applied saved Pincus book need/implementation/component separation, now to readiness evidence versus long forms and capture variants. PBN superiority, MIS testing and unread catalog interview remain uncompleted.",
+      "references": [
+        "artifacts/03-options-and-learning.md",
+        "../../research/mentor-room/pincus-idea-methods.md",
+        "artifacts/09-capture-alternatives.md"
+      ]
+    },
+    {
+      "id": 14,
+      "state": "deferred",
+      "reason": "Problem importance will first be examined through recent host incidents using available methods; source not acquired.",
+      "references": []
+    },
+    {
+      "id": 15,
+      "state": "deferred",
+      "reason": "Founder failure-pattern synthesis will not substitute for actual host or provider behavior; source not acquired.",
+      "references": []
+    },
+    {
+      "id": 16,
+      "state": "selected",
+      "reason": "Use Savoia to test a concrete paid/time commitment after selecting one host offer; no pretotype run yet.",
+      "references": [
+        "../../research/mentor-room/the-right-it-methods.md"
+      ]
+    },
+    {
+      "id": 17,
+      "state": "selected",
+      "reason": "Bound the learning investment before wider software development once founder time and ambition are known.",
+      "references": [
+        "../../research/mentor-room/specialist-methods.md"
+      ]
+    },
+    {
+      "id": 18,
+      "state": "deferred",
+      "reason": "The webinar transcript is unreceived; use the available Bland–Osterwalder book for host experiment design.",
+      "references": []
+    },
+    {
+      "id": 19,
+      "state": "selected",
+      "reason": "Test Card structure informs drafts X03 and narrower X04. Participant agreement, practical timing and field results remain pending; no completed experiment claimed.",
+      "references": [
+        "../../research/mentor-room/testing-business-ideas-experiments.md",
+        "../../research/mentor-room/testing-business-ideas-process.md",
+        "artifacts/06-owner-jobs-and-first-test.md",
+        "artifacts/08-confirmation-test.md"
+      ]
+    },
+    {
+      "id": 20,
+      "state": "deferred",
+      "reason": "AI masterclass is unacquired and unnecessary for collecting real host/provider evidence with saved book methods.",
+      "references": []
+    },
+    {
+      "id": 21,
+      "state": "selected",
+      "reason": "Available public interview guidance can improve incident-based host discovery; full book has not been acquired or credited.",
+      "references": [
+        "../../research/mentor-room/specialist-methods.md"
+      ]
+    },
+    {
+      "id": 22,
+      "state": "deferred",
+      "reason": "Abridged YC user-interview guidance is available if needed; first use the selected incident-focused Foundation/interview route.",
+      "references": []
+    },
+    {
+      "id": 23,
+      "state": "deferred",
+      "reason": "Acquire this discovery playbook only if current host interviews need a specific unresolved procedure.",
+      "references": []
+    },
+    {
+      "id": 24,
+      "state": "deferred",
+      "reason": "Unconventional test examples are unnecessary until a concrete host uncertainty and recruitment route are chosen.",
+      "references": []
+    },
+    {
+      "id": 25,
+      "state": "deferred",
+      "reason": "Smallest test design will use selected Savoia/Bland methods; this separate source remains unacquired.",
+      "references": []
+    },
+    {
+      "id": 26,
+      "state": "deferred",
+      "reason": "A full customer-development course is excessive for initial incident reconstruction; retain as later reference if business scope expands.",
+      "references": []
+    },
+    {
+      "id": 27,
+      "state": "deferred",
+      "reason": "Another canvas would duplicate provisional Basics before host evidence arrives; source not acquired.",
+      "references": []
+    },
+    {
+      "id": 28,
+      "state": "omitted",
+      "reason": "An additional AI validation tracking tool adds no necessary capability to this durable host case; no product test or signup needed.",
+      "references": []
+    },
+    {
+      "id": 29,
+      "state": "deferred",
+      "reason": "A24-step market-to-MVP program is premature before geography, buyer and first problem are selected.",
+      "references": []
+    },
+    {
+      "id": 30,
+      "state": "omitted",
+      "reason": "MIT AI tooling is not needed to track this case or collect local hosting evidence; the tool has not been tested.",
+      "references": []
+    },
+    {
+      "id": 31,
+      "state": "deferred",
+      "reason": "Opportunity trees will be useful after multiple real host stories expose distinct needs; no customer opportunity hierarchy yet.",
+      "references": []
+    },
+    {
+      "id": 32,
+      "state": "deferred",
+      "reason": "A formal four-risk pass can inspect the selected configuration after Basics; current risks are facilitator hypotheses, not a credited Cagan exercise.",
+      "references": []
+    },
+    {
+      "id": 33,
+      "state": "deferred",
+      "reason": "Build-to-learn guidance can inform a selected prototype later; no production build is being authorized by this intake.",
+      "references": []
+    },
+    {
+      "id": 34,
+      "state": "deferred",
+      "reason": "Switching-job analysis may help once hosts describe actual moves between managers/tools; interview source is unacquired.",
+      "references": []
+    },
+    {
+      "id": 35,
+      "state": "deferred",
+      "reason": "Positioning needs real competitive choices and a selected host segment; do not attribute a detailed Dunford method without acquiring it.",
+      "references": []
+    },
+    {
+      "id": 36,
+      "state": "deferred",
+      "reason": "Sales-pitch development follows a differentiated host offer; pitching now would contaminate initial problem discovery.",
+      "references": []
+    },
+    {
+      "id": 37,
+      "state": "deferred",
+      "reason": "Rapid feature-shipping tactics await evidence about which rental workflow matters; source unacquired.",
+      "references": []
+    },
+    {
+      "id": 38,
+      "state": "omitted",
+      "reason": "Consumer virality is not the proposed acquisition mechanism for a small remote-host operations business.",
+      "references": []
+    },
+    {
+      "id": 39,
+      "state": "deferred",
+      "reason": "Hardware/product judgment may become relevant to device onboarding, but show notes do not provide the interview method.",
+      "references": []
+    },
+    {
+      "id": 40,
+      "state": "deferred",
+      "reason": "A rapid software exit case does not establish viability for local rental operations; source unacquired.",
+      "references": []
+    },
+    {
+      "id": 41,
+      "state": "deferred",
+      "reason": "Founder-led sales can inform paid pilot outreach after a specific offer and reachable owners are identified; source unacquired.",
+      "references": []
+    },
+    {
+      "id": 42,
+      "state": "deferred",
+      "reason": "MVP planning follows a selected customer/problem and evidence; current family app remains unaudited.",
+      "references": []
+    },
+    {
+      "id": 43,
+      "state": "deferred",
+      "reason": "Full SaaS course not acquired; available Walling methods are sufficient for the next bounded investment.",
+      "references": []
+    },
+    {
+      "id": 44,
+      "state": "deferred",
+      "reason": "No independent experienced users or repeat usage exist for a PMF-stage diagnosis.",
+      "references": []
+    },
+    {
+      "id": 45,
+      "state": "deferred",
+      "reason": "No appropriate experienced user sample; the Vohra interview is also unreceived.",
+      "references": []
+    },
+    {
+      "id": 46,
+      "state": "deferred",
+      "reason": "A PMF survey cannot assess a proposed rental product before independent hosts have used it.",
+      "references": []
+    },
+    {
+      "id": 47,
+      "state": "deferred",
+      "reason": "Stage-specific PMF measurement will matter after actual adoption and retention evidence.",
+      "references": []
+    },
+    {
+      "id": 48,
+      "state": "deferred",
+      "reason": "PMF case histories cannot resolve this property/provider workflow without field evidence.",
+      "references": []
+    },
+    {
+      "id": 49,
+      "state": "deferred",
+      "reason": "Broad PMF library reserved for specific later obstacles after real hosts use the selected proposition.",
+      "references": []
+    }
+  ],
+  "components": [
+    {
+      "id": "C01",
+      "proposition": "Cleaning and backup coordination",
+      "role_in_whole": "Reduce owner chasing and uncovered turnovers",
+      "hypothesis_ids": [
+        "H04",
+        "H10",
+        "H17",
+        "H18",
+        "H22"
+      ],
+      "evidence_ids": [
+        "E01",
+        "E03",
+        "E10",
+        "E11",
+        "E28",
+        "E30",
+        "E33",
+        "E43",
+        "E44",
+        "E45",
+        "E47",
+        "E52"
+      ],
+      "original_context": "Remote family rental and proposed independent-host business, scope revision1",
+      "current_assessment": "Existing app notification-to-commitment gap suggested by qualified report. X04 tests confirmation chasing only; backup ownership and commercial differentiation remain unresolved.",
+      "alternative_contexts": [
+        "Co-host or cleaning-team operations"
+      ]
+    },
+    {
+      "id": "C02",
+      "proposition": "Repair triage and follow-through",
+      "role_in_whole": "Translate reported issues into approved completed local work",
+      "hypothesis_ids": [
+        "H08",
+        "H05",
+        "H19"
+      ],
+      "evidence_ids": [
+        "E01",
+        "E05",
+        "E13",
+        "E15",
+        "E16",
+        "E23",
+        "E24",
+        "E31"
+      ],
+      "original_context": "Remote family rental and proposed independent-host business, scope revision1",
+      "current_assessment": "Strong reported stress from uncertain repair status and fragmented responsibility; provider availability and economically sustainable follow-through untested.",
+      "alternative_contexts": [
+        "Local maintenance coordinator tooling"
+      ]
+    },
+    {
+      "id": "C03",
+      "proposition": "Access automation",
+      "role_in_whole": "Coordinate guest and provider access",
+      "hypothesis_ids": [
+        "H06",
+        "H12"
+      ],
+      "evidence_ids": [
+        "E01",
+        "E02",
+        "E08",
+        "E09",
+        "E13",
+        "E14",
+        "E23",
+        "E24",
+        "E38"
+      ],
+      "original_context": "Remote family rental and proposed independent-host business, scope revision1",
+      "current_assessment": "Supported-device monitoring exists; household compatibility and local recovery remain unknown.",
+      "alternative_contexts": [
+        "Hardware-specific integration product"
+      ]
+    },
+    {
+      "id": "C04",
+      "proposition": "Inspection and damage evidence",
+      "role_in_whole": "Help people document property condition",
+      "hypothesis_ids": [
+        "H11",
+        "H14",
+        "H15",
+        "H16",
+        "H23",
+        "H24",
+        "H25",
+        "H26"
+      ],
+      "evidence_ids": [
+        "E01",
+        "E03",
+        "E05",
+        "E12",
+        "E15",
+        "E21",
+        "E22",
+        "E24",
+        "E26",
+        "E27",
+        "E29",
+        "E36",
+        "E37",
+        "E39",
+        "E48",
+        "E49",
+        "E50",
+        "E51",
+        "E53",
+        "E54",
+        "E55",
+        "E56",
+        "E58",
+        "E59",
+        "E61",
+        "E62"
+      ],
+      "original_context": "Remote family rental and proposed independent-host business, scope revision1",
+      "current_assessment": "Capture/navigation friction reported; source baseline now inspected. Free-order photos preferred by founder; assistive comparison and shared-device variants untested. No complete cleanliness certification or demonstrated visit reduction.",
+      "alternative_contexts": [
+        "Cleaner checklist/inspection workflow"
+      ]
+    },
+    {
+      "id": "C05",
+      "proposition": "Routine communication and reviews",
+      "role_in_whole": "Reduce repetitive administration",
+      "hypothesis_ids": [
+        "H09"
+      ],
+      "evidence_ids": [
+        "E01",
+        "E02",
+        "E19",
+        "E25"
+      ],
+      "original_context": "Remote family rental and proposed independent-host business, scope revision1",
+      "current_assessment": "Changed amenities require specific guest communication; integration/automation untested.",
+      "alternative_contexts": [
+        "Supporting automation feature"
+      ]
+    },
+    {
+      "id": "C06",
+      "proposition": "Distribution and event promotion",
+      "role_in_whole": "Reach relevant guests through additional channels",
+      "hypothesis_ids": [],
+      "evidence_ids": [
+        "E01",
+        "E06",
+        "E07"
+      ],
+      "original_context": "Remote family rental and proposed independent-host business, scope revision1",
+      "current_assessment": "untested commercially; reported existing implementation not inspected",
+      "alternative_contexts": [
+        "Separate marketing tool or service"
+      ]
+    },
+    {
+      "id": "C07",
+      "proposition": "Guest improvement feedback",
+      "role_in_whole": "Learn small unmet guest needs",
+      "hypothesis_ids": [],
+      "evidence_ids": [
+        "E17",
+        "E18"
+      ],
+      "original_context": "Scope revision 2; user-expanded rental feature ideas",
+      "current_assessment": "Founder perception; external survey variant constrained by Airbnb policy.",
+      "alternative_contexts": []
+    },
+    {
+      "id": "C08",
+      "proposition": "Local events/places guide",
+      "role_in_whole": "Help guests discover nearby activities",
+      "hypothesis_ids": [],
+      "evidence_ids": [
+        "E17"
+      ],
+      "original_context": "Scope revision 2; user-expanded rental feature ideas",
+      "current_assessment": "Proposed opportunity; demand and data availability unverified.",
+      "alternative_contexts": []
+    },
+    {
+      "id": "C09",
+      "proposition": "Repeat-guest direct-booking flow",
+      "role_in_whole": "Reduce repeat-stay distribution cost",
+      "hypothesis_ids": [
+        "H13"
+      ],
+      "evidence_ids": [
+        "E17",
+        "E18"
+      ],
+      "original_context": "Scope revision 2; user-expanded rental feature ideas",
+      "current_assessment": "Proposed Airbnb-guest discount/email funnel conflicts with reviewed policy; alternative independent acquisition remains unexplored.",
+      "alternative_contexts": []
+    },
+    {
+      "id": "C10",
+      "proposition": "Understandable property financial picture",
+      "role_in_whole": "Combine income, costs and effort to support the worth-it decision",
+      "hypothesis_ids": [
+        "H20"
+      ],
+      "evidence_ids": [
+        "E32",
+        "E34",
+        "E35",
+        "E40",
+        "E42"
+      ],
+      "original_context": "Scope revision 3; expanded feedback from same family operation",
+      "current_assessment": "Substantive family pain; proposed manual/import information test, no profitability calculation or independent demand evidence.",
+      "alternative_contexts": []
+    },
+    {
+      "id": "C11",
+      "proposition": "Operating and pricing decision support",
+      "role_in_whole": "Clarify stay, checkout, service scope and exception decisions",
+      "hypothesis_ids": [
+        "H21",
+        "H17"
+      ],
+      "evidence_ids": [
+        "E32",
+        "E33",
+        "E35",
+        "E41"
+      ],
+      "original_context": "Scope revision 3; expanded feedback from same family operation",
+      "current_assessment": "Separate proposed workflow. No rate, minimum stay, surcharge or pricing algorithm selected.",
+      "alternative_contexts": []
+    },
+    {
+      "id": "C12",
+      "proposition": "Nearby acquisition alerts",
+      "role_in_whole": "Surface possible future properties",
+      "hypothesis_ids": [],
+      "evidence_ids": [
+        "E35"
+      ],
+      "original_context": "Scope revision 3; expanded feedback from same family operation",
+      "current_assessment": "Parked founder suggestion; no acquisition analysis, independent demand or selected next investment.",
+      "alternative_contexts": []
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D01",
+      "date": "2026-09-06",
+      "recommendation": "insufficient-evidence",
+      "subject": "Broad inexpensive agency-like automation business; all four proposed configurations remain open",
+      "scope_revision": 1,
+      "intended_next_investment": "Proposed: finish incident-grounded Foundation Basics and choose one comparative test before expanding the product. Time and cash budgets awaiting founder input.",
+      "rationale": "Family access supports further investigation; official competitor overlap defeats an assumption of an empty feature market. Demand, local delivery and support economics are unmeasured.",
+      "evidence_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "E09"
+      ],
+      "contradictions": [
+        "Backup-cleaner automation already exists.",
+        "Small hosts already have inexpensive/free software options.",
+        "Agency-like fulfillment may require ongoing human operations."
+      ],
+      "unresolved_risks": [
+        "Audience and region",
+        "Frequency and cost of unsolved incidents",
+        "Independent willingness to pay",
+        "Provider supply",
+        "Integration permissions",
+        "Support-adjusted economics"
+      ],
+      "what_would_change_decision": "Repeated consequential problems plus observed advantage over current alternatives, independent paid continuation, dependable provider participation and acceptable operating cost; effective existing solutions would favor using them or revising the idea.",
+      "core_status": "incomplete",
+      "decision_owner": "Human founders; facilitator interim recommendation, not a founder commitment"
+    },
+    {
+      "id": "D02",
+      "date": "2026-09-06",
+      "recommendation": "insufficient-evidence",
+      "subject": "Selecting the first operational problem from reported incidents",
+      "scope_revision": 2,
+      "intended_next_investment": "Compare frequency and total effort of reported failures, then select one operational problem for a small comparative test. No broader build or hiring commitment.",
+      "rationale": "Access failure has the clearest immediate consequence; substitute handoff and readiness verification expose a concrete workflow. Frequency and labor are needed to choose a first test.",
+      "evidence_ids": [
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16"
+      ],
+      "contradictions": [
+        "More required evidence increased provider friction.",
+        "Existing tools already support parts of backup coordination.",
+        "A local family member still handled multiple automation failures."
+      ],
+      "unresolved_risks": [
+        "Incident frequency and total effort",
+        "External host demand",
+        "Existing-tool comparison",
+        "Local provider supply",
+        "Technical root causes",
+        "Support economics"
+      ],
+      "what_would_change_decision": "Observed frequency/effort, specific comparator failures and a chosen founder priority justify a narrow comparative test.",
+      "core_status": "incomplete",
+      "decision_owner": "Facilitator interim judgment; human founder has not selected the first problem."
+    },
+    {
+      "id": "D03",
+      "date": "2026-09-06",
+      "recommendation": "pursue",
+      "subject": "Bounded inquiry into the actual contribution of the family post-cleaner readiness visit",
+      "scope_revision": 2,
+      "intended_next_investment": "Inspect one recent family readiness check to distinguish missing tasks, additional responsibilities and lack of confidence/evidence; then specify the smallest meaningful comparison.",
+      "rationale": "The user described recurring reinspection and explicitly wants to avoid following the cleaner while preserving readiness. A recent visit can discriminate among missing work, extra work and reassurance without selecting technology.",
+      "evidence_ids": [
+        "E21",
+        "E22",
+        "E23",
+        "E24"
+      ],
+      "contradictions": [
+        "Regular checks may find nothing or cover tasks never assigned to cleaners.",
+        "Medium in-stay problems may consume more time despite occurring less frequently.",
+        "Current photo/checklist workflow already adds provider burden."
+      ],
+      "unresolved_risks": [
+        "Inspection findings and scope",
+        "Total effort versus frequency",
+        "External host demand",
+        "Adequate evidence without provider burden"
+      ],
+      "what_would_change_decision": "If visits largely concern non-cleaning faults, investigate that response workflow; if they find no issues, investigate what reassurance is missing before adding checks.",
+      "core_status": "incomplete",
+      "decision_owner": "Facilitator recommendation to continue one small inquiry; not a commitment to build or a conclusion about business viability."
+    },
+    {
+      "id": "D04",
+      "date": "2026-09-06",
+      "recommendation": "revise",
+      "subject": "Interpretation of recurring family readiness checks",
+      "scope_revision": 2,
+      "intended_next_investment": "Clarify current inspection cadence and triggers to distinguish initial provider coaching from an ongoing readiness problem before choosing a test.",
+      "rationale": "New account reports generally acceptable cleaning and early standards coaching, with occasional small corrections. Establish current ongoing visits before assuming a persistent inspection product.",
+      "evidence_ids": [
+        "E26",
+        "E27",
+        "E28"
+      ],
+      "contradictions": [
+        "Regular checking did not imply frequent major defects.",
+        "An extra-work workflow is proposed from a hypothetical, not a measured recurring event."
+      ],
+      "unresolved_risks": [
+        "Onboarding versus steady-state burden",
+        "Current reasons to reinspect",
+        "Cleaner task/supply agreement",
+        "External host demand"
+      ],
+      "what_would_change_decision": "Ongoing visits with concrete costly findings support a continuing readiness test; visits declining after coaching support onboarding-focused value or prioritizing other recurring incidents.",
+      "core_status": "incomplete",
+      "decision_owner": "Facilitator updates problem interpretation; no user commitment to an implementation."
+    },
+    {
+      "id": "D05",
+      "date": "2026-09-06",
+      "recommendation": "pursue",
+      "subject": "Bounded preparation of a two-turnover cleaner-ownership and confirmation test",
+      "scope_revision": 3,
+      "intended_next_investment": "Proposed: prepare a two-turnover test of explicit cleaner acceptance, completion/exception reporting and an agreed backup owner. First identify who can own unresolved jobs besides Mom; finalize roles, dates, cutoffs and effort budgets before any run. Preserve readiness and financial clarity as separate learning tracks.",
+      "rationale": "Mom explicitly identifies repeated cleaner confirmation as a major time burden. It can be examined on ordinary turnovers without attempting an entire agency replacement. Ongoing walkthroughs, repair stress and financial uncertainty remain separate supported problem areas.",
+      "evidence_ids": [
+        "E29",
+        "E30",
+        "E31",
+        "E32",
+        "E33",
+        "E34",
+        "E36",
+        "E40",
+        "E41",
+        "E42"
+      ],
+      "contradictions": [
+        "The family still performs meaningful final presentation/readiness work despite the checklist.",
+        "A report cannot supply an unavailable provider or authorized backup.",
+        "Existing products already overlap readiness, coordination and financial features."
+      ],
+      "unresolved_risks": [
+        "Backup owner agreement",
+        "Comparative value and independent demand",
+        "Cleaner effort and transferred family/founder work",
+        "Readiness evidence accuracy and trust",
+        "Financial completeness and support economics"
+      ],
+      "what_would_change_decision": "If no agreed backup exists, revise the operating model before promising Mom time off. If explicit handoff merely transfers excessive work, revise economics. If an existing product handles the workflow acceptably, use it or seek a different gap. Useful observed improvement supports a subsequent independent-host comparison.",
+      "core_status": "incomplete",
+      "decision_owner": "Human founders own investment choice; facilitator recommendation only, not authorization to run a live trial."
+    },
+    {
+      "id": "D06",
+      "date": "2026-09-09",
+      "recommendation": "revise",
+      "subject": "Next learning step after confirming no backup owner",
+      "scope_revision": 3,
+      "intended_next_investment": "Focused existing-alternative comparison before a live test: establish actual prior Turno use, then examine setup, acceptance, backup and exception responsibility against family needs. Draft X03 remains in backlog because it lacks an agreed backup owner.",
+      "rationale": "The proposed live handoff test assumed an agreed fallback owner. That is absent; a competitor reality check now offers a concrete lower-cost next step before configuring a trial.",
+      "evidence_ids": [
+        "E43",
+        "E44",
+        "E45"
+      ],
+      "contradictions": [
+        "No backup ownership does not establish no provider supply.",
+        "Published assistance does not prove automatic or dependable coverage.",
+        "Routine coordination improvement would not demonstrate full owner disengagement."
+      ],
+      "unresolved_risks": [
+        "Actual prior competitor use and usability",
+        "Local provider capacity",
+        "Exception ownership and authority",
+        "Support economics and integrations",
+        "Independent demand"
+      ],
+      "what_would_change_decision": "A concrete unmet workflow after comparison supports a scoped study; effective existing coverage favors use or partnership where authorized. A live backup test requires real agreed ownership or a separately scoped hypothesis.",
+      "core_status": "incomplete",
+      "decision_owner": "Human founders; facilitator recommendation only"
+    },
+    {
+      "id": "D07",
+      "date": "2026-09-09",
+      "recommendation": "pursue",
+      "subject": "Narrow learning step on proactive acceptance in the existing app workflow",
+      "scope_revision": 3,
+      "intended_next_investment": "Proposed X04: agree and observe proactive explicit acceptance on two cleaning jobs through the existing messaging channel, recording Mom's chasing and all coordination effort. Use actual results before selecting an app feature prototype. This does not require or test backup ownership.",
+      "rationale": "Family already uses its own app. E47 suggests the notification-to-commitment step is missing, offering a small test of the recurring confirmation burden without assuming new provider supply.",
+      "evidence_ids": [
+        "E30",
+        "E43",
+        "E45",
+        "E46",
+        "E47"
+      ],
+      "contradictions": [
+        "Explicit acceptance is already a documented competitor feature.",
+        "A commitment is not proof of attendance or readiness.",
+        "Manual observation may shift work rather than save it."
+      ],
+      "unresolved_risks": [
+        "Response habit and owner trust",
+        "Actual coordination effort",
+        "Participant agreement",
+        "No backup ownership",
+        "App usability, independent demand and differentiation"
+      ],
+      "what_would_change_decision": "Observed useful reduction at acceptable effort supports an acceptance-feature prototype; continued chasing after reliable acceptance requires examining its reason. Lack of reliable replies or impractical setup calls for revising the test. Two jobs do not validate the business.",
+      "core_status": "incomplete",
+      "decision_owner": "Facilitator recommendation; founders own feature/investment choices and participants have not agreed to a live trial."
+    },
+    {
+      "id": "D08",
+      "date": "2026-09-09",
+      "recommendation": "revise",
+      "subject": "Understand abandoned completion workflow before proposed acceptance trial",
+      "scope_revision": 3,
+      "intended_next_investment": "Reconstruct the existing completion workflow from one specific point of difficulty, then identify the smallest usability question. X04 is on hold; no test-sheet homework or live trial is currently requested.",
+      "rationale": "New report describes actual non-use of an existing feature due to friction. Understanding it is a more grounded next step than assigning another response workflow, especially as the prior test assignment was unclear.",
+      "evidence_ids": [
+        "E12",
+        "E46",
+        "E47",
+        "E48"
+      ],
+      "contradictions": [
+        "Feature presence does not establish adoption.",
+        "Acceptance and completion are distinct; abandonment of one does not refute the other.",
+        "No current payment/workaround behavior has been established."
+      ],
+      "unresolved_risks": [
+        "Exact frustrating step and cause",
+        "Continued use and current workaround",
+        "Provider burden and owner confidence",
+        "Independent demand and comparative advantage"
+      ],
+      "what_would_change_decision": "A concrete step or walkthrough identifies what usability question to test. If the friction does not affect acceptance, revisit its separate hypothesis with a clear, practical task. No feature or live experiment is committed now.",
+      "core_status": "incomplete",
+      "decision_owner": "Facilitator recommendation based on correction; human founders own investment choices."
+    },
+    {
+      "id": "D09",
+      "date": "2026-09-09",
+      "recommendation": "pursue",
+      "subject": "Review a concrete lower-interruption evidence-capture concept",
+      "scope_revision": 3,
+      "intended_next_investment": "Founder review of a concrete four-step final-photo concept versus a free-capture inbox, using existing app context and current bounded technology research. Identify the remaining likely friction before selecting a small screen walkthrough or actual usability observation; live test sheets remain on hold.",
+      "rationale": "The user supplied enough tentative workflow detail to draft alternatives and explicitly requested technology research. A concrete concept review advances the idea without another broad questionnaire or premature live assignment.",
+      "evidence_ids": [
+        "E37",
+        "E48",
+        "E49",
+        "E50",
+        "E51",
+        "E52",
+        "E53",
+        "E54",
+        "E55"
+      ],
+      "contradictions": [
+        "Minimum-photo requirements and grouped sections already exist.",
+        "A final evidence pass might add walking even if it reduces interruptions.",
+        "Free capture can shift labeling/review effort to the owner.",
+        "Geometry and photo/voice reports do not certify cleanliness."
+      ],
+      "unresolved_risks": [
+        "Actual cleaner routine and phone behavior",
+        "Required evidence and missed conditions",
+        "Continued adoption and total effort",
+        "AI uncertainty and reporting cost",
+        "Owner trust and independent demand"
+      ],
+      "what_would_change_decision": "Founder corrections refine the concept. Only actual cleaner use and owner review can establish practical improvement; if handling or photo volume dominates, reconsider collection timing, evidence requirements or the operating arrangement.",
+      "core_status": "incomplete",
+      "decision_owner": "Facilitator recommendation to review drafts; no product implementation, provider arrangement or live trial selected."
+    },
+    {
+      "id": "D10",
+      "date": "2026-09-09",
+      "recommendation": "pursue",
+      "subject": "Ground camera-assisted readiness exploration in the actual app and one room of reference imagery",
+      "scope_revision": 3,
+      "intended_next_investment": "Prepare a bounded one-room reference/current image comparison after establishing reference-photo availability; use the existing app baseline and ordinary-camera capture first. No app build, hardware purchase or live cleaner trial committed.",
+      "rationale": "User selects free-order capture as interesting and provides the repository. Existing AI/image/property tools are reusable building blocks; item-associated capture still leaves the proposed navigation gap. Investigate observable staging assistance before requiring specialized hardware.",
+      "evidence_ids": [
+        "E48",
+        "E54",
+        "E56",
+        "E57",
+        "E58",
+        "E59",
+        "E60",
+        "E61",
+        "E62"
+      ],
+      "contradictions": [
+        "A newer checkout may differ from the abandoned UI.",
+        "Source features do not prove use or configured integrations.",
+        "Camera geometry and unflagged images do not establish complete readiness.",
+        "Human-assisted commercial inspection already overlaps this idea."
+      ],
+      "unresolved_risks": [
+        "Reference photos and exact standards",
+        "False alarms, missed deviations and unclear views",
+        "Cleaner handling effort and owner trust",
+        "Deployed features and finance data/calculation correctness",
+        "Independent demand and support-adjusted economics"
+      ],
+      "what_would_change_decision": "Appropriate reference/current examples permit an actual technical probe; poor detection or excessive effort would favor simpler visual references, different capture or human review. Genuine use and buyer evidence remain necessary for business claims.",
+      "core_status": "incomplete",
+      "decision_owner": "Facilitator recommendation; founders own further investment. Read-only review completed; no app implementation selected."
+    },
+    {
+      "id": "D11",
+      "date": "2026-09-09",
+      "recommendation": "pause",
+      "subject": "User-requested pause and repository checkpoint",
+      "scope_revision": 3,
+      "intended_next_investment": "None while paused; preserve the existing app rundown, evidence, feedback and proposed next comparison.",
+      "rationale": "Brandon explicitly asked to pause here and commit/push relevant work. This is a workflow pause, not a negative market verdict or completed evaluation.",
+      "evidence_ids": [],
+      "contradictions": [],
+      "unresolved_risks": [
+        "Mandatory core and independent business validation remain incomplete.",
+        "Camera accuracy, cleaner adoption, owner trust and economics remain untested.",
+        "Deployed app behavior and finance correctness remain unverified."
+      ],
+      "what_would_change_decision": "An explicit user request to resume, with saved evidence and changed context reviewed first.",
+      "core_status": "incomplete",
+      "decision_owner": "Brandon; explicit pause request."
+    }
+  ],
+  "sessions": [
+    {
+      "date": "2026-09-06",
+      "path": "sessions/2026-09-06-01-intake.md"
+    },
+    {
+      "date": "2026-09-06",
+      "path": "sessions/2026-09-06-02-incidents.md"
+    },
+    {
+      "date": "2026-09-06",
+      "path": "sessions/2026-09-06-03-workflow.md"
+    },
+    {
+      "date": "2026-09-06",
+      "path": "sessions/2026-09-06-04-standards.md"
+    },
+    {
+      "date": "2026-09-06",
+      "path": "sessions/2026-09-06-05-owner-jobs.md"
+    },
+    {
+      "date": "2026-09-09",
+      "path": "sessions/2026-09-09-06-no-backup.md"
+    },
+    {
+      "date": "2026-09-09",
+      "path": "sessions/2026-09-09-07-existing-app.md"
+    },
+    {
+      "date": "2026-09-09",
+      "path": "sessions/2026-09-09-08-acceptance.md"
+    },
+    {
+      "date": "2026-09-09",
+      "path": "sessions/2026-09-09-09-completion-abandonment.md"
+    },
+    {
+      "date": "2026-09-09",
+      "path": "sessions/2026-09-09-10-capture-friction.md"
+    },
+    {
+      "date": "2026-09-09",
+      "path": "sessions/2026-09-09-11-repo-and-camera.md"
+    },
+    {
+      "date": "2026-09-09",
+      "path": "sessions/2026-09-09-12-pause-checkpoint.md"
+    }
+  ],
+  "next_action": {
+    "owner": "Facilitator after Brandon resumes the case",
+    "action": "Wait for an explicit resume request; then reread A13 and confirm changed context before continuing the saved one-room comparison direction",
+    "inputs": "Resume request and any changes to the app, reference-photo availability or chosen problem",
+    "deliverable": "Resumed case with current evidence and one concrete next step",
+    "completion_check": "Case stays paused with no assigned fieldwork until Brandon resumes; earlier hypotheses and incomplete validation remain explicit",
+    "resume_trigger": "Brandon asks to continue remote Airbnb operations validation"
+  },
+  "core_status": "incomplete",
+  "scope_history": [
+    {
+      "revision": 1,
+      "preserved_on": "2026-09-06",
+      "scope": {
+        "revision": 1,
+        "audience": "Provisional: independent owners managing approximately 1–3 short-term rentals remotely; older owners are a candidate segment, not an established behavioral category. Geography and reachable hosts unknown.",
+        "context": "Family operates an Airbnb in another country and reports building an automation app around connected devices. No incident records or implementation inspected.",
+        "ambition": "Explore a viable inexpensive software business operated by two programmers, potentially providing much of the coordination now associated with property managers. Bootstrap scale is proposed, not confirmed; family utility is an additional possible outcome.",
+        "success_criteria": [
+          "Proposed for next learning investment: identify a recurring, consequential problem in a reachable audience and a demonstrable gap versus the current alternative.",
+          "Commercial thresholds remain unknown: establish willingness to pay and continue, owner time savings, provider reliability, and support-adjusted economics before a larger commitment."
+        ],
+        "next_investment": "Proposed: finish incident-grounded Foundation Basics and choose one comparative test before expanding the product. Time and cash budgets awaiting founder input.",
+        "constraints": [
+          "User preference: very simple experience and inexpensive price; exact fee unknown.",
+          "User ambition: two programmers and substantial automation; acceptable human support burden unknown.",
+          "Property region, existing software scope, local provider supply, integration permissions, and intended initial market unknown."
+        ],
+        "pending_questions": [
+          "Which country/region contains the property and where would initial customers be?",
+          "What happened in the most recent cleaning or repair intervention, who handled it, what did it cost, and what consequence was avoided?",
+          "What does the current app handle successfully and what should the next investment achieve?"
+        ]
+      },
+      "reason": "Retain original intake before concrete incidents and business preferences."
+    },
+    {
+      "revision": 2,
+      "preserved_on": "2026-09-06",
+      "scope": {
+        "revision": 2,
+        "audience": "Provisional: remote independent rental owners and family/local coordinators. Local operation in Texas described; exact city and initial sales market unknown. Older hosts remain a candidate segment, not supported by the account of older guests.",
+        "context": "Family manages a distant rental with local help in Texas and overseas time-zone gaps. Cleaner absence led to referrals and temporary app onboarding; checklists/photos were tied to payment. Alarm connection failed after a storm; guest code failed, low battery was reported, and app disconnection suspected. Mom provided substantial local recovery. Towels and washer/dryer issues were also reported. No logs, invoices or independent observations inspected. Follow-up report: local mom/sister-in-law inspect before arrivals; cleaner coordination occurs weekly/biweekly, small/medium issues at least twice monthly, major failures approximately every 2.5-3.5 months. These are estimates; total hours and inspection findings are unknown. In-stay research/calls/provider access coordination and concentrated family responsibility are reported stressors. Inspection clarification: house generally acceptable, occasional minor gaps, early visits coach standards and correct omissions. Current inspection cadence after cleaner learning is unknown. Extra cleaning after a muddy party is a hypothetical example, not a reported event.",
+        "ambition": "User prefers an owner-facing automation/software business without a staffed cleaning service. Independent-provider referral/marketplace and professional-manager buyers remain exploratory alternatives. Exact income target, time budget and acceptable support burden unknown.",
+        "success_criteria": [
+          "Proposed for next learning investment: identify a recurring, consequential problem in a reachable audience and a demonstrable gap versus the current alternative.",
+          "Commercial thresholds remain unknown: establish willingness to pay and continue, owner time savings, provider reliability, and support-adjusted economics before a larger commitment.",
+          "Candidate scoped outcome: fewer avoidable family reinspection visits while maintaining agreed readiness standards and acceptable provider effort; no numeric threshold or perfection guarantee established."
+        ],
+        "next_investment": "Clarify current inspection cadence and triggers to distinguish initial provider coaching from an ongoing readiness problem before choosing a test.",
+        "constraints": [
+          "Very simple experience and inexpensive price; exact fee unknown.",
+          "Two-programmer ambition and preference against operating a staffed cleaning service; local provider partnerships remain possible.",
+          "App setup/navigation and mandatory evidence steps burden substitute cleaners; reduce that burden while retaining adequate readiness assurance.",
+          "Exact city, supported hardware/integrations, provider supply, measured hours/cost and initial market remain unknown; rough recurrence estimates are now recorded.",
+          "Low-invasiveness preference; hardware is a possible tool only after identifying the specific condition that needs checking."
+        ],
+        "pending_questions": [
+          "How often are mom or sister-in-law still checking today, and what usually prompts a visit?",
+          "Current cleaner task/supply agreement, city/market, integration details, hours/cost and investment constraints remain for targeted follow-up."
+        ]
+      },
+      "reason": "Preserve the inspection-cadence uncertainty before Brandon relayed ongoing walkthroughs, explicit coordination burdens and financial uncertainty from Mom."
+    }
+  ],
+  "resource_reviews": [
+    {
+      "date": "2026-09-06",
+      "scope_revision": 2,
+      "result": "All 49 existing dispositions retained after reviewing added incident context. Audience/business configuration still unselected; no new specialist method applied or completion inferred."
+    },
+    {
+      "date": "2026-09-06",
+      "scope_revision": 3,
+      "result": "Reviewed all 49 existing dispositions after adding persistent readiness, ownership and financial jobs. Retained dispositions; updated resource19 with a draft Test Card, and existing Pincus component separation informs A07. No specialist or mandatory-core completion inferred."
+    }
+  ],
+  "pause_context": {
+    "date": "2026-09-09",
+    "reason": "Brandon explicitly requested a pause and a GitHub checkpoint of all relevant saved work.",
+    "resume_next_action": {
+      "owner": "Brandon supplies reference-photo availability; facilitator prepares a one-room comparison when suitable images are available",
+      "action": "Establish whether Mom already has photos showing her preferred room arrangements",
+      "inputs": "One answer about existing reference photos; actual images are needed before a visual comparison can run",
+      "deliverable": "One-room comparison material with known correct scenes, deviations and unclear views, grounded in Mom-approved setup",
+      "completion_check": "Existing references are identified or one room is selected for reference creation; no synthetic scene is treated as real customer evidence and no test is reported run without images/results",
+      "resume_trigger": "Brandon confirms reference-photo availability or supplies suitable reference/current images"
+    },
+    "core_status_at_pause": "incomplete"
+  }
+}

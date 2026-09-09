@@ -2,3 +2,4 @@
 research/mentor-room/sources/** -text
 research/mentor-room/assets/** -text
 research/mentor-room/resources.csv -text
+docs/mentor-room-feedback-snapshots/**/archive/** -text
